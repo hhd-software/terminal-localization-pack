@@ -215,56 +215,56 @@
     <Item value="Accrocher la fenêtre actuelle" revision="0" />
   </Enumeration>
   <Enumeration key="WindowFloat">
-    <Item />
-    <Item />
+    <Item value="&amp;Flottante" revision="0" />
+    <Item value="Finestra corrente fluttuante" revision="0" />
   </Enumeration>
   <Enumeration key="WindowTabbed">
-    <Item />
-    <Item />
+    <Item value="&amp;Dock en tant que fenêtre à onglets" revision="0" />
+    <Item value="Afficher cette fenêtre en tant que document à onglets" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsSettings">
-    <Item />
-    <Item />
+    <Item value="&amp;Paramètres…" revision="0" />
+    <Item value="Configurer les paramètres du produit" revision="0" />
   </Enumeration>
   <Enumeration key="MenuNew">
-    <Item />
-    <Item />
+    <Item value="&amp;Nouveau" revision="0" />
+    <Item value="Nouveau menu" revision="0" />
   </Enumeration>
   <Enumeration key="MenuFile">
-    <Item />
-    <Item />
+    <Item value="&amp;Fichier" revision="0" />
+    <Item value="Groupe de menu Fichier" revision="0" />
   </Enumeration>
   <Enumeration key="MenuView">
-    <Item />
-    <Item />
+    <Item value="&amp;Affichage" revision="0" />
+    <Item value="Groupe de menu Vue" revision="0" />
   </Enumeration>
   <Enumeration key="MenuTools">
-    <Item />
-    <Item />
+    <Item value="&amp;" revision="0" />
+    <Item value="Groupe de menu Outils" revision="0" />
   </Enumeration>
   <Enumeration key="MenuWindow">
-    <Item />
-    <Item />
+    <Item value="&amp;Fenêtre" revision="0" />
+    <Item value="Groupe de menus Fenêtre" revision="0" />
   </Enumeration>
   <Enumeration key="MenuToolWindows">
-    <Item />
-    <Item />
+    <Item value="&amp;Fenêtres outils" revision="0" />
+    <Item value="Groupe de menu Outil Fenêtres" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Commande" revision="0" />
+    <Item value="Raccourcis" revision="0" />
+    <Item value="Description" revision="0" />
   </Enumeration>
   <Enumeration key="Registry">
-    <Item />
-    <Item />
+    <Item value="Registre" revision="0" />
+    <Item value="Emplacement de stockage par défaut pour chaque utilisateur." revision="0" />
   </Enumeration>
   <Enumeration key="Portable mode">
-    <Item />
-    <Item />
+    <Item value="Mode portable" revision="0" />
+    <Item value="Stocker les paramètres de l'application dans le fichier portable.hexset dans le dossier de démarrage." revision="0" />
   </Enumeration>
   <Enumeration key="External file:">
-    <Item />
-    <Item />
+    <Item value="Fichier externe :" revision="0" />
+    <Item value="Stocker les paramètres de l'application dans un fichier externe. Spécifiez un emplacement partagé (comme un dossier partagé OneDrive ou Dropbox) pour partager vos paramètres entre les appareils." revision="0" />
   </Enumeration>
 </Language>

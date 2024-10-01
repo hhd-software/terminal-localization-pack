@@ -215,56 +215,56 @@
     <Item value="Doca a janela atual" revision="0" />
   </Enumeration>
   <Enumeration key="WindowFloat">
-    <Item />
-    <Item />
+    <Item value="&amp;Flutuador" revision="0" />
+    <Item value="Flutuar a janela atual" revision="0" />
   </Enumeration>
   <Enumeration key="WindowTabbed">
-    <Item />
-    <Item />
+    <Item value="&amp;Dock como janela com separadores" revision="0" />
+    <Item value="Mostrar esta janela como documento com separadores" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsSettings">
-    <Item />
-    <Item />
+    <Item value="&amp;Definições…" revision="0" />
+    <Item value="Configurar as definições do produto" revision="0" />
   </Enumeration>
   <Enumeration key="MenuNew">
-    <Item />
-    <Item />
+    <Item value="&amp;Novo" revision="0" />
+    <Item value="Novo menu" revision="0" />
   </Enumeration>
   <Enumeration key="MenuFile">
-    <Item />
-    <Item />
+    <Item value="&amp;Ficheiro" revision="0" />
+    <Item value="Grupo do menu Ficheiro" revision="0" />
   </Enumeration>
   <Enumeration key="MenuView">
-    <Item />
-    <Item />
+    <Item value="E&amp;xibir" revision="0" />
+    <Item value="Grupo de menus Ver" revision="0" />
   </Enumeration>
   <Enumeration key="MenuTools">
-    <Item />
-    <Item />
+    <Item value="&amp;" revision="0" />
+    <Item value="Grupo de menus Ferramentas" revision="0" />
   </Enumeration>
   <Enumeration key="MenuWindow">
-    <Item />
-    <Item />
+    <Item value="&amp;Janela" revision="0" />
+    <Item value="Grupo de menus Janela" revision="0" />
   </Enumeration>
   <Enumeration key="MenuToolWindows">
-    <Item />
-    <Item />
+    <Item value="&amp;Janelas de ferramentas" revision="0" />
+    <Item value="Grupo de menus Janelas de ferramentas" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Comando" revision="0" />
+    <Item value="Atalhos" revision="0" />
+    <Item value="Descrição" revision="0" />
   </Enumeration>
   <Enumeration key="Registry">
-    <Item />
-    <Item />
+    <Item value="Registo" revision="0" />
+    <Item value="Local de armazenamento predefinido por utilizador." revision="0" />
   </Enumeration>
   <Enumeration key="Portable mode">
-    <Item />
-    <Item />
+    <Item value="Modo portátil" revision="0" />
+    <Item value="Armazene as definições da aplicação no ficheiro portable.hexset na pasta de arranque." revision="0" />
   </Enumeration>
   <Enumeration key="External file:">
-    <Item />
-    <Item />
+    <Item value="Ficheiro externo:" revision="0" />
+    <Item value="Armazenar as definições da aplicação num ficheiro externo. Especifique a localização partilhada (como a pasta partilhada OneDrive ou Dropbox) para partilhar as suas definições entre dispositivos." revision="0" />
   </Enumeration>
 </Language>

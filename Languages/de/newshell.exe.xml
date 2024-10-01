@@ -215,56 +215,56 @@
     <Item value="Aktuelles Fenster andocken" revision="0" />
   </Enumeration>
   <Enumeration key="WindowFloat">
-    <Item />
-    <Item />
+    <Item value="&amp;Float" revision="0" />
+    <Item value="Schwimmendes aktuelles Fenster" revision="0" />
   </Enumeration>
   <Enumeration key="WindowTabbed">
-    <Item />
-    <Item />
+    <Item value="&amp;Dock als Registerkartenfenster" revision="0" />
+    <Item value="Dieses Fenster als Dokument mit Registerkarten anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsSettings">
-    <Item />
-    <Item />
+    <Item value="&amp;Einstellungen…" revision="0" />
+    <Item value="Konfigurieren Sie die Produkteinstellungen" revision="0" />
   </Enumeration>
   <Enumeration key="MenuNew">
-    <Item />
-    <Item />
+    <Item value="&amp;Neu" revision="0" />
+    <Item value="Neues Menü" revision="0" />
   </Enumeration>
   <Enumeration key="MenuFile">
-    <Item />
-    <Item />
+    <Item value="&amp;Datei" revision="0" />
+    <Item value="Menügruppe Datei" revision="0" />
   </Enumeration>
   <Enumeration key="MenuView">
-    <Item />
-    <Item />
+    <Item value="&amp;Ansicht" revision="0" />
+    <Item value="Menügruppe Ansicht" revision="0" />
   </Enumeration>
   <Enumeration key="MenuTools">
-    <Item />
-    <Item />
+    <Item value="&amp;" revision="0" />
+    <Item value="Menügruppe Werkzeuge" revision="0" />
   </Enumeration>
   <Enumeration key="MenuWindow">
-    <Item />
-    <Item />
+    <Item value="&amp;Fenster" revision="0" />
+    <Item value="Menügruppe Fenster" revision="0" />
   </Enumeration>
   <Enumeration key="MenuToolWindows">
-    <Item />
-    <Item />
+    <Item value="&amp;Werkzeug-Fenster" revision="0" />
+    <Item value="Menügruppe Werkzeugfenster" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Befehl" revision="0" />
+    <Item value="Abkürzungen" revision="0" />
+    <Item value="Beschreibung" revision="0" />
   </Enumeration>
   <Enumeration key="Registry">
-    <Item />
-    <Item />
+    <Item value="Registry" revision="0" />
+    <Item value="Standard-Speicherort pro Benutzer." revision="0" />
   </Enumeration>
   <Enumeration key="Portable mode">
-    <Item />
-    <Item />
+    <Item value="Tragbarer Modus" revision="0" />
+    <Item value="Speichern Sie die Anwendungseinstellungen in der Datei portable.hexset im Startordner." revision="0" />
   </Enumeration>
   <Enumeration key="External file:">
-    <Item />
-    <Item />
+    <Item value="Externe Datei:" revision="0" />
+    <Item value="Speichern Sie die Anwendungseinstellungen in einer externen Datei. Geben Sie einen gemeinsamen Speicherort an (z. B. OneDrive oder einen gemeinsamen Dropbox-Ordner), um Ihre Einstellungen für verschiedene Geräte freizugeben." revision="0" />
   </Enumeration>
 </Language>
