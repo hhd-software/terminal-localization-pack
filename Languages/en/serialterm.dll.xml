@@ -9,10 +9,10 @@
 
   <Message key="Serial Terminal" description="Settings group: Serial Terminal"/>
 
-  <Enumeration key="MenuTerminal" description="Command group: Serial Terminal">
+  <!--<Enumeration key="MenuTerminal" description="Command group: Serial Terminal">
     <Item text="Serial Terminal"/>
     <Item text="Serial Terminal commands"/>
-  </Enumeration>
+  </Enumeration>-->
 
   <Message key="Array expected" description="Array expected" value="Byte array expected"/>
   <Message key="Invalid constant" description="Invalid constant" value="Invalid constant value"/>

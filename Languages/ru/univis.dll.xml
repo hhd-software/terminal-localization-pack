@@ -1,0 +1,653 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="PressCtrlNotify" value="Статическая линия (Статистика)" revision="0" />
+  <Message key="AboutSpecialLogging" value="Специальный высокоскоростной режим (Статистика)" revision="0" />
+  <Message key="plot_drawticks" value="Отображение индексов на оси X" revision="0" />
+  <Message key="cell_lowerhex" value="Отображать строчные шестнадцатеричные " revision="0" />
+  <Message key="cell_showresult" value="Отображать панель результатов" revision="0" />
+  <Message key="cell_showtooltip" value="Информация о пакете во всплывающем окне" revision="0" />
+  <Message key="netvis_showpackettip" value="Информация о пакете во всплывающем окне" revision="0" />
+  <Message key="tooltip_delay" value="Интервал между всплывающими подсказками" revision="0" />
+  <Message key="Statistics" value="Статистика" revision="0" />
+  <Message key="Raw Data View" value="Сырые данные" revision="0" />
+  <Message key="Network Packet View" value="Пакетный вид Сеть" revision="0" />
+  <Message key="LineNumbers" value="Отображать номера строк" revision="0" />
+  <Message key="Console View" value="Консольный вид" revision="0" />
+  <Message key="Goto Dialog" value="Диалог &quot;Перейти к&quot;" revision="0" />
+  <Message key="Structure Coloring" value="Раскраска структур" revision="0" />
+  <Message key="Raw Data View Coloring" value="Раскраска сырых данных" revision="0" />
+  <Message key="Go to Offset" value="Перейти к смещению" revision="0" />
+  <Message key="Offset:" value="Смещение:" revision="0" />
+  <Message key="Resulting offset:" value="Итоговое смещение:" revision="0" />
+  <Message key="&amp;Hexadecimal" value="&amp;Шестнадцатеричный" revision="0" />
+  <Message key="&amp;Decimal" value="&amp;Десятичный" revision="0" />
+  <Message key="&amp;Octal" value="&amp;Восьмеричный" revision="0" />
+  <Message key="&amp;Absolute offset" value="&amp;Абсолютное смещение" revision="0" />
+  <Message key="&amp;Relative offset" value="&amp;Относительное смещение" revision="0" />
+  <Message key="&amp;Percent" value="&amp;Проценты" revision="0" />
+  <Message key="IncorrectInputTitle" value="Некорректный ввод" revision="0" />
+  <Message key="Send packets" value="Передача пакетов" revision="0" />
+  <Message key="Options" value="Опции" revision="0" />
+  <Message key="Adapter:" value="Адаптер:" revision="0" />
+  <Message key="Ignore packet delay (burst mode)" value="Игнорирование задержки (пакетный режим)" revision="0" />
+  <Message key="Loop mode:" value="Циклически:" revision="0" />
+  <Message key="loops" value="циклов" revision="0" />
+  <Message key="Loop delay:" value="Задержка между циклами:" revision="0" />
+  <Message key="milliseconds" value="миллисекунд" revision="0" />
+  <Message key="Close this window after sending packets" value="Закрыть это окно после отправки пакетов" revision="0" />
+  <Message key="Packets Statistics" value="Статистика по пакетам" revision="0" />
+  <Message key="Total:" value="Всего:" revision="0" />
+  <Message key="Sent:" value="Послано:" revision="0" />
+  <Message key="SentFormat" value="Послано: {bytes}" revision="0" />
+  <Message key="TotalFormat" value="Всего: {bytes}" revision="0" />
+  <Message key="Process" value="Процесс" revision="0" />
+  <Message key="ErrorInput" value="Некорректный диапазон. Диапазон - ({first} - {last})." revision="0" />
+  <Message key="NoAdapters" value="Невозможно отправить пакеты. Сетевой адаптер не выбран или в системе нет подключенных сетевых адаптеров." revision="0" />
+  <Message key="LogStartBurst" value="Пуск (пакетный режим)…" revision="0" />
+  <Message key="LogStart" value="Пуск…" revision="0" />
+  <Message key="LogStop" value="Остановить…" revision="0" />
+  <Message key="ViewOffset" value="Смещение" revision="0" />
+  <Message key="PatternColoring" value="Подсветка паттернов" revision="0" />
+  <Message key="Pattern" value="Паттерн" revision="0" />
+  <Message key="WriteFileError" value="Ошибка записи в файл. Попробуйте другое местоположение." revision="0" />
+  <Message key="Back color:" value="Цвет фона:" revision="0" />
+  <Message key="Text color:" value="Цвет текста:" revision="0" />
+  <Message key="Outline color:" value="Цвет обводки:" revision="0" />
+  <Message key="Description" value="Описание" revision="0" />
+  <Message key="New Packet" value="Новый пакет" revision="0" />
+  <Message key="Packet Template:" value="Шаблон пакета:" revision="0" />
+  <Message key="Interval:" value="Интервал:" revision="0" />
+  <Message key="Save Template" value="Сохранить шаблон" revision="0" />
+  <Message key="NoSelection" value="Нет выделения" revision="0" />
+  <Message key="Number" value="№." revision="0" />
+  <Message key="AdapterSelect" value="Выбрать адаптер…\nВыбор адаптера по умолчанию для отправки пакетов" revision="0" />
+  <Message key="TemplateAlreadyExists" value="Шаблон уже существует. Хотите его заменить?" revision="0" />
+  <Message key="ErrorRead" value="Ошибка чтения из файла. " revision="0" />
+  <Message key="TemplateDeleteError" value="Эта схема не может быть удалена или изменена." revision="0" />
+  <Message key="TitleError" value="Ошибка" revision="0" />
+  <Message key="NoPackets" value="Ни один пакет не выбран. Нечего отправлять." revision="0" />
+  <Message key="Warning" value="Внимание" revision="0" />
+  <Message key="BigPacket" value="Размер пакета больше стандартного MTU (1500). Отправка не гарантируется." revision="0" />
+  <Message key="LimitSize" value="Пакет слишком большой. Размер входного файла больше {limit} байт. Используйте первые {first} байт." revision="0" />
+  <Message key="NetTermTooltip" value="Пакет:\t\t{number}\nРазмер:\t\t{size} bytes\nЗадержка:\t\t{delay} ms\n" revision="0" />
+  <Message key="SchemeOverride" value="Хотите перезаписать эту схему?" revision="0" />
+  <Message key="HexStartError" value="Не удалось запустить Hex редактор. Код ошибки = {code}" revision="1" />
+  <Message key="HexLocationError" value="Не удается найти расположение установщика Hex Editor Neo." revision="0" />
+  <Message key="HexVersionError" value="Неизвестен номер версии Hex Editor." revision="0" />
+  <Message key="ErrorTitle" value="Ошибка" revision="0" />
+  <Message key="EncodingNotSupported" value="Кодировка не поддерживается. Кодировка не поддерживается. Кодировка не поддерживается. Кодировка не поддерживается. Кодировка не поддерживается. Кодировка не поддерживается. Кодировка не поддерживается. Кодировка не поддерживается. " revision="0" />
+  <Message key="NotSupported" value="В вашей системе отсутствуют компоненты, необходимые для поддержки выбранной кодировки. Выберите другую кодировку." revision="0" />
+  <Message key="ErrorLocatingPacket" value="Ошибка обнаружения пакета" revision="0" />
+  <Message key="InvalidOffset" value="Некорректное смещение." revision="0" />
+  <Message key="GoToOffset" value="Перейти к смещению" revision="0" />
+  <Message key="InvalidRule" value="Невозможно включить правило, правило недействительно." revision="0" />
+  <Message key="SchemeOverwrite" value="Текущая схема будет утрачена. Хотите продолжить?" revision="0" />
+  <Message key="VersionError" value="Файл имеет другую версию." revision="0" />
+  <Message key="ItemWillBeRemoved" value="Текущий элемент будет удалён. Хотите продолжить?" revision="0" />
+  <Message key="SampleText" value="Образец текста" revision="0" />
+  <Message key="RegExpPattern" value="РВ: {pattern}" revision="0" />
+  <Message key="ErrorReadFile2" value="Невозможно прочесть из файла. " revision="0" />
+  <Message key="PatternColoringRule" value="Правило подсветки паттернов {number}" revision="0" />
+  <Message key="CopyWait" value="Пожалуйста, подождите, пока данные будут скопированы в буфер обмена." revision="0" />
+  <Message key="CantCreateFile" value="Невозможно создать файл" revision="0" />
+  <Message key="StatisticsTip" value="Выберите счётчик, чтобы просмотреть его описание." revision="0" />
+  <Message key="Lines" value="Строки" revision="0" />
+  <Message key="SchemeNameCue" value="Введите здесь название схемы" revision="0" />
+  <Message key="Device" value="Устройство" revision="0" />
+  <Message key="Selection" value="Выделение" revision="0" />
+  <Message key="SelectedPacket" value="Выбранный пакет" revision="0" />
+  <Message key="Output" value="Вывод" revision="0" />
+  <Message key="TimeLabel" value="Время:" revision="0" />
+  <Message key="ResetToDefaultPosition" value="Сброс в положение по умолчанию" revision="0" />
+  <Message key="AddRemoveCounters" value="Добавить/удалить счетчики" revision="0" />
+  <Message key="Sample" value="Образец" revision="0" />
+  <Message key="ErrorCreate" value="Невозможно создать файл." revision="0" />
+  <Message key="Plot" value="График" revision="0" />
+  <Message key="PlotStaticLine" value="Статичная линия: " revision="2" />
+  <Message key="PlotDynamicLine" value="Следящая линия: " revision="2" />
+  <Message key="FindPatternTitle" value="Паттерн:" revision="0" />
+  <Message key="OperationPerformed" value="Выполняется запрашиваемая операция…" revision="0" />
+  <Message key="CopyrightNotice" value="Создано программой HHD Software Device Monitoring Studio" revision="0" />
+  <Message key="RegExpError" value="Ошибка синтаксиса регулярного выражения: {error}." revision="0" />
+  <Message key="Find" value="Поиск" revision="0" />
+  <Message key="Type: " value="Тип:" revision="0" />
+  <Message key="Fi&amp;nd what: " value="Н&amp;айти что: " revision="0" />
+  <Message key="Regular expression" value="Регулярное выражение" revision="0" />
+  <Message key="Sub-match:" value="Совпадение:" revision="0" />
+  <Message key="Search Up" value="Искать вверх" revision="0" />
+  <Message key="Search Down" value="Искать вниз" revision="0" />
+  <Message key="Ignore case" value="Игнорировать регистр" revision="0" />
+  <Message key="&amp;Find" value="&amp;Искать" revision="0" />
+  <Message key="Find All" value="Искать все" revision="0" />
+  <Message key="Set Columns" value="Установить колонки" revision="0" />
+  <Message key="Enter number of columns per row:" value="Введите количество колонок в строке:" revision="0" />
+  <Message key="Add/Remove Counters" value="Добавление/удаление счётчиков" revision="0" />
+  <Message key="Available counters:" value="Доступные счётчики:" revision="0" />
+  <Message key="Select All" value="Выбрать все" revision="0" />
+  <Message key="Counter description:" value="Описание счетчика:" revision="0" />
+  <Message key="Select the counter to view its description." value="Выберите счетчик, чтобы просмотреть его описание." revision="0" />
+  <Message key="Layout" value="Схема размещения" revision="0" />
+  <Message key="Font:" value="Шрифт:" revision="0" />
+  <Message key="Size:" value="Размер:" revision="0" />
+  <Message key="Visualization elements:" value="Элементы визуализации:" revision="0" />
+  <Message key="Draw focus cursor frame" value="Нарисовать рамку курсора" revision="0" />
+  <Message key="Color:" value="Цвет:" revision="0" />
+  <Message key="Automatic" value="Автоматически" revision="0" />
+  <Message key="Do not interlace background" value="Не чередовать фон" revision="0" />
+  <Message key="Interlace columns" value="Чередование колонок" revision="0" />
+  <Message key="Interlace rows" value="Чередование строк" revision="0" />
+  <Message key="Smart indentation" value="Умные отступы" revision="0" />
+  <Message key="Antialiased quality (slower)" value="Антиалиасинг (медленнее)" revision="0" />
+  <Message key="Layout Schemes" value="Схемы компоновки окон" revision="0" />
+  <Message key="Pattern Coloring" value="Подсветка паттернов" revision="0" />
+  <Message key="Variable Properties" value="Свойства переменной" revision="0" />
+  <Message key="Variable name:" value="Имя переменной:" revision="0" />
+  <Message key="Units:" value="Единицы:" revision="0" />
+  <Message key="Line width:" value="Ширина линии:" revision="1" />
+  <Message key="Scale:" value="Масштаб:" revision="0" />
+  <Message key="Please Wait..." value="Пожалуйста, ждите…" revision="0" />
+  <Message key="Find all results" value="Найти все результаты" revision="0" />
+  <Message key="Display results pane" value="Показать панель результатов" revision="0" />
+  <Message key="Pattern Editor" value="Редактор паттернов" revision="0" />
+  <Message key="Standard rule:" value="Стандартное правило:" revision="0" />
+  <Message key="Round edges" value="Округлые края" revision="0" />
+  <Message key="Information" value="Информация" revision="0" />
+  <Message key="Details" value="Подробнее" revision="0" />
+  <Message key="NotValid" value="Недопустимое значение." revision="0" />
+  <Message key="SViewTitle" value="Структурный вид" revision="0" />
+  <Message key="N/A" value="Н/Д" revision="0" />
+  <Message key="CantUpdate" value="Запрашиваемая операция выполняется…" revision="0" />
+  <Message key="PColFilter" value="Файлы раскраски паттернов|*.hexpcs|" revision="0" />
+  <Message key="Recent Patterns…" value="Последние паттерны…" revision="0" />
+  <Message key="Type:" value="Тип:" revision="0" />
+  <Message key="Find what:" value="Искать что:" revision="0" />
+  <Message key="Custom colors:" value="Пользовательские цвета:" revision="0" />
+  <Message key="Default colors:" value="Цвета по умолчанию:" revision="0" />
+  <Message key="Alpha" value="Альфа" revision="0" />
+  <Message key="Custom..." value="Пользовательский…" revision="0" />
+  <Message key="Click here" value="Кликнуть здесь" revision="0" />
+  <Message key="Current" value="Текущий" revision="0" />
+  <Message key="PredefinedOverwrite" value="Изменить предопределенные схемы невозможно" revision="0" />
+  <Message key="toolbar.Output" value="Вывод" revision="0" />
+  <Message key="toolbar.PacketBuilder" value="Конструктор пакетов" revision="0" />
+  <Message key="clr.plot_colors" value="Цвета графика" revision="1" />
+  <Message key="clr.plot_colors.grid" value="Сетка" revision="1" />
+  <Message key="clr.plot_colors.ordinalLine" value="Цвет ординат" revision="1" />
+  <Message key="clr.plot_colors.timeLine" value="Цвет времени" revision="1" />
+  <Message key="clr.plot_colors.selectedLine" value="Статичная линия" revision="1" />
+  <Message key="clr.plot_colors.trackingLine" value="Следящая линия" revision="1" />
+  <Message key="Save Color" value="Сохранить цвет" revision="0" />
+  <Enumeration key="ToolsHighlightingNone">
+    <Item value="&amp;Отсутствие окраски пакетов" revision="0" />
+    <Item value="Отсутствие окраски пакетов" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsHighlightingInterlace">
+    <Item value="Раскраска пакетов &quot;&amp;чёт/нечёт&quot;" revision="0" />
+    <Item value="Раскраска пакетов &quot;чёт/нечёт&quot;" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsHighlightingRW">
+    <Item value="Раскраска пакетов &quot;ч&amp;тение/запись&quot;" revision="0" />
+    <Item value="Раскраска пакетов &quot;чтение/запись&quot;" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsHighlightingSwitch">
+    <Item value="Раскраска пакетов" revision="0" />
+    <Item value="Переключение режима раскраски пакетов" revision="0" />
+  </Enumeration>
+  <Enumeration key="OutputClear">
+    <Item value="Очистить все" revision="0" />
+    <Item value="Очистить содержимое текущего окна вывода" revision="0" />
+  </Enumeration>
+  <Enumeration key="AutoFit">
+    <Item value="Автоподгонка" revision="0" />
+    <Item value="Автоподгонка" revision="0" />
+  </Enumeration>
+  <Enumeration key="ModeLines">
+    <Item value="Рисовать линии" revision="0" />
+    <Item value="Рисовать линии" revision="0" />
+  </Enumeration>
+  <Enumeration key="ModeCurves">
+    <Item value="Рисовать кривые" revision="0" />
+    <Item value="Рисовать кривые" revision="0" />
+  </Enumeration>
+  <Enumeration key="FillNo">
+    <Item value="Без заливки" revision="0" />
+    <Item value="Без заливки" revision="0" />
+  </Enumeration>
+  <Enumeration key="FillSolid">
+    <Item value="Сплошная заливка" revision="0" />
+    <Item value="Сплошная заливка" revision="0" />
+  </Enumeration>
+  <Enumeration key="FillGradient">
+    <Item value="Градиентная заливка" revision="0" />
+    <Item value="Градиентная заливка" revision="0" />
+  </Enumeration>
+  <Enumeration key="DumpVarCommand">
+    <Item value="ДЕБАГ: Dump var0" revision="0" />
+    <Item value="ДЕБАГ: Dump var0" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditGoToTick">
+    <Item value="Перейти к сэмплу…" revision="0" />
+    <Item value="Перейти к сэмплу" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditGoToLine">
+    <Item value="Перейти к линии" revision="0" />
+    <Item value="Перейти к линии" revision="0" />
+  </Enumeration>
+  <Enumeration key="PlotSetOnAxis">
+    <Item value="Показать на оси" revision="0" />
+    <Item value="Показать на оси" revision="0" />
+  </Enumeration>
+  <Enumeration key="PlotProperties">
+    <Item value="Редактировать счетчик…" revision="0" />
+    <Item value="Редактировать выбранный счетчик" revision="0" />
+  </Enumeration>
+  <Enumeration key="PlotReset">
+    <Item value="Сброс цветов по умолчанию" revision="0" />
+    <Item value="Сброс цветов по умолчанию" revision="0" />
+  </Enumeration>
+  <Enumeration key="PlotCopy">
+    <Item value="Копирование в буфер обмена" revision="0" />
+    <Item value="Копирование в буфер обмена" revision="0" />
+  </Enumeration>
+  <Enumeration key="PlotExportToCSV">
+    <Item value="Экспорт в CSV файл" revision="0" />
+    <Item value="Экспорт в CSV файл" revision="0" />
+  </Enumeration>
+  <Enumeration key="PlotResetColumnWidth">
+    <Item value="Сброс ширины колонок" revision="0" />
+    <Item value="Сброс ширины колонок" revision="0" />
+  </Enumeration>
+  <Enumeration key="PacketBuilderAdd">
+    <Item value="Добавить новый пакет…" revision="0" />
+    <Item value="Добавить новый пакет в список" revision="0" />
+  </Enumeration>
+  <Enumeration key="PacketBuilderDelete">
+    <Item value="Удалить пакет…" revision="0" />
+    <Item value="Удалить выбранный пакет" revision="0" />
+  </Enumeration>
+  <Enumeration key="PacketBuilderSendSelected">
+    <Item value="Отправить пакет…" revision="0" />
+    <Item value="Отправить выбранный пакет" revision="0" />
+  </Enumeration>
+  <Enumeration key="PacketBuilderSendAll">
+    <Item value="Отправить все пакеты…" revision="0" />
+    <Item value="Отправить все пакеты из списка" revision="0" />
+  </Enumeration>
+  <Enumeration key="PacketBuilderSaveTemplate">
+    <Item value="Сохранить шаблон пакета…" revision="0" />
+    <Item value="Сохранить шаблон пакета" revision="0" />
+  </Enumeration>
+  <Enumeration key="PacketBuilderLoadFromFile">
+    <Item value="Загрузить шаблон пакета из файла…" revision="0" />
+    <Item value="Загрузить шаблон пакета из файла" revision="0" />
+  </Enumeration>
+  <Enumeration key="PacketBuilderUp">
+    <Item value="Вверх" revision="0" />
+    <Item value="Переместить выбранный пакет вверх" revision="0" />
+  </Enumeration>
+  <Enumeration key="PacketBuilderDown">
+    <Item value="Вниз" revision="0" />
+    <Item value="Переместить выбранный пакет вниз" revision="0" />
+  </Enumeration>
+  <Enumeration key="PacketBuilderAutoChecksum">
+    <Item value="Автоматическое вычисление контрольной суммы для IP и TCP пакетов" revision="0" />
+    <Item value="Автоматическое вычисление контрольной суммы для IP и TCP пакетов" revision="0" />
+  </Enumeration>
+  <Enumeration key="PacketBuilderExport">
+    <Item value="Сохранить шаблон пакета в файл…" revision="0" />
+    <Item value="Сохранить шаблон пакета в файл" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetCopyValue">
+    <Item value="Копировать &amp;значение" revision="0" />
+    <Item value="Копирование значения в буфер обмена" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetCopyLine">
+    <Item value="Копировать &amp;строку" revision="0" />
+    <Item value="Копирование всей строки в буфер обмена" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetExpandSubTree">
+    <Item value="Ра&amp;звернуть поддерево" revision="0" />
+    <Item value="Развернуть поддерево поля" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetCollapseSubTree">
+    <Item value="&amp;Свернуть поддерево" revision="0" />
+    <Item value="Свернуть поддерево поля" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetNextPacket">
+    <Item value="&amp;Следующий пакет" revision="0" />
+    <Item value="Перейти к следующему пакету" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetPrevPacket">
+    <Item value="&amp;Предыдущий пакет" revision="0" />
+    <Item value="Перейти к предыдущему пакету" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetShowCurrent">
+    <Item value="&amp;Детали выбранного пакета" revision="0" />
+    <Item value="Детали выбранного пакета" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetSetFilter">
+    <Item value="Установить &amp;фильтр" revision="0" />
+    <Item value="Настройка фильтра визуализатора" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetSetBindPath">
+    <Item value="Установить &amp;корневой протокол…" revision="0" />
+    <Item value="Укажите корневой протокол для данного визуализатора" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetExpandAll">
+    <Item value="Раскрыть все" revision="0" />
+    <Item value="Раскрыть все" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetCollapseAll">
+    <Item value="Свернуть все" revision="0" />
+    <Item value="Свернуть все" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditSelectNone">
+    <Item value="&amp;Сбросить выделение" revision="0" />
+    <Item value="Сброс выделения в окне" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditSelectInvert">
+    <Item value="&amp;Инвертировать выделение" revision="0" />
+    <Item value="Инвертировать выделение" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditSelectPacket">
+    <Item value="&amp;Выбрать пакет" revision="0" />
+    <Item value="Выбор данных текущего пакета" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditSelectAll">
+    <Item value="Выбрать все" revision="0" />
+    <Item value="Выбор всего содержимого визуализатора" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewHex">
+    <Item value="&amp;Шестнадцатеричный" revision="0" />
+    <Item value="Шестнадцатеричный режим" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewDecimal">
+    <Item value="&amp;Десятичный" revision="0" />
+    <Item value="Десятичный режим" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewOctal">
+    <Item value="&amp;Восьмеричный " revision="0" />
+    <Item value="Восьмеричный режим" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewBinary">
+    <Item value="&amp;Бинарный" revision="0" />
+    <Item value="Бинарный режим" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewFloat">
+    <Item value="С &amp;плавающей точкой" revision="0" />
+    <Item value="Режим работы с плавающей точкой" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewDouble">
+    <Item value="Д&amp;войной точности" revision="0" />
+    <Item value="Режим работы с плавающей точкой двойной точности" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewGroupByte">
+    <Item value="Байты" revision="0" />
+    <Item value="Группировать в виде байтов" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewGroupWord">
+    <Item value="Слова" revision="0" />
+    <Item value="Группировка в виде слов" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewGroupDword">
+    <Item value="Двойные слова" revision="0" />
+    <Item value="Группировать как двойные слова" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewGroupQword">
+    <Item value="Четырехзначные слова" revision="0" />
+    <Item value="Группировать как четырехзначные слова" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewAutoCols">
+    <Item value="&amp;Авто" revision="0" />
+    <Item value="Автоматическое вычисление количества столбцов" revision="0" />
+  </Enumeration>
+  <Enumeration key="View4Cols">
+    <Item value="&amp;4 колонки" revision="0" />
+    <Item value="4 колонки" revision="0" />
+  </Enumeration>
+  <Enumeration key="View8Cols">
+    <Item value="&amp;8 колонок" revision="0" />
+    <Item value="8 колонок" revision="0" />
+  </Enumeration>
+  <Enumeration key="View16Cols">
+    <Item value="&amp;16 колонок" revision="0" />
+    <Item value="16 колонок" revision="0" />
+  </Enumeration>
+  <Enumeration key="View32Cols">
+    <Item value="&amp;32 колонки" revision="0" />
+    <Item value="32 колонки" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewCustomCols">
+    <Item value="П&amp;ользовательский" revision="0" />
+    <Item value="Укажите количество столбцов" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewTextPane">
+    <Item value="&amp;Текстовая область" revision="0" />
+    <Item value="Показать или скрыть текстовую область (ASCII или UNICODE)" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewCodePane">
+    <Item value="&amp;Область кодов" revision="0" />
+    <Item value="Показать или скрыть область кодов" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetHex">
+    <Item value="&amp;Шестнадцатеричный" revision="0" />
+    <Item value="Просмотр адреса в шестнадцатеричном виде" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetDecimal">
+    <Item value="&amp;Десятичный" revision="0" />
+    <Item value="Просмотр адреса в десятичном виде" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetOctal">
+    <Item value="&amp;Восьмеричный " revision="0" />
+    <Item value="Представление адреса в восьмеричном виде" revision="0" />
+  </Enumeration>
+  <Enumeration key="DefinePatterns">
+    <Item value="&amp;Подсветка паттернов…" revision="0" />
+    <Item value="Создание новых или управление существующими шаблонами подсветки" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewEncoding">
+    <Item value="&amp;Кодировка" revision="0" />
+    <Item value="Кодировка" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewEndpoints">
+    <Item value="&amp;Эндпоинты" revision="0" />
+    <Item value="Эндпоинты" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringNewRule">
+    <Item value="Добавить новое правило…" revision="0" />
+    <Item value="Определение нового правила раскраски" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringSaveColoring">
+    <Item value="Сохранить схему…" revision="0" />
+    <Item value="Сохранить схему раскрашивания паттерна" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringLoadColoring">
+    <Item value="Загрузить схему…" revision="0" />
+    <Item value="Загрузка схемы раскраски" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringClearColoring">
+    <Item value="Очистить схему раскраски" revision="0" />
+    <Item value="Очистить схему раскраски" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringCheckAll">
+    <Item value="Выбрать все" revision="0" />
+    <Item value="Включить все правила" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringUncheckAll">
+    <Item value="Cнять все" revision="0" />
+    <Item value="Отключить все правила" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringEditRule">
+    <Item value="Редактировать правило…" revision="0" />
+    <Item value="Редактировать свойства правила" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringDelete">
+    <Item value="Удалить" revision="0" />
+    <Item value="Удаление правила раскраски" revision="0" />
+  </Enumeration>
+  <Enumeration key="PatternHighlightingEnabled">
+    <Item value="Подсвечивание паттернов" revision="0" />
+    <Item value="Включить или отключить все правила выделения паттернов" revision="0" />
+  </Enumeration>
+  <Enumeration key="RawDataSelection">
+    <Item value="&amp;Показать выделения" revision="0" />
+    <Item value="Показать окно выделений" revision="0" />
+  </Enumeration>
+  <Enumeration key="RawDataInsertMode">
+    <Item value="&amp;Режим вставки" revision="0" />
+    <Item value="Вставка данных" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewBigEndian">
+    <Item value="От &amp;старшего" revision="0" />
+    <Item value="От старшего к младшему" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewLittleEndian">
+    <Item value="От &amp;младшего" revision="0" />
+    <Item value="От младшего к старшему" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsGotoOffset">
+    <Item value="&amp;Перейти к  cмещению" revision="0" />
+    <Item value="Переход к заданному смещению" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsNextPacket">
+    <Item value="&amp;Следующий пакет" revision="0" />
+    <Item value="Переход к началу следующего пакета" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsPrevPacket">
+    <Item value="&amp;Предыдущий пакет" revision="0" />
+    <Item value="Переход к началу предыдущего пакета" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsSynchronize">
+    <Item value="&amp;Синхронизировать" revision="0" />
+    <Item value="Показать ближайший пакет в окне чтения/записи" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditFindPrev">
+    <Item value="Найти предыдущий" revision="0" />
+    <Item value="Найти предыдущий" revision="0" />
+  </Enumeration>
+  <Enumeration key="RawDataLayoutSettings">
+    <Item value="&amp;Цвета…" revision="0" />
+    <Item value="Показать настройки раскраски для визуализатора сырых данных" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsHexEditorExport">
+    <Item value="Обработать с помощью Hex Editor Neo" revision="0" />
+    <Item value="Просмотр, разбор и редактирование выделенных фрагментов с помощью Hex Editor Neo" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuDisplayAs">
+    <Item value="Показать &amp;как" revision="0" />
+    <Item value="Показать как" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuGroupBy">
+    <Item value="Группировать по" revision="0" />
+    <Item value="Группировать по" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuColumns">
+    <Item value="&amp;Колонки" revision="0" />
+    <Item value="Колонки" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuEndians">
+    <Item value="По&amp;рядок байт" revision="0" />
+    <Item value="Порядок байт" revision="0" />
+  </Enumeration>
+  <Enumeration key="IncorrectInputText">
+    <Item value="Должно быть шестнадцатеричное значение" revision="0" />
+    <Item value="Должно быть десятичное значение" revision="0" />
+    <Item value="Должно быть восьмеричное значение" revision="0" />
+    <Item value="Должно быть действительное число" revision="0" />
+  </Enumeration>
+  <Enumeration key="Range">
+    <Item value="Диапазон: {from} – {to} (Размер: {size})" revision="0" />
+    <Item value="Диапазон: {from} – {to} (Размер: {size})" revision="0" />
+  </Enumeration>
+  <Enumeration key="StaticLinePlaced">
+    <Item value="Статическая линия поставлена" revision="0" />
+    <Item value="Щёлкните ещё раз, удерживая Ctrl, чтобы поставить линию отслеживания " revision="0" />
+  </Enumeration>
+  <Enumeration key="SpecialHighSpeedMode">
+    <Item value="Специальный высокоскоростной режим" revision="0" />
+    <Item value="Device Monitoring Studio может повысить точность и производительность визуализатора Статистика, если он используется отдельно. Начните новый сеанс мониторинга, настроив только визуализатор Статистика, или закройте все остальные модули обработки данных прямо сейчас, чтобы перейти в этот режим.\n Примечание: запись лога также отключает высокоскоростной режим." revision="0" />
+  </Enumeration>
+  <Enumeration key="PlotVariables">
+    <Item value="Сэмпл" revision="0" />
+    <Item value="Пакет" revision="0" />
+    <Item lookup="Time" />
+  </Enumeration>
+  <Enumeration key="PlotColumns">
+    <Item lookup="Name" />
+    <Item value="Макс." revision="0" />
+    <Item value="Средн." revision="0" />
+    <Item value="Последн." revision="0" />
+    <Item value="Всего" revision="0" />
+    <Item value="Масштаб" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionColumns">
+    <Item value="Размер всего" revision="0" />
+    <Item value="Фрагменты" revision="0" />
+    <Item value="Без выделения" revision="0" />
+    <Item value="байт" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionDetailsColumns">
+    <Item value="№" revision="0" />
+    <Item value="Адрес" revision="0" />
+    <Item value="Длина" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColorItems">
+    <Item value="Текст" revision="1" />
+    <Item value="Фон" revision="1" />
+    <Item value="Заголовок и адрес" revision="1" />
+    <Item value="Фон адреса" revision="1" />
+    <Item value="Текст ASCII/UNICODE " revision="1" />
+    <Item value="Фон ASCII/UNICODE " revision="1" />
+    <Item value="Чётный столбец/ряд (для чересстрочных режимов)" revision="1" />
+    <Item value="Нечётный столбец/ряд (для чересстрочных режимов)" revision="1" />
+    <Item value="Текст &quot;нет данных&quot;" revision="1" />
+    <Item value="Заливка курсора" revision="1" />
+    <Item value="Обводка курсора" revision="1" />
+    <Item value="Подсветка текста активной колонки/строки" revision="1" />
+    <Item value="Подсветка фона активной колонки/строки" revision="1" />
+    <Item value="Текст нечётного пакета" revision="1" />
+    <Item value="Фон нечётного пакета" revision="1" />
+    <Item value="Контур нечётного пакета" revision="1" />
+    <Item value="Текст чётного пакета" revision="1" />
+    <Item value="Фон чётного пакета" revision="1" />
+    <Item value="Контур чётного пакета" revision="1" />
+    <Item value="Выделение" revision="1" />
+    <Item value="Редактируемый текст" revision="1" />
+  </Enumeration>
+  <Enumeration key="FRTypeList">
+    <Item value="Строка" revision="0" />
+    <Item value="Строка UNICODE" revision="0" />
+    <Item value="Шестнадцатеричное" revision="0" />
+  </Enumeration>
+  <Enumeration key="FRGroupList">
+    <Item value="БАЙТ" revision="1" />
+    <Item value="СЛОВО" revision="1" />
+    <Item value="ДВОЙНОЕ" revision="1" />
+    <Item value="ЧЕТВЕРНОЕ" revision="1" />
+  </Enumeration>
+  <Enumeration key="SViewColumns">
+    <Item value="Номер" revision="1" />
+    <Item lookup="Name" />
+    <Item lookup="Value" />
+    <Item lookup="Offset" />
+    <Item lookup="Size" />
+    <Item lookup="Type" />
+    <Item lookup="Time" />
+  </Enumeration>
+  <Enumeration key="SelectionGotoStart">
+    <Item value="Перейти к началу" revision="0" />
+    <Item value="Перейти к началу выделенного блока" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionGotoEnd">
+    <Item value="Перейти в конец" revision="0" />
+    <Item value="Переход к концу выделенного блока" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionDeleteBlock">
+    <Item value="Удалить блок" revision="0" />
+    <Item value="Удалить выделенный блок" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionClear">
+    <Item value="Очистить выделенное" revision="0" />
+    <Item value="Удалить все выбранные блоки" revision="0" />
+  </Enumeration>
+</Language>

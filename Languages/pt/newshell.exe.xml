@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="General" value="Gerais" revision="0" />
+  <Message key="Notifications" value="Notificações" revision="0" />
+  <Message key="AllSupported" value="Todos suportados" revision="0" />
+  <Message key="Tool Window settings" value="Layout da janela de ferramentas" revision="0" />
+  <Message key="Commands settings" value="Configuração de comandos" revision="0" />
+  <Message key="ActivatePane" value="Ativar o painel {pane}" revision="1" />
+  <Message key="Settings" value="Definições" revision="0" />
+  <Message key="This toolbar cannot be deleted." value="Esta barra de ferramentas não pode ser eliminada." revision="0" />
+  <Message key="Toolbar Deletion Failed" value="Falha na eliminação da barra de ferramentas" revision="0" />
+  <Message key="Invalid toolbar name" value="Nome inválido da barra de ferramentas. O nome válido deve começar com uma letra." revision="0" />
+  <Message key="Toolbar Creation Failed" value="Falha ao criar a barra de ferramentas" revision="0" />
+  <Message key="Toolbar already exists" value="A barra de ferramentas com o nome que especificou já existe." revision="0" />
+  <Message key="All commands" value="Todos os comandos" revision="0" />
+  <Message key="Commands Page" value="Comandos" revision="0" />
+  <Message key="Toolbars" value="Barras de ferramentas:" revision="0" />
+  <Message key="New" value="&amp;Novo…" revision="0" />
+  <Message key="Delete" value="&amp;Eliminar" revision="0" />
+  <Message key="Button size" value="Tamanho do botão:" revision="0" />
+  <Message key="Select a command to view its description or drag it to a toolbar" value="Selecione um comando para ver a respectiva descrição ou arraste-o para uma barra de ferramentas:" revision="0" />
+  <Message key="Keyboard" value="Teclado" revision="0" />
+  <Message key="MaxShortcuts" value="Não podem ser atribuídos mais de 5 atalhos a um comando." revision="0" />
+  <Message key="ShortcutExists" value="Este atalho já está definido para {command}. Deseja alterá-lo?" revision="0" />
+  <Message key="Keyboard Page" value="Teclado" revision="0" />
+  <Message key="Category" value="Categoria:" revision="0" />
+  <Message key="Commands" value="Comandos:" revision="0" />
+  <Message key="Current keys" value="Chaves actuais:" revision="0" />
+  <Message key="Press new shortcut key" value="Prima a &amp;nova tecla de atalho:" revision="0" />
+  <Message key="Description" value="Descrição:" revision="0" />
+  <Message key="Currently assigned to" value="Atualmente atribuído a:" revision="0" />
+  <Message key="Assign" value="&amp;Atribuir" revision="0" />
+  <Message key="Keyboard Map" value="&amp;Mapa do teclado" revision="0" />
+  <Message key="[unassigned]" value="[Não atribuído]" revision="0" />
+  <Message key="Configuration Filter String" value="Ficheiros de configuração da IU|*.tcf|" revision="0" />
+  <Message key="Launch error" value="Ocorreu um erro ao lançar a aplicação: {error}" revision="0" />
+  <Message key="UI Layout" value="Disposição da IU" revision="0" />
+  <Message key="Switch Window" value="Mudar janela" revision="0" />
+  <Message key="Error loading layout" value="Erro ao carregar o layout" revision="0" />
+  <Message key="Windows settings" value="Posições da janela de diálogo" revision="0" />
+  <Message key="Settings Page" value="Definições" revision="0" />
+  <Message key="Settings Storage Location" value="Localização do armazenamento das definições" revision="0" />
+  <Message key="Settings Management" value="Gestão de definições" revision="0" />
+  <Message key="Export Settings…" value="Exportar definições…" revision="0" />
+  <Message key="Import Settings…" value="Importar definições…" revision="0" />
+  <Message key="Reset Settings…" value="Repor definições…" revision="0" />
+  <Message key="Ask to import settings" value="O ficheiro especificado já existe. Pretende importar o seu conteúdo agora? Se clicar em Não, o ficheiro será substituído pelas definições actuais." revision="0" />
+  <Message key="Ask to reset settings" value="A aplicação tem de ser reiniciada para repor as definições. Deseja continuar?" revision="0" />
+  <Message key="Ask to restart" value="Recomenda-se que reinicie a aplicação para aplicar as definições importadas. Pretende reiniciar agora?" revision="0" />
+  <Message key="Export successful" value="As definições foram guardadas com êxito num ficheiro." revision="0" />
+  <Message key="Import successful" value="As definições foram importadas com êxito." revision="0" />
+  <Message key="Setting files" value="Definições|*.hhdset|" revision="0" />
+  <Message key="AllFilesFilterString" value="Todos os ficheiros|*|" revision="1" />
+  <Message key="Select Components" value="Selecionar componentes" revision="0" />
+  <Message key="Select components:" value="Selecionar componentes" revision="0" />
+  <Message key="Select all" value="Selecionar tudo" revision="0" />
+  <Message key="File creation error" value="Ocorreu um erro ao {create?}criar{|create}abrir{?create} o ficheiro &quot;{name}&quot;: {text} ({code})" revision="1" />
+  <Message key="UpgradePrompt" value="O produto {product name} versão {major}.{minor}.{revision}.{build} está disponível. Deseja atualizar agora?" revision="0" />
+  <Message key="Loading" value="Carregamento…" revision="0" />
+  <Message key="clr.default_colors" value="Cores UI predefinidas" revision="0" />
+  <Message key="clr.default_colors.background" value="Fundo" revision="0" />
+  <Message key="clr.default_colors.control_background" value="Fundo do controlo " revision="0" />
+  <Message key="clr.default_colors.text" value="Texto/plano de fundo" revision="0" />
+  <Message key="clr.default_colors.hyperlink" value="Hyperlink" revision="0" />
+  <Message key="clr.default_colors.disabled" value="Texto desativado" revision="0" />
+  <Message key="clr.default_colors.hover.fill" value="Fundo do elemento hover" revision="0" />
+  <Message key="clr.default_colors.hover.stroke" value="Traço do elemento hover" revision="0" />
+  <Message key="clr.default_colors.hover.text" value="Texto do elemento hover" revision="0" />
+  <Message key="clr.default_colors.selected.fill" value="Fundo de seleção" revision="0" />
+  <Message key="clr.default_colors.selected.stroke" value="Traço da seleção" revision="0" />
+  <Message key="clr.default_colors.selected.text" value="Texto selecionado" revision="0" />
+  <Message key="clr.menu" value="Cor dos menu" revision="0" />
+  <Message key="clr.menu.background" value="Fundo" revision="0" />
+  <Message key="clr.menu.text" value="Texto" revision="0" />
+  <Message key="clr.menu.separator" value="Separador" revision="0" />
+  <Message key="clr.menu.disabled_text" value="Texto desativado" revision="0" />
+  <Message key="clr.menu.checked" value="Fundo do elemento marcado" revision="0" />
+  <Message key="clr.menu.checked_disabled" value="Fundo do item inacessível selecionado" revision="0" />
+  <Message key="clr.menu.hover.fill" value="Fundo do elemento hover" revision="0" />
+  <Message key="clr.menu.hover.stroke" value="Traço do elemento hover" revision="0" />
+  <Message key="clr.menu.hover.text" value="Texto do elemento hover" revision="0" />
+  <Message key="clr.menu.disabled_hover.fill" value="Fundo do hover do item desativado" revision="0" />
+  <Message key="clr.menu.disabled_hover.stroke" value="Traço do item de hover desativado" revision="0" />
+  <Message key="clr.menu.disabled_hover.text" value="Texto do item de hover desativado" revision="0" />
+  <Message key="clr.rebar" value="Cores dos Rebar" revision="0" />
+  <Message key="clr.rebar.background" value="Fundo" revision="0" />
+  <Message key="clr.rebar.chevron.fill" value="Cor do ponto chevron" revision="0" />
+  <Message key="clr.rebar.chevron.stroke" value="Cor do traço do ponto chevron" revision="0" />
+  <Message key="clr.toolbar" value="Cores da barra de ferramentas" revision="0" />
+  <Message key="clr.toolbar.background" value="Fundo" revision="0" />
+  <Message key="clr.toolbar.text" value="Texto" revision="0" />
+  <Message key="clr.toolbar.disabled" value="Texto desativado" revision="0" />
+  <Message key="clr.toolbar.separator" value="Separador" revision="0" />
+  <Message key="clr.toolbar.hover.fill" value="Fundo do elemento hover" revision="0" />
+  <Message key="clr.toolbar.hover.stroke" value="Traço do elemento hover" revision="0" />
+  <Message key="clr.toolbar.hover.text" value="Texto do elemento hover" revision="0" />
+  <Message key="clr.toolbar.pressed.fill" value="Fundo do elemento prensado" revision="0" />
+  <Message key="clr.toolbar.pressed.stroke" value="Traço do item prensado" revision="0" />
+  <Message key="clr.toolbar.pressed.text" value="Texto do elemento prensado" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.fill" value="Fundo do item prensado e desativado" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.stroke" value="Traço do item pressionado e desativado" revision="0" />
+  <Message key="clr.frame" value="Cores da moldura" revision="0" />
+  <Message key="clr.frame.frame.background" value="Fundo" revision="0" />
+  <Message key="clr.frame.frame.client_background" value="Cor de fundo do cliente" revision="0" />
+  <Message key="clr.frame.frame.document_frame_background" value="Fundo da moldura do documento" revision="0" />
+  <Message key="clr.frame.frame.border" value="Borde" revision="0" />
+  <Message key="clr.frame.header.inactive.fill" value="Fundo do cabeçalho inativo" revision="0" />
+  <Message key="clr.frame.header.inactive.stroke" value="Texto/traço do cabeçalho inativo" revision="0" />
+  <Message key="clr.frame.header.active.fill" value="Fundo do cabeçalho ativo" revision="0" />
+  <Message key="clr.frame.header.active.stroke" value="Texto/traço do cabeçalho ativo" revision="0" />
+  <Message key="clr.frame.hover.fill" value="Fundo do elemento hover" revision="0" />
+  <Message key="clr.frame.hover.stroke" value="Traço do elemento hover" revision="0" />
+  <Message key="clr.frame.hover.text" value="Texto do elemento hover" revision="0" />
+  <Message key="clr.frame.title_text" value="Texto do título" revision="0" />
+  <Message key="clr.frame.nav.shadow" value="Sombra do ícone de navegação" revision="0" />
+  <Message key="clr.frame.nav.background" value="Fundo do ícone de navegação" revision="0" />
+  <Message key="clr.frame.nav.highlight" value="Ícone de navegação realçado" revision="0" />
+  <Message key="clr.frame.nav.header" value="Cabeçalho do ícone de navegação" revision="0" />
+  <Message key="clr.frame.nav.frame" value="Rebordo do ícone de navegação" revision="0" />
+  <Message key="clr.listview" value="Cores da vista de lista" revision="0" />
+  <Message key="clr.listview.normal.fill" value="Fundo" revision="0" />
+  <Message key="clr.listview.normal.stroke" value="Texto" revision="0" />
+  <Message key="clr.listview.header.fill" value="Fundo do elemento cabeçalho" revision="0" />
+  <Message key="clr.listview.header.stroke" value="Texto do cabeçalho" revision="0" />
+  <Message key="clr.listview.selected.inactive.fill" value="Fundo de seleção inativo" revision="0" />
+  <Message key="clr.listview.selected.inactive.text" value="Texto de seleção inativo" revision="0" />
+  <Message key="clr.listview.selected.inactive.stroke" value="Traço de seleção inativo" revision="0" />
+  <Message key="clr.listview.selected.active.fill" value="Fundo de seleção ativo" revision="0" />
+  <Message key="clr.listview.selected.active.text" value="Texto de seleção ativo" revision="0" />
+  <Message key="clr.listview.selected.active.stroke" value="Traço de seleção ativo" revision="0" />
+  <Message key="clr.listview.hover.fill" value="Fundo do elemento hover" revision="0" />
+  <Message key="clr.listview.hover.stroke" value="Texto do elemento hover" revision="0" />
+  <Message key="clr.listview.grid" value="Grade" revision="0" />
+  <Message key="clr.listview.alternate_background" value="Fundo alternativo" revision="0" />
+  <Message key="clr.listview.hyperlink" value="Hiperligação" revision="0" />
+  <Message key="clr.balloon" value="Cores da janela de notificação" revision="0" />
+  <Message key="clr.balloon.balloon.fill" value="Fundo" revision="0" />
+  <Message key="clr.balloon.balloon.text" value="Texto" revision="0" />
+  <Message key="clr.balloon.balloon.stroke" value="Traço" revision="0" />
+  <Message key="clr.balloon.dontDisplay" value="Mensagem &quot;Não mostrar mais&quot;" revision="0" />
+  <Message key="Colors Page" value="Temas" revision="0" />
+  <Message key="Enter the scheme name and press the Save button" value="Introduzir o nome do esquema e premir o botão Guardar" revision="0" />
+  <Message key="ColorSchemeExists" value="O esquema de cores já existe. Pretende substituí-lo?" revision="0" />
+  <Message key="ColorWheelIssue" value="Não é possível clicar numa roda de cores para cores totalmente brancas (L = 100) e totalmente pretas (L = 0). Altere primeiro qualquer componente de cor." revision="0" />
+  <Message key="Settings group.Visual" value="Visual" revision="0" />
+  <Message key="Settings group.User Interface" value="Interface do utilizador" revision="0" />
+  <Message key="Settings group.Network" value="Rede &amp; suporte" revision="0" />
+  <Message key="Settings group.Misc" value="Outras" revision="0" />
+  <Message key="General Page" value="Gerais" revision="0" />
+  <Message key="Search settings" value="Pesquisar nas configurações" revision="0" />
+  <Message key="Cancel" value="Cancelar" revision="0" />
+  <Message key="Close" value="Fechar" revision="0" />
+  <Message key="toolbar.Standard" value="Standard" revision="0" />
+  <Message key="restoreWindowPosition" value="Restaurar a posição da janela no arranque" revision="0" />
+  <Message key="documentsToRemember" value="Número de documentos recentes a recordar" revision="0" />
+  <Message key="ThemeFiles" value="Ficheiros de temas (*.hhdtheme)|*.hhdtheme||" revision="0" />
+  <Enumeration key="FileOpen">
+    <Item value="&amp;Aberto" revision="0" />
+    <Item value="Abrir um novo documento" revision="0" />
+  </Enumeration>
+  <Enumeration key="FileExit">
+    <Item value="&amp;Sair " revision="1" />
+    <Item value="Sair da aplicação" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewImportConfiguration">
+    <Item value="&amp;Importar configuração…" revision="1" />
+    <Item value="Importar a configuração das janelas da ferramenta" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewExportConfiguration">
+    <Item value="&amp;Exportar configuração…" revision="1" />
+    <Item value="Exportar a configuração das janelas da ferramenta" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewResetConfiguration">
+    <Item value="&amp;Repor a configuração" revision="1" />
+    <Item value="Repor a configuração das janelas da ferramenta" revision="1" />
+  </Enumeration>
+  <Enumeration key="ViewLayouts">
+    <Item value="Layouts predefinidos" revision="1" />
+    <Item value="Layouts predefinidos" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowPrev">
+    <Item value="&amp;Anterior" revision="1" />
+    <Item value="Mudar para a janela anterior" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNext">
+    <Item value="&amp;Seguinte" revision="1" />
+    <Item value="Mudar para a janela seguinte" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowClose">
+    <Item value="&amp;Fechar a janela" revision="1" />
+    <Item value="Fechar a janela ativa" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNextPane">
+    <Item value="Painel &amp;seguinte" revision="1" />
+    <Item value="A janela da ferramenta seguinte" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowPrevPane">
+    <Item value="Painel anterior" revision="1" />
+    <Item value="Janela anterior da ferramenta" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNewHorizontal">
+    <Item value="Novo quadro &amp;horizontal" revision="1" />
+    <Item value="Novo quadro horizontal" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowNewVertical">
+    <Item value="Novo quadro &amp;vertical" revision="1" />
+    <Item value="Novo quadro vertical" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowWindows">
+    <Item value="&amp;Janelas…" revision="1" />
+    <Item value="Mostrar a lista de todas as janelas de documentos abertas" revision="1" />
+  </Enumeration>
+  <Enumeration key="WindowDock">
+    <Item value="&amp;Encaixar" revision="0" />
+    <Item value="Doca a janela atual" revision="0" />
+  </Enumeration>
+  <Enumeration key="WindowFloat">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowTabbed">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsSettings">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuNew">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuFile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuView">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuTools">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuWindow">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuToolWindows">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="KeyboardColumns">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Registry">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Portable mode">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="External file:">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

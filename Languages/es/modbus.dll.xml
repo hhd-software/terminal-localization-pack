@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="show_compact_form" value="Truncar la lista de registros/coils/solicitudes si es demasiado larga" revision="0" />
+  <Message key="add_offsets" value="Añade desplazamientos de base para registros, entradas discretas, etc." revision="0" />
+  <Message key="request_read" value="Analizar las solicitudes en dirección WRITE (respuestas en dirección READ)" revision="0" />
+  <Message key="concatenate_packets" value="Concatenar paquetes" revision="0" />
+  <Message key="use_rtu" value="Modo RTU" revision="0" />
+  <Message key="parse_as_hex" value="Parsear como hex" revision="0" />
+  <Message key="incremental_join" value="Unificador de paquetes avanzado" revision="0" />
+  <Message key="send_notification" value="Introducción rápida de datos (ventana MODBUS Send)" revision="0" />
+  <Message key="Array expected" value="Matriz esperada" revision="0" />
+  <Message key="New TCP Session" value="Sesión TCP" revision="0" />
+  <Message key="New Serial Session" value="Sesión en serie" revision="0" />
+  <Message key="Connecting to remote host" value="Conexión al host remoto" revision="0" />
+  <Message key="Address: " value="Dirección: " revision="0" />
+  <Message key="Function: " value="Función: " revision="0" />
+  <Message key="Unknown Function!" value="Función desconocida" revision="0" />
+  <Message key="Parsed As:" value="Parsed como:" revision="0" />
+  <Message key="Set Coil" value="Set coil" revision="0" />
+  <Message key="Register" value="Registro" revision="0" />
+  <Message key="Coil Data" value="Datos de la coil" revision="0" />
+  <Message key="Status" value="Estado" revision="0" />
+  <Message key="Event Count" value="Conteo de eventos" revision="0" />
+  <Message key="Busy" value="Ocupado" revision="0" />
+  <Message key="Message Count" value="Conteo de mensajes" revision="0" />
+  <Message key="Event" value="Evento" revision="0" />
+  <Message key="Byte Count" value="Recuento de bytes" revision="0" />
+  <Message key="Coils" value="Coils" revision="0" />
+  <Message key="Registers" value="Registros" revision="0" />
+  <Message key="Yes" value="Sí" revision="0" />
+  <Message key="No" value="No" revision="0" />
+  <Message key="Reference Type" value="Tipo de referencia" revision="0" />
+  <Message key="Extended Memory file number" value="Número de archivo de memoria extendida" revision="0" />
+  <Message key="Starting Address" value="Dirección inicial" revision="0" />
+  <Message key="Number of Registers" value="Número de registros" revision="0" />
+  <Message key="Register Data" value="Datos de registro" revision="0" />
+  <Message key="Reference Address" value="Dirección de referencia" revision="0" />
+  <Message key="And Mask" value="Máscara Y" revision="0" />
+  <Message key="Or Mask" value="Máscara O" revision="0" />
+  <Message key="Read Reference Address" value="Leer dirección de referencia" revision="0" />
+  <Message key="Quantity to Read" value="Cantidad a leer" revision="0" />
+  <Message key="Write Reference Address" value="Escribir dirección de referencia" revision="0" />
+  <Message key="Quantity to Write" value="Cantidad a escribir" revision="0" />
+  <Message key="FIFO Pointer Address" value="Dirección del puntero FIFO" revision="0" />
+  <Message key="FIFO Count" value="Conteo FIFO" revision="0" />
+  <Message key="Quantity of Coils" value="Número de coils" revision="0" />
+  <Message key="Force Data" value="Datos " revision="0" />
+  <Message key="Register Address" value="Dirección de registro" revision="0" />
+  <Message key="Output Address" value="Salida Dirección" revision="0" />
+  <Message key="Output Value" value="Valor de salida" revision="0" />
+  <Message key="Register Value" value="Valor de registro" revision="0" />
+  <Message key="Function" value="Función" revision="0" />
+  <Message key="Subfunction" value="Subfunción" revision="0" />
+  <Message key="No data entered!" value="No se han introducido datos." revision="0" />
+  <Message key="Wrong function!" value="¡Función incorrecta!" revision="0" />
+  <Message key="Data" value="Datos" revision="0" />
+  <Message key="Enter the first parameter." value="Introduzca el primer parámetro." revision="0" />
+  <Message key="Enter the second parameter." value="Introduzca el segundo parámetro." revision="0" />
+  <Message key="There was an error sending data!" value="Se ha producido un error al enviar los datos." revision="0" />
+  <Message key="MODBUS Send" value="MODBUS Enviar" revision="0" />
+  <Message key="OK - Press the Send button" value="OK - Pulse el botón Enviar" revision="0" />
+  <Message key="Wrong Function ID" value="ID de función incorrecta" revision="0" />
+  <Message key="StatusCode" value="Estado: {status}{has message?} ({message}){?has message}" revision="0" />
+  <Message key="AcceptedRange" value="Sólo se aceptan valores de {min} a {max}" revision="0" />
+  <Message key="CoilN" value="Coil {n}" revision="0" />
+  <Message key="RegisterN" value="Registro {n} = {value}" revision="0" />
+  <Message key="Can't be more than 1968 coils." value="Se ha superado el número máximo de 1.968 coils." revision="0" />
+  <Message key="Can't be more than 65535 registers." value="Se ha superado el número máximo de 65.535 registros." revision="0" />
+  <Message key="File number can't be more than 65535." value="Se ha superado el número máximo de 65.535 archivos." revision="0" />
+  <Message key="Record number can't be more than 9999." value="Se ha superado el número máximo de 9.999 registros." revision="0" />
+  <Message key="Register length can't be more than 65535." value="Se ha superado la longitud máxima de registro de 65.535." revision="0" />
+  <Message key="Register Length" value="Longitud del registro" revision="0" />
+  <Message key="Record Length" value="Longitud del récord" revision="0" />
+  <Message key="Record #" value="Record #" revision="0" />
+  <Message key="File #" value="Archivo #" revision="0" />
+  <Message key="Request #" value="Solicitud #" revision="0" />
+  <Message key="Data Length" value="Longitud de los datos" revision="0" />
+  <Message key="Enter the reference address." value="Introduzca la dirección de referencia." revision="0" />
+  <Message key="Enter the read address." value="Introduzca la dirección de lectura." revision="0" />
+  <Message key="Enter read quantity." value="Introduzca la cantidad de lectura." revision="0" />
+  <Message key="Enter the write address." value="Introduzca la dirección de escritura." revision="0" />
+  <Message key="Enter register values." value="Introduzca los valores de registro." revision="0" />
+  <Message key="Add sub-requests." value="Añadir sub-solicitudes." revision="0" />
+  <Message key="Save to binary file" value="Guardar en archivo binario" revision="0" />
+  <Message key="Load from file" value="Cargar desde archivo" revision="0" />
+  <Message key="Can't create file!" value="Error al crear el archivo" revision="0" />
+  <Message key="Can't load from file!" value="Error al cargar el archivo." revision="0" />
+  <Message key="TextFilesFilter" value="Archivos de texto|*.txt|" revision="0" />
+  <Message key="BinaryFilesFilter" value="Archivos binarios|*.bin|" revision="0" />
+  <Message key="File is too big! (1024 bytes maximum)" value="El archivo es demasiado grande (1.024 bytes máximo)" revision="0" />
+  <Message key="Wrong file format!" value="Formato de archivo incorrecto. Sólo se admiten archivos .txt y .bin." revision="0" />
+  <Message key="Data size exceeds allowed MODBUS PDU size (253 bytes maximum)!" value="El tamaño de los datos excede el tamaño MODBUS PDU permitido (253 bytes máximo)." revision="0" />
+  <Message key="ModbusRequestHeader" value="Paquete {n}: Solicitud MODBUS (tamaño del paquete: {packet size}, tamaño de los datos: {data size}), {time}\n" revision="0" />
+  <Message key="ModbusResponseHeader" value="Paquete {n}: Respuesta MODBUS (tamaño del paquete: {packet size}, tamaño de los datos: {data size}), {time}\n" revision="0" />
+  <Message key="Number of Outputs" value="Número de salidas" revision="0" />
+  <Message key="File Number" value="Número de archivo" revision="0" />
+  <Message key="Record Number" value="Número de récord" revision="0" />
+  <Message key="RequestN" value="Solicitar {n}" revision="0" />
+  <Message key="OK - Return Query Data" value="OK - Devolver datos de consulta" revision="0" />
+  <Message key="Response Data Length" value="Longitud de los datos de respuesta" revision="0" />
+  <Message key="No coils" value="No se especifican coils." revision="0" />
+  <Message key="Create a terminal session and select it in Session list box." value="Cree una sesión de terminal y selecciónela en el cuadro de lista Sesión." revision="0" />
+  <Message key="Set parameters" value="Parámetros no configurados" revision="0" />
+  <Message key="Enter the starting address." value="Introduzca la dirección inicial." revision="0" />
+  <Message key="Enter the number of coils." value="Introduzca el número de coils." revision="0" />
+  <Message key="No registers" value="No se especifican registros" revision="0" />
+  <Message key="This will delete all requests. Do you want to continue?" value="Esto borrará todas las solicitudes. ¿Desea continuar?" revision="0" />
+  <Message key="Check all" value="Marcar todo" revision="0" />
+  <Message key="Uncheck all" value="Desmarcar todo" revision="0" />
+  <Message key="Invert all" value="Invertir todo" revision="0" />
+  <Message key="File is too big! (10000 bytes maximum)" value="No se admiten archivos de más de 10.000 bytes." revision="0" />
+  <Message key="Too many items!" value="Demasiados elementos" revision="0" />
+  <Message key="Expired" value="Expirado. Actualice a la {edition} Edición para utilizar este componente." revision="0" />
+  <Message key="Show Data" value="Mostrar datos" revision="0" />
+  <Message key="HelpNotify1" value="Rápida introducción de datos:\r\n1. Seleccionar el primer elemento de la lista.\r\n2. Introduzca el valor de registro en el cuadro de edición Valor de registro.\r\n3. Pulse la tecla ENTER. El valor del registro resaltado se actualizará y se activará el siguiente registro. Repita los pasos 2 y 3 para cada registro restante." revision="0" />
+  <Message key="Wrong file number" value="Número de archivo no válido" revision="0" />
+  <Message key="Wrong record number" value="Número de récord no válido" revision="0" />
+  <Message key="Wrong register length" value="Longitud de registro no válida" revision="0" />
+  <Message key="Output Data" value="Datos de salida" revision="0" />
+  <Message key="EventValue" value="Evento {n} = {value}" revision="0" />
+  <Message key="FIFOValue" value="Valor FIFO {n} = {value}" revision="0" />
+  <Message key="The Status value is not entered" value="No se ha introducido el valor de Estado" revision="0" />
+  <Message key="Wrong Status value" value="Valor de estado no válido" revision="0" />
+  <Message key="No events entered" value="No se han introducido eventos" revision="0" />
+  <Message key="Response can not contain more than 65535 events" value="La respuesta no puede contener más de 65.535 eventos" revision="0" />
+  <Message key="Entered data size is too big. It can not be more than 65535 bytes" value="El tamaño de los datos introducidos es demasiado grande. No puede ser superior a 65.535 bytes." revision="0" />
+  <Message key="No registers entered" value="No se han introducido registros" revision="0" />
+  <Message key="No values entered" value="No se han introducido valores" revision="0" />
+  <Message key="Response can not contain more than 31 FIFO register values" value="La respuesta no puede contener más de 31 valores de registro FIFO" revision="0" />
+  <Message key="Data size is too big" value="El tamaño de los datos es demasiado grande" revision="0" />
+  <Message key="This response can not be parsed because field sizes are device specific" value="Esta respuesta no se puede analizar porque el tamaño de los campos es específico del dispositivo" revision="0" />
+  <Message key="Run Indicator Status can not be more than 255" value="El estado del indicador de funcionamiento no puede ser superior a 255" revision="0" />
+  <Message key="Select function" value="Seleccionar función" revision="0" />
+  <Message key="Cant parse packet" value="Paquete {n}: Error parseando paquete" revision="0" />
+  <Message key="Exception Status" value="Estado de excepción" revision="0" />
+  <Message key="Exception Code" value="Código de excepción" revision="0" />
+  <Message key="Error Notification" value="Notificación de errores" revision="0" />
+  <Message key="Mode" value="Modo" revision="0" />
+  <Message key="Address:" value="Dirección:" revision="0" />
+  <Message key="Parameters" value="Parámetros" revision="0" />
+  <Message key="Result" value="Resultado" revision="0" />
+  <Message key="Result Length:" value="Resultado Longitud:" revision="0" />
+  <Enumeration key="MODBUSConverter">
+    <Item value="Vista MODBUS (legacy)" revision="0" />
+    <Item value="El visualizador Vista MODBUS descodifica los paquetes, formateados según la especificación del protocolo MODBUS." revision="0" />
+  </Enumeration>
+  <Enumeration key="tcp-creation-error">
+    <Item value="Error de creación de sesión TCP" revision="0" />
+    <Item value="Se ha producido el siguiente error al intentar conectar con el host remoto: {text} ({code})" revision="0" />
+  </Enumeration>
+  <Enumeration key="ModbusFunction">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CrcOk">
+    <Item value="INCORRECTO" revision="0" />
+    <Item value="OK" revision="0" />
+  </Enumeration>
+  <Enumeration key="DestinationAddr">
+    <Item value="Esclavo" revision="0" />
+    <Item value="Difusión" revision="0" />
+  </Enumeration>
+  <Enumeration key="ForceSingleCoil">
+    <Item value="ENCENDIDO" revision="0" />
+    <Item value="APAGADO" revision="0" />
+    <Item value="Valor no válido (sólo se permiten 0 ( Apagado) y 65280 ( Encendido))" revision="0" />
+  </Enumeration>
+  <Enumeration key="FunctionCodes">
+    <Item value="SOLICITA" revision="0" />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item value="FUNCIÓN DEFINIDA POR EL USUARIO" revision="0" />
+    <Item value="RESPUESTAS" revision="0" />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item value="ERROR" revision="0" />
+  </Enumeration>
+  <Enumeration key="ResponseCodes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Diagnostics">
+    <Item value="Devolver datos de consulta" revision="0" />
+    <Item value="Opción de reiniciar las comunicaciones" revision="0" />
+    <Item value="Retorno Registro de diagnóstico" revision="0" />
+    <Item value="Cambiar el Delimitador de Entrada ASCII" revision="0" />
+    <Item value="Forzar modo sólo escucha" revision="0" />
+    <Item value="Borrar contadores y registro de diagnóstico" revision="0" />
+    <Item value="Devolver Recuento de mensajes de bus" revision="0" />
+    <Item value="Devolver Recuento de errores de comunicación de bus" revision="0" />
+    <Item value="Devolver Recuento de errores de excepción de bus" revision="0" />
+    <Item value="Devolver recuento de mensajes esclavos" revision="0" />
+    <Item value="Devolver Esclavo Sin Respuesta Conteo" revision="0" />
+    <Item value="Devuelve Recuento NAK Esclavo" revision="0" />
+    <Item value="Devolver recuento de esclavos ocupados" revision="0" />
+    <Item value="Devolver el contador de caracteres rebasados" revision="0" />
+    <Item value="Borrar contador y bandera de rebasamiento" revision="0" />
+    <Item value="RESERVADO" revision="0" />
+  </Enumeration>
+  <Enumeration key="ResultCode">
+    <Item value="OK - Devolver datos de consulta" revision="0" />
+    <Item value="OK - Reiniciar Comunicaciones Opción" revision="0" />
+    <Item value="OK - Devolver registro de diagnóstico" revision="0" />
+    <Item value="OK - Cambiar el Delimitador de Entrada ASCII" revision="0" />
+    <Item value="OK - Forzar modo sólo escucha" revision="0" />
+    <Item value="OK - Borrar contadores y registro de diagnóstico" revision="0" />
+    <Item value="OK - Devolver Recuento de mensajes de bus" revision="0" />
+    <Item value="OK - Devolver Recuento de errores de comunicación de bus" revision="0" />
+    <Item value="OK - Devolver Recuento de errores de excepción de bus" revision="0" />
+    <Item value="OK - Devolver recuento de mensajes esclavos" revision="0" />
+    <Item value="OK - Devolver Esclavo Sin Respuesta Conteo" revision="0" />
+    <Item value="OK - Devolver recuento NAK esclavo" revision="0" />
+    <Item value="OK - Devolver recuento de esclavos ocupados" revision="0" />
+    <Item value="OK - Devolver el contador de caracteres rebasados" revision="0" />
+    <Item value="OK - Código de función desconocido" revision="0" />
+  </Enumeration>
+  <Enumeration key="MODBUS Modes">
+    <Item value="Modo ASCII" revision="0" />
+    <Item value="Modo RTU" revision="0" />
+  </Enumeration>
+  <Enumeration key="ModError">
+    <Item value="Mostrar notificación de error" revision="0" />
+  </Enumeration>
+  <Enumeration key="ModbusViewColors">
+    <Item value="Cabecera" revision="0" />
+    <Item value="Texto" revision="0" />
+    <Item value="Datos binarios" revision="0" />
+    <Item value="Cabecera 2" revision="0" />
+    <Item value="Cabecera 3" revision="0" />
+  </Enumeration>
+</Language>

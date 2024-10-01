@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="HelpContents">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpAbout">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpLicenseManagement">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuHelp">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileSave">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileSaveAs">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditUndo">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditRedo">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditCut">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditCopy">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditPaste">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditClear">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditGotoLine">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditFind">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditFindNext">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditSelectAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditSelectNone">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditSelectPacket">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditExport">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditClearView">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditColors">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FilteringX">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuEdit">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SessionStart">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SessionStop">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SessionEdit">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ConnectRemotePort">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CreateVirtualPort">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MonitorPort">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SplitPort">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Devices tool window columns">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="LicenseState">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ComNonCom">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

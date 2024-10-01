@@ -1,0 +1,653 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="PressCtrlNotify" value="Linea statica (Statistiche)" revision="0" />
+  <Message key="AboutSpecialLogging" value="Modalità speciale ad alta velocità (Statistiche)" revision="0" />
+  <Message key="plot_drawticks" value="Visualizzazione degli indici dei campioni sull'asse X" revision="0" />
+  <Message key="cell_lowerhex" value="Esadecimale minuscolo" revision="0" />
+  <Message key="cell_showresult" value="Visualizzare il riquadro dei risultati" revision="0" />
+  <Message key="cell_showtooltip" value="Visualizzazione delle informazioni sui pacchetti popup" revision="0" />
+  <Message key="netvis_showpackettip" value="Visualizzazione delle informazioni sui pacchetti popup" revision="0" />
+  <Message key="tooltip_delay" value="Definire l'intervallo di visualizzazione del tooltip" revision="0" />
+  <Message key="Statistics" value="Statistiche" revision="0" />
+  <Message key="Raw Data View" value="Vista dei dati grezzi" revision="0" />
+  <Message key="Network Packet View" value="Vista dei pacchetti di rete" revision="0" />
+  <Message key="LineNumbers" value="Visualizzazione dei numeri di riga" revision="0" />
+  <Message key="Console View" value="Vista della console" revision="0" />
+  <Message key="Goto Dialog" value="Finestra di dialogo Vai a" revision="0" />
+  <Message key="Structure Coloring" value="Colorazione della struttura" revision="0" />
+  <Message key="Raw Data View Coloring" value="Colorazione della vista dei dati grezzi" revision="0" />
+  <Message key="Go to Offset" value="Vai a Offset" revision="0" />
+  <Message key="Offset:" value="Offset:" revision="0" />
+  <Message key="Resulting offset:" value="Offset risultante:" revision="0" />
+  <Message key="&amp;Hexadecimal" value="&amp;Esadecimale" revision="0" />
+  <Message key="&amp;Decimal" value="&amp;Decimale" revision="0" />
+  <Message key="&amp;Octal" value="&amp;Ottale" revision="0" />
+  <Message key="&amp;Absolute offset" value="Offset &amp;assoluto" revision="0" />
+  <Message key="&amp;Relative offset" value="Offset &amp;relativo" revision="0" />
+  <Message key="&amp;Percent" value="&amp;Percentuale" revision="0" />
+  <Message key="IncorrectInputTitle" value="Ingresso non corretto" revision="0" />
+  <Message key="Send packets" value="Inviare pacchetti" revision="0" />
+  <Message key="Options" value="Opzioni" revision="0" />
+  <Message key="Adapter:" value="Adattatore:" revision="0" />
+  <Message key="Ignore packet delay (burst mode)" value="Ignorare il ritardo dei pacchetti (modalità burst)" revision="0" />
+  <Message key="Loop mode:" value="Mdalità ciclica:" revision="0" />
+  <Message key="loops" value="cicli" revision="0" />
+  <Message key="Loop delay:" value="Ritardo tra i cicli:" revision="0" />
+  <Message key="milliseconds" value="millisecondi" revision="0" />
+  <Message key="Close this window after sending packets" value="Chiudere questa finestra dopo l'invio dei pacchetti" revision="0" />
+  <Message key="Packets Statistics" value="Statistiche dei pacchetti" revision="0" />
+  <Message key="Total:" value="Totale:" revision="0" />
+  <Message key="Sent:" value="Inviato:" revision="0" />
+  <Message key="SentFormat" value="Inviato: {bytes}" revision="0" />
+  <Message key="TotalFormat" value="Totale: {bytes}" revision="0" />
+  <Message key="Process" value="Processo" revision="0" />
+  <Message key="ErrorInput" value="Intervallo non valido. L'intervallo di valori è ({first} - {last})." revision="0" />
+  <Message key="NoAdapters" value="Impossibile inviare pacchetti. L'adattatore di rete non è selezionato o non ci sono adattatori di rete collegati al sistema." revision="0" />
+  <Message key="LogStartBurst" value="Avvio (modalità burst)…" revision="0" />
+  <Message key="LogStart" value="Avvio…" revision="0" />
+  <Message key="LogStop" value="Interrompere…" revision="0" />
+  <Message key="ViewOffset" value="Offset" revision="0" />
+  <Message key="PatternColoring" value="Colorazione dei modelli di dati" revision="0" />
+  <Message key="Pattern" value="Modello" revision="0" />
+  <Message key="WriteFileError" value="Errore nella scrittura del file. Provare in un'altra posizione." revision="0" />
+  <Message key="Back color:" value="Colore di sfondo:" revision="0" />
+  <Message key="Text color:" value="Colore del testo:" revision="0" />
+  <Message key="Outline color:" value="Colore del contorno:" revision="0" />
+  <Message key="Description" value="Descrizione" revision="0" />
+  <Message key="New Packet" value="Nuovo pacchetto" revision="0" />
+  <Message key="Packet Template:" value="Modello di pacchetto:" revision="0" />
+  <Message key="Interval:" value="Intervalo:" revision="0" />
+  <Message key="Save Template" value="Salva modello" revision="0" />
+  <Message key="NoSelection" value="Nessuna selezione" revision="0" />
+  <Message key="Number" value="No." revision="0" />
+  <Message key="AdapterSelect" value="Selezionare l'adattatore…\nSelezionare l'adattatore predefinito per l'invio dei pacchetti" revision="0" />
+  <Message key="TemplateAlreadyExists" value="Il modello esiste già. Si desidera sovrascriverlo?" revision="0" />
+  <Message key="ErrorRead" value="Errore nella lettura del file." revision="0" />
+  <Message key="TemplateDeleteError" value="Questo schema non può essere rimosso o modificato." revision="0" />
+  <Message key="TitleError" value="Errore" revision="0" />
+  <Message key="NoPackets" value="Nessun pacchetto selezionato. Non c'è nulla da inviare." revision="0" />
+  <Message key="Warning" value="Avvertenze" revision="0" />
+  <Message key="BigPacket" value="Dimensione del pacchetto superiore alla MTU standard (1500). Invio non garantito." revision="0" />
+  <Message key="LimitSize" value="Pacchetto troppo grande. La dimensione del file di input è superiore a {limit} byte. Utilizzare i primi {first} byte." revision="0" />
+  <Message key="NetTermTooltip" value="Pacchetto:\t\t{number}\nDimensioni:\t\t{size} byte\nRitardo:\t\t{delay} ms\n" revision="0" />
+  <Message key="SchemeOverride" value="Si vuole sovrascrivere questo schema?" revision="0" />
+  <Message key="HexStartError" value="Impossibile avviare Hex Editor Neo. Codice di errore = {code}" revision="1" />
+  <Message key="HexLocationError" value="Non è possibile trovare il percorso di installazione di Hex Editor Neo." revision="0" />
+  <Message key="HexVersionError" value="Numero di versione dell'Hex Editor sconosciuto." revision="0" />
+  <Message key="ErrorTitle" value="Errore" revision="0" />
+  <Message key="EncodingNotSupported" value="Codifica non supportata. Codifica non supportata. Codifica non supportata. Codifica non supportata. Codifica non supportata. Codifica non supportata. Codifica non supportata. Codifica non supportata. " revision="0" />
+  <Message key="NotSupported" value="Il sistema non dispone dei componenti necessari per supportare la codifica selezionata. Selezionare un'altra codifica." revision="0" />
+  <Message key="ErrorLocatingPacket" value="Errore nella localizzazione del pacchetto" revision="0" />
+  <Message key="InvalidOffset" value="Offset non valido." revision="0" />
+  <Message key="GoToOffset" value="Vai a Offset" revision="0" />
+  <Message key="InvalidRule" value="Impossibile abilitare la regola, la regola non è valida." revision="0" />
+  <Message key="SchemeOverwrite" value="Lo schema attuale andrà perduto. Volete continuare?" revision="0" />
+  <Message key="VersionError" value="Il file ha una versione diversa." revision="0" />
+  <Message key="ItemWillBeRemoved" value="L'articolo attuale verrà rimosso. Volete continuare?" revision="0" />
+  <Message key="SampleText" value="Testo di esempio" revision="0" />
+  <Message key="RegExpPattern" value="RE: {pattern}" revision="0" />
+  <Message key="ErrorReadFile2" value="Impossible de lire le fichier. " revision="0" />
+  <Message key="PatternColoringRule" value="Righello per colorare i modelli {number}" revision="0" />
+  <Message key="CopyWait" value="Attendere mentre i dati vengono copiati negli appunti." revision="0" />
+  <Message key="CantCreateFile" value="Impossibile creare il file" revision="0" />
+  <Message key="StatisticsTip" value="Selezionare il contatore per visualizzarne la descrizione." revision="0" />
+  <Message key="Lines" value="Linee" revision="0" />
+  <Message key="SchemeNameCue" value="Inserire qui il nome dello schema" revision="0" />
+  <Message key="Device" value="Dispositivo" revision="0" />
+  <Message key="Selection" value="Selezione" revision="0" />
+  <Message key="SelectedPacket" value="Pacchetto selezionato" revision="0" />
+  <Message key="Output" value="Uscita" revision="0" />
+  <Message key="TimeLabel" value="Tempo:" revision="0" />
+  <Message key="ResetToDefaultPosition" value="Ripristinare la posizione predefinita" revision="0" />
+  <Message key="AddRemoveCounters" value="Aggiungere/rimuovere i contatori" revision="0" />
+  <Message key="Sample" value="Campione" revision="0" />
+  <Message key="ErrorCreate" value="Impossibile creare il file." revision="0" />
+  <Message key="Plot" value="Orario" revision="0" />
+  <Message key="PlotStaticLine" value="Linea statica: " revision="2" />
+  <Message key="PlotDynamicLine" value="Linea di tracciamento: " revision="2" />
+  <Message key="FindPatternTitle" value="Modello:" revision="0" />
+  <Message key="OperationPerformed" value="L'operazione richiesta è in corso di esecuzione…" revision="0" />
+  <Message key="CopyrightNotice" value="Generato da HHD Software Device Monitoring Studio" revision="0" />
+  <Message key="RegExpError" value="Errore di sintassi dell'espressione regolare: {error}." revision="0" />
+  <Message key="Find" value="Trova" revision="0" />
+  <Message key="Type: " value="Tipo: " revision="0" />
+  <Message key="Fi&amp;nd what: " value="T&amp;rova cosa: " revision="0" />
+  <Message key="Regular expression" value="Espressione regolare" revision="0" />
+  <Message key="Sub-match:" value="Conformità:" revision="0" />
+  <Message key="Search Up" value="Cerca in alto" revision="0" />
+  <Message key="Search Down" value="Cerca in basso" revision="0" />
+  <Message key="Ignore case" value="Ignorare il caso" revision="0" />
+  <Message key="&amp;Find" value="&amp;Trova" revision="0" />
+  <Message key="Find All" value="Trova tutti" revision="0" />
+  <Message key="Set Columns" value="Imposta colonne" revision="0" />
+  <Message key="Enter number of columns per row:" value="Inserire il numero di colonne per riga:" revision="0" />
+  <Message key="Add/Remove Counters" value="Aggiungere/rimuovere i contatori" revision="0" />
+  <Message key="Available counters:" value="Contatori disponibili:" revision="0" />
+  <Message key="Select All" value="Seleziona tutti" revision="0" />
+  <Message key="Counter description:" value="Descrizione del contatore:" revision="0" />
+  <Message key="Select the counter to view its description." value="Selezionare il contatore per visualizzarne la descrizione." revision="0" />
+  <Message key="Layout" value="Layout" revision="0" />
+  <Message key="Font:" value="Tipo di carattere:" revision="0" />
+  <Message key="Size:" value="Dimensioni:" revision="0" />
+  <Message key="Visualization elements:" value="Elementi di visualizzazione:" revision="0" />
+  <Message key="Draw focus cursor frame" value="Disegna la riquadro del cursore con il focus" revision="0" />
+  <Message key="Color:" value="Colore:" revision="0" />
+  <Message key="Automatic" value="Automatico" revision="0" />
+  <Message key="Do not interlace background" value="Non interlacciare lo sfondo" revision="0" />
+  <Message key="Interlace columns" value="Intreccio di colonne" revision="0" />
+  <Message key="Interlace rows" value="Intreccio di righe" revision="0" />
+  <Message key="Smart indentation" value="Rientri intelligenti" revision="0" />
+  <Message key="Antialiased quality (slower)" value="Qualità anti-alias (più lenta)" revision="0" />
+  <Message key="Layout Schemes" value="Schemi di layout" revision="0" />
+  <Message key="Pattern Coloring" value="Colorazione dei modelli di dati" revision="0" />
+  <Message key="Variable Properties" value="Proprietà variabili" revision="0" />
+  <Message key="Variable name:" value="Nome della variabile:" revision="0" />
+  <Message key="Units:" value="Unità:" revision="0" />
+  <Message key="Line width:" value="Larghezza della linea:" revision="1" />
+  <Message key="Scale:" value="Scala:" revision="0" />
+  <Message key="Please Wait..." value="Attendere prego…" revision="0" />
+  <Message key="Find all results" value="Trova tutti i risultati" revision="0" />
+  <Message key="Display results pane" value="Visualizzare il pannello dei risultati" revision="0" />
+  <Message key="Pattern Editor" value="Editor di modelli" revision="0" />
+  <Message key="Standard rule:" value="Regola standard:" revision="0" />
+  <Message key="Round edges" value="Bordi rotondi" revision="0" />
+  <Message key="Information" value="Informazioni" revision="0" />
+  <Message key="Details" value="Dettagli" revision="0" />
+  <Message key="NotValid" value="Valore non valido." revision="0" />
+  <Message key="SViewTitle" value="Visualizzatore di strutture" revision="0" />
+  <Message key="N/A" value="N/D" revision="0" />
+  <Message key="CantUpdate" value="L'operazione richiesta è in corso di esecuzione…" revision="0" />
+  <Message key="PColFilter" value="File di schema per la colorazione dei modelli|*.hexpcs|" revision="0" />
+  <Message key="Recent Patterns…" value="Modelli recenti…" revision="0" />
+  <Message key="Type:" value="Tipo:" revision="0" />
+  <Message key="Find what:" value="Trova cosa:" revision="0" />
+  <Message key="Custom colors:" value="Colori personalizzati:" revision="0" />
+  <Message key="Default colors:" value="Colori predefiniti:" revision="0" />
+  <Message key="Alpha" value="Alfa" revision="0" />
+  <Message key="Custom..." value="Personalizzato…" revision="0" />
+  <Message key="Click here" value="Clicca qui" revision="0" />
+  <Message key="Current" value="Attuale" revision="0" />
+  <Message key="PredefinedOverwrite" value="Non è possibile modificare gli schemi predefiniti" revision="0" />
+  <Message key="toolbar.Output" value="Uscita" revision="0" />
+  <Message key="toolbar.PacketBuilder" value="Costruttore di pacchetti" revision="0" />
+  <Message key="clr.plot_colors" value="Colori della grafica" revision="1" />
+  <Message key="clr.plot_colors.grid" value="Griglia" revision="1" />
+  <Message key="clr.plot_colors.ordinalLine" value="Colore dell'ordinale" revision="1" />
+  <Message key="clr.plot_colors.timeLine" value="Colore del tempo" revision="1" />
+  <Message key="clr.plot_colors.selectedLine" value="Linea statica" revision="1" />
+  <Message key="clr.plot_colors.trackingLine" value="Linea di tracciamento" revision="1" />
+  <Message key="Save Color" value="Salva colore" revision="0" />
+  <Enumeration key="ToolsHighlightingNone">
+    <Item value="&amp;Nessuna colorazione dei pacchetti" revision="0" />
+    <Item value="Nessuna colorazione dei pacchetti" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsHighlightingInterlace">
+    <Item value="Colorare le confezioni &amp;pari/dispari" revision="0" />
+    <Item value="Colorare le confezioni pari/dispari" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsHighlightingRW">
+    <Item value="Colorazione in &amp;lettura/scrittura" revision="0" />
+    <Item value="Colorazione in lettura/scrittura" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsHighlightingSwitch">
+    <Item value="Colorazione dei pacchetti" revision="0" />
+    <Item value="Commutare la modalità di colorazione dei pacchetti" revision="0" />
+  </Enumeration>
+  <Enumeration key="OutputClear">
+    <Item value="Cancella tutto" revision="0" />
+    <Item value="Cancella il contenuto della finestra di output corrente" revision="0" />
+  </Enumeration>
+  <Enumeration key="AutoFit">
+    <Item value="Aggiustamento automatico" revision="0" />
+    <Item value="Aggiustamento automatico" revision="0" />
+  </Enumeration>
+  <Enumeration key="ModeLines">
+    <Item value="Disegnare le linee" revision="0" />
+    <Item value="Disegnare le linee" revision="0" />
+  </Enumeration>
+  <Enumeration key="ModeCurves">
+    <Item value="Disegnare le curve" revision="0" />
+    <Item value="Disegnare le curve" revision="0" />
+  </Enumeration>
+  <Enumeration key="FillNo">
+    <Item value="Nessun riempimento" revision="0" />
+    <Item value="Nessun riempimento" revision="0" />
+  </Enumeration>
+  <Enumeration key="FillSolid">
+    <Item value="Riempimento solido" revision="0" />
+    <Item value="Riempimento solido" revision="0" />
+  </Enumeration>
+  <Enumeration key="FillGradient">
+    <Item value="Riempimento gradiente" revision="0" />
+    <Item value="Riempimento gradiente" revision="0" />
+  </Enumeration>
+  <Enumeration key="DumpVarCommand">
+    <Item value="DEBUG: Dump var0" revision="0" />
+    <Item value="DEBUG: Dump var0" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditGoToTick">
+    <Item value="Vai al campione…" revision="0" />
+    <Item value="Individuare il campione specifico sul grafico" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditGoToLine">
+    <Item value="Vai alla linea" revision="0" />
+    <Item value="Vai alla linea" revision="0" />
+  </Enumeration>
+  <Enumeration key="PlotSetOnAxis">
+    <Item value="Mostra su Asse" revision="0" />
+    <Item value="Mostra su Asse" revision="0" />
+  </Enumeration>
+  <Enumeration key="PlotProperties">
+    <Item value="Modifica contatore…" revision="0" />
+    <Item value="Modifica del contatore selezionato" revision="0" />
+  </Enumeration>
+  <Enumeration key="PlotReset">
+    <Item value="Ripristino dei colori predefiniti" revision="0" />
+    <Item value="Ripristino dei colori predefiniti" revision="0" />
+  </Enumeration>
+  <Enumeration key="PlotCopy">
+    <Item value="Copia negli Appunti" revision="0" />
+    <Item value="Copia negli Appunti" revision="0" />
+  </Enumeration>
+  <Enumeration key="PlotExportToCSV">
+    <Item value="Esportazione su file (CSV)" revision="0" />
+    <Item value="Esportazione su file (CSV)" revision="0" />
+  </Enumeration>
+  <Enumeration key="PlotResetColumnWidth">
+    <Item value="Azzeramento della larghezza delle colonne" revision="0" />
+    <Item value="Azzeramento della larghezza delle colonne" revision="0" />
+  </Enumeration>
+  <Enumeration key="PacketBuilderAdd">
+    <Item value="Aggiungere un nuovo pacchetto…" revision="0" />
+    <Item value="Aggiungere un nuovo pacchetto all'elenco" revision="0" />
+  </Enumeration>
+  <Enumeration key="PacketBuilderDelete">
+    <Item value="Cancellare il pacchetto…" revision="0" />
+    <Item value="Cancellare il pacchetto selezionato" revision="0" />
+  </Enumeration>
+  <Enumeration key="PacketBuilderSendSelected">
+    <Item value="Inviare il pacchetto…" revision="0" />
+    <Item value="Inviare il pacchetto" revision="0" />
+  </Enumeration>
+  <Enumeration key="PacketBuilderSendAll">
+    <Item value="Inviare tutti i pacchetti…" revision="0" />
+    <Item value="Inviare tutti i pacchetti" revision="0" />
+  </Enumeration>
+  <Enumeration key="PacketBuilderSaveTemplate">
+    <Item value="Salvare il modello del pacchetto…" revision="0" />
+    <Item value="Salvare il modello" revision="0" />
+  </Enumeration>
+  <Enumeration key="PacketBuilderLoadFromFile">
+    <Item value="Carica modello di pacchetto da file…" revision="0" />
+    <Item value="Carica modello di pacchetto da file" revision="0" />
+  </Enumeration>
+  <Enumeration key="PacketBuilderUp">
+    <Item value="In alto" revision="0" />
+    <Item value="Sposta il pacchetto selezionato verso l'alto" revision="0" />
+  </Enumeration>
+  <Enumeration key="PacketBuilderDown">
+    <Item value="In basso" revision="0" />
+    <Item value="Sposta il pacchetto selezionato verso il basso" revision="0" />
+  </Enumeration>
+  <Enumeration key="PacketBuilderAutoChecksum">
+    <Item value="Calcolo automatico dei campi di checksum per i pacchetti IP e TCP" revision="0" />
+    <Item value="Calcolo automatico delle somme di controllo per i pacchetti IP e TCP" revision="0" />
+  </Enumeration>
+  <Enumeration key="PacketBuilderExport">
+    <Item value="Salvare il modello di pacchetto in un file…" revision="0" />
+    <Item value="Salvare il modello in un file" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetCopyValue">
+    <Item value="&amp;Copiare il valore" revision="0" />
+    <Item value="Copiare il valore negli Appunti" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetCopyLine">
+    <Item value="Copia della &amp;linea" revision="0" />
+    <Item value="Copiare l'intera riga negli Appunti" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetExpandSubTree">
+    <Item value="E&amp;spandi sottoalbero" revision="0" />
+    <Item value="Espandere il sottoalbero del campo" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetCollapseSubTree">
+    <Item value="&amp;Collasso del sottoalbero" revision="0" />
+    <Item value="Chiudere il sottoalbero del campo" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetNextPacket">
+    <Item value="Pacchetto &amp;successivo" revision="0" />
+    <Item value="Passa al pacchetto successivo" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetPrevPacket">
+    <Item value="Pacchetto &amp;precedente" revision="0" />
+    <Item value="Passa al pacchetto precedente" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetShowCurrent">
+    <Item value="Dettagli del pacchetto &amp;selezionato " revision="0" />
+    <Item value="Visualizzare i dettagli del pacchetto" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetSetFilter">
+    <Item value="Imposta &amp;filtro…" revision="0" />
+    <Item value="Configurazione del filtro di visualizzazione" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetSetBindPath">
+    <Item value="Stabilire il protocollo di &amp;root…" revision="0" />
+    <Item value="Specificare il protocollo principale per questo visualizzatore" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetExpandAll">
+    <Item value="Espandi tutto" revision="0" />
+    <Item value="Espandi tutto" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetCollapseAll">
+    <Item value="Comprimere tutti" revision="0" />
+    <Item value="Comprimere tutti" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditSelectNone">
+    <Item value="&amp;Selezionare Nessuno" revision="0" />
+    <Item value="Eliminazione di tutte le selezioni nella finestra focalizzata" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditSelectInvert">
+    <Item value="&amp;Selezionare Invertire" revision="0" />
+    <Item value="Selezionare Invertire" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditSelectPacket">
+    <Item value="&amp;Selezionare il pacchetto" revision="0" />
+    <Item value="Selezionare i dati del pacchetto corrente" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditSelectAll">
+    <Item value="Seleziona tutti" revision="0" />
+    <Item value="Selezionare tutti i contenuti del visualizzatore" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewHex">
+    <Item value="&amp;Esadecimale" revision="0" />
+    <Item value="Modalità esadecimale" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewDecimal">
+    <Item value="&amp;Decimale" revision="0" />
+    <Item value="Modalità decimale" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewOctal">
+    <Item value="&amp;Ottale" revision="0" />
+    <Item value="Modalità ottale" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewBinary">
+    <Item value="&amp;Binario" revision="0" />
+    <Item value="Modalità binaria" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewFloat">
+    <Item value="F&amp;loat" revision="0" />
+    <Item value="Modalità a virgola mobile a precisione singola" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewDouble">
+    <Item value="D&amp;ouble" revision="0" />
+    <Item value="Modalità a virgola mobile a doppia precisione" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewGroupByte">
+    <Item value="Byte" revision="0" />
+    <Item value="Gruppo come byte" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewGroupWord">
+    <Item value="Words" revision="0" />
+    <Item value="Gruppo come parole" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewGroupDword">
+    <Item value="Words doppie" revision="0" />
+    <Item value="Gruppo come parole doppie" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewGroupQword">
+    <Item value="Words quadrate" revision="0" />
+    <Item value="Raggruppare come parole quadrate" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewAutoCols">
+    <Item value="&amp;Automatico" revision="0" />
+    <Item value="Calcolo automatico del numero di colonne" revision="0" />
+  </Enumeration>
+  <Enumeration key="View4Cols">
+    <Item value="&amp;4 colonne" revision="0" />
+    <Item value="4 colonne" revision="0" />
+  </Enumeration>
+  <Enumeration key="View8Cols">
+    <Item value="&amp;8 colonne" revision="0" />
+    <Item value="8 colonne" revision="0" />
+  </Enumeration>
+  <Enumeration key="View16Cols">
+    <Item value="&amp;16 colonne" revision="0" />
+    <Item value="16 colonne" revision="0" />
+  </Enumeration>
+  <Enumeration key="View32Cols">
+    <Item value="&amp;32 colonne" revision="0" />
+    <Item value="32 colonne" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewCustomCols">
+    <Item value="&amp;Personalizzato…" revision="0" />
+    <Item value="Specificare il numero di colonne" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewTextPane">
+    <Item value="Riquadro di &amp;testo" revision="0" />
+    <Item value="Mostrare o nascondere un riquadro di testo (ASCII o UNICODE)" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewCodePane">
+    <Item value="Riquadro del &amp;codice" revision="0" />
+    <Item value="Mostrare o nascondere un riquadro di codice" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetHex">
+    <Item value="&amp;Esadecimale" revision="0" />
+    <Item value="Visualizza l'indirizzo come esadecimale" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetDecimal">
+    <Item value="&amp;Decimale" revision="0" />
+    <Item value="Visualizza l'indirizzo come decimal" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewOffsetOctal">
+    <Item value="&amp;Ottale" revision="0" />
+    <Item value="Visualizza l'indirizzo come ottale" revision="0" />
+  </Enumeration>
+  <Enumeration key="DefinePatterns">
+    <Item value="&amp;Definire i modelli…" revision="0" />
+    <Item value="Creare nuovi modelli o gestire quelli esistenti" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewEncoding">
+    <Item value="&amp;Codifica" revision="0" />
+    <Item value="Codifica" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewEndpoints">
+    <Item value="&amp;Punti finali" revision="0" />
+    <Item value="Punti finali" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringNewRule">
+    <Item value="Aggiungi nuova regola…" revision="0" />
+    <Item value="Definire una nuova regola di colorazione dei modelli" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringSaveColoring">
+    <Item value="Salva schema…" revision="0" />
+    <Item value="Salva schema da colorare" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringLoadColoring">
+    <Item value="Caricare schema…" revision="0" />
+    <Item value="Carica schema di colorazione del modello" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringClearColoring">
+    <Item value="Cancellare lo schema di colorazione" revision="0" />
+    <Item value="Cancellare lo schema di colorazione" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringCheckAll">
+    <Item value="Seleziona tutti" revision="0" />
+    <Item value="Abilitare tutte le regole" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringUncheckAll">
+    <Item value="Selezionare nessuno" revision="0" />
+    <Item value="Disattivare tutte le regole" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringEditRule">
+    <Item value="Modifica regola…" revision="0" />
+    <Item value="Modifica delle proprietà della regola" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringDelete">
+    <Item value="Eliminare" revision="0" />
+    <Item value="Eliminare la regola di colorazione" revision="0" />
+  </Enumeration>
+  <Enumeration key="PatternHighlightingEnabled">
+    <Item value="Evidenziazione del modello" revision="0" />
+    <Item value="Abilitare o disabilitare tutte le regole di evidenziazione dei modelli" revision="0" />
+  </Enumeration>
+  <Enumeration key="RawDataSelection">
+    <Item value="&amp;Mostrare la selezione" revision="0" />
+    <Item value="Mostrare la selezione" revision="0" />
+  </Enumeration>
+  <Enumeration key="RawDataInsertMode">
+    <Item value="Modalità di &amp;inserimento" revision="0" />
+    <Item value="Inserire i dati" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewBigEndian">
+    <Item value="&amp;Big-Endian" revision="0" />
+    <Item value="Ordine dei byte" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewLittleEndian">
+    <Item value="&amp;Little-Endian" revision="0" />
+    <Item value="Codifica little-endian" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsGotoOffset">
+    <Item value="&amp;Vai a Offset" revision="0" />
+    <Item value="Salto all'offset specificato" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsNextPacket">
+    <Item value="Pacchetto &amp;successivo" revision="0" />
+    <Item value="Salta all'inizio di un pacchetto successivo" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsPrevPacket">
+    <Item value="Pacchetto &amp;precedente" revision="0" />
+    <Item value="Salto all'inizio di un pacchetto precedente" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsSynchronize">
+    <Item value="&amp;Sincronizzare" revision="0" />
+    <Item value="Mostra il pacchetto più vicino nella finestra di lettura/scrittura" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditFindPrev">
+    <Item value="Trova precedente" revision="0" />
+    <Item value="Trova precedente" revision="0" />
+  </Enumeration>
+  <Enumeration key="RawDataLayoutSettings">
+    <Item value="&amp;Colorazione…" revision="0" />
+    <Item value="Mostra le impostazioni di colorazione per il visualizzatore di dati grezzi" revision="0" />
+  </Enumeration>
+  <Enumeration key="ToolsHexEditorExport">
+    <Item value="Elaborazione con Hex Editor Neo" revision="0" />
+    <Item value="Visualizzare, analizzare e modificare i frammenti selezionati con Hex Editor Neo" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuDisplayAs">
+    <Item value="Visualizza &amp;come" revision="0" />
+    <Item value="Visualizza come" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuGroupBy">
+    <Item value="Gruppo da" revision="0" />
+    <Item value="Gruppo da" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuColumns">
+    <Item value="&amp;Colonne" revision="0" />
+    <Item value="Colonne" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuEndians">
+    <Item value="Ordine dei &amp;byte" revision="0" />
+    <Item value="Ordine dei byte" revision="0" />
+  </Enumeration>
+  <Enumeration key="IncorrectInputText">
+    <Item value="Deve essere un valore esadecimale" revision="0" />
+    <Item value="Deve essere un valore decimale" revision="0" />
+    <Item value="Deve essere un valore ottale" revision="0" />
+    <Item value="Deve essere un numero reale" revision="0" />
+  </Enumeration>
+  <Enumeration key="Range">
+    <Item value="Gamma: {from} – {to} (Dimensione: {size})" revision="0" />
+    <Item value="Gamma: {from} – {to} (Dimensione: {size})" revision="0" />
+  </Enumeration>
+  <Enumeration key="StaticLinePlaced">
+    <Item value="Linea statica posizionata" revision="0" />
+    <Item value="Fare nuovamente clic tenendo premuto il tasto Ctrl per posizionare una linea di tracciamento." revision="0" />
+  </Enumeration>
+  <Enumeration key="SpecialHighSpeedMode">
+    <Item value="Modalità speciale ad alta velocità" revision="0" />
+    <Item value="Device Monitoring Studio può aumentare la precisione e le prestazioni del visualizzatore di statistiche se utilizzato da solo. Avviare una nuova sessione di monitoraggio con il solo visualizzatore di statistiche configurato, oppure chiudere subito tutti gli altri moduli di elaborazione dati per accedere a questa modalità.\nSi noti che la registrazione disabilita anche la modalità ad alta velocità." revision="0" />
+  </Enumeration>
+  <Enumeration key="PlotVariables">
+    <Item value="Campione" revision="0" />
+    <Item value="Muestra" revision="0" />
+    <Item lookup="Time" />
+  </Enumeration>
+  <Enumeration key="PlotColumns">
+    <Item lookup="Name" />
+    <Item value="Massimo" revision="0" />
+    <Item value="Media" revision="0" />
+    <Item value="Ultimo" revision="0" />
+    <Item value="Totale" revision="0" />
+    <Item value="Scala" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionColumns">
+    <Item value="Dimensione totale" revision="0" />
+    <Item value="Frammenti" revision="0" />
+    <Item value="Nessuna selezione" revision="0" />
+    <Item value="byte" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionDetailsColumns">
+    <Item value="№" revision="0" />
+    <Item value="Indirizzo" revision="0" />
+    <Item value="Lunghezza" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColorItems">
+    <Item value="Testo" revision="1" />
+    <Item value="Sfondo" revision="1" />
+    <Item value="Intestazione e indirizzo" revision="1" />
+    <Item value="Sfondo del indirizzo" revision="1" />
+    <Item value="Testo ASCII/UNICODE" revision="1" />
+    <Item value="Sfondo ASCII/UNICODE" revision="1" />
+    <Item value="Colonna/fila pari (per modalità interbloccate)" revision="1" />
+    <Item value="Colonna/fila dispari (per le modalità interbloccate)" revision="1" />
+    <Item value="Testo &quot;Nessun dato&quot;" revision="1" />
+    <Item value="Riempimento del cursore" revision="1" />
+    <Item value="Contorno del cursore" revision="1" />
+    <Item value="Testo evidenziato della riga e della colonna attiva " revision="1" />
+    <Item value="Sfondo evidenziato della riga e della colonna attiva " revision="1" />
+    <Item value="Testo del pacchetto dispari" revision="1" />
+    <Item value="Sfondo del pacchetto dispari" revision="1" />
+    <Item value="Contorno del pacchetto dispari" revision="1" />
+    <Item value="Testo del pacchetto pari" revision="1" />
+    <Item value="Sfondo del pacchetto pari" revision="1" />
+    <Item value="Contorno del pacchetto pari" revision="1" />
+    <Item value="Selezione" revision="1" />
+    <Item value="Testo modificabile" revision="1" />
+  </Enumeration>
+  <Enumeration key="FRTypeList">
+    <Item value="Stringa di testo" revision="0" />
+    <Item value="Stringa UNICODE" revision="0" />
+    <Item value="Esadecimale" revision="0" />
+  </Enumeration>
+  <Enumeration key="FRGroupList">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SViewColumns">
+    <Item value="Numero" revision="1" />
+    <Item lookup="Name" />
+    <Item lookup="Value" />
+    <Item lookup="Offset" />
+    <Item lookup="Size" />
+    <Item lookup="Type" />
+    <Item lookup="Time" />
+  </Enumeration>
+  <Enumeration key="SelectionGotoStart">
+    <Item value="Vai all'inizio" revision="0" />
+    <Item value="Salto all'inizio del blocco di selezione" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionGotoEnd">
+    <Item value="Vai alla fine" revision="0" />
+    <Item value="Salto alla fine del blocco di selezione" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionDeleteBlock">
+    <Item value="Cancellare il blocco" revision="0" />
+    <Item value="Eliminare il blocco di selezione" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionClear">
+    <Item value="Cancella la selezione" revision="0" />
+    <Item value="Cancellare tutti i blocchi selezionati" revision="0" />
+  </Enumeration>
+</Language>
