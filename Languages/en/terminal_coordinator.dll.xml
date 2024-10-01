@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+  <!-- Help Menu -->
+  <Enumeration key="HelpContents" description="Command: Help.Contents" revision="1">
+	<Item text="&amp;Contents"/>
+	<Item text="Display help file contents"/>
+  </Enumeration>
+
+  <Enumeration key="HelpAbout" description="Command: Help.About" revision="1">
+	<Item text="&amp;About Automated Serial Terminal"/>
+	<Item text="Display information about this product"/>
+  </Enumeration>
+
+	<Enumeration key="HelpLicenseManagement" description="Command: License Management">
+		<Item text="&amp;License Management…"/>
+		<Item text="Manage installed licenses"/>
+	</Enumeration>
+
+	<Enumeration key="MenuHelp" description="Command group: Help">
+	<Item text="&amp;Help"/>
+	<Item text="Help menu group"/>
+  </Enumeration>
+
+  <!-- File Menu -->
+  <Enumeration key="FileSave" description="Command: File.Save">
+	<Item text="&amp;Save"/>
+	<Item text="Save the current document"/>
+  </Enumeration>
+  <Enumeration key="FileSaveAs" description="Command: File.SaveAs">
+	<Item text="Save &amp;As"/>
+	<Item text="Save the current document under new name"/>
+  </Enumeration>
+
+  <!-- Edit Menu -->
+  <Enumeration key="EditUndo" description="Command: Edit.Undo">
+	<Item text="&amp;Undo"/>
+	<Item text="Undo the last action"/>
+  </Enumeration>
+  <Enumeration key="EditRedo" description="Command: Edit.Redo">
+	<Item text="&amp;Redo"/>
+	<Item text="Redo the previously undone action"/>
+  </Enumeration>
+  <Enumeration key="EditCut" description="Command: Edit.Cut">
+	<Item text="Cu&amp;t"/>
+	<Item text="Cut the selection and put it on the Clipboard"/>
+  </Enumeration>
+  <Enumeration key="EditCopy" description="Command: Edit.Copy">
+	<Item text="&amp;Copy"/>
+	<Item text="Copy the selection and put it on the Clipboard"/>
+  </Enumeration>
+  <Enumeration key="EditPaste" description="Command: Edit.Paste">
+	<Item text="&amp;Paste"/>
+	<Item text="Insert Clipboard contents"/>
+  </Enumeration>
+  <Enumeration key="EditClear" description="Command: Edit.Clear">
+	<Item text="&amp;Clear" />
+	<Item text="Delete the current selection" />
+  </Enumeration>
+  <Enumeration key="EditGotoLine" description="Command: Edit.GotoLine">
+	<Item text="&amp;Go to Line…"/>
+	<Item text="Go to specific line"/>
+  </Enumeration>
+  <Enumeration key="EditFind" description="Command: Edit.Find">
+	<Item text="&amp;Find…"/>
+	<Item text="Find pattern or all pattern occurrences"/>
+  </Enumeration>
+  <Enumeration key="EditFindNext" description="Command: Edit.Find Next">
+	<Item text="Find &amp;Next"/>
+	<Item text="Find next pattern occurrence"/>
+  </Enumeration>
+  <Enumeration key="EditSelectAll" description="Command: Edit.SelectAll">
+	<Item text="Select All"/>
+	<Item text="Select all window content"/>
+  </Enumeration>
+  <Enumeration key="EditSelectNone" description="Command: Edit.SelectNone">
+	<Item text="Select None"/>
+	<Item text="Drop current selection"/>
+  </Enumeration>
+  <Enumeration key="EditSelectPacket" description="Command: Edit.SelectPacket">
+	<Item text="Select Packet"/>
+	<Item text="Select packet under cursor"/>
+  </Enumeration>
+  <Enumeration key="EditExport" description="Command: Edit.Export">
+	<Item text="Export…"/>
+	<Item text="Export selected data"/>
+  </Enumeration>
+  <Enumeration key="EditClearView" description="Command: Edit.Clear">
+	<Item text="Clear"/>
+	<Item text="Clear current window"/>
+  </Enumeration>
+  <Enumeration key="EditColors" description="Command: Edit.Coloring">
+	<Item text="Colors…"/>
+	<Item text="Modify window colors"/>
+  </Enumeration>
+
+  <Enumeration key="FilteringX" description="Command: Edit.Filtering">
+	<Item text="Filters…"/>
+	<Item text="Modify filters"/>
+  </Enumeration>
+
+  <Enumeration key="MenuEdit" description="Command group: Edit">
+	<Item text="&amp;Edit"/>
+	<Item text="Edit menu group"/>
+  </Enumeration>
+
+  <Enumeration key="SessionStart" description="Command: Sessions.SessionStart">
+	<Item text="Start Session…"/>
+	<Item text="Start terminal session for selected device."/>
+  </Enumeration>
+
+  <Enumeration key="SessionStop" description="Command: Sessions.SessionStop">
+	<Item text="Stop Session"/>
+	<Item text="Stop terminal session for selected device."/>
+  </Enumeration>
+
+	<Enumeration key="SessionEdit" description="Command: Sessions.Edit">
+		<Item text="Edit Session…"/>
+		<Item text="Configure parameters for a running session."/>
+	</Enumeration>
+
+  <!-- Advertisement commands -->
+  <Enumeration key="ConnectRemotePort" description="Command: Tools.ConnectRemotePort">
+	<Item text="Connect Remote Port…" />
+	<Item text="Launch HHD Software Virtual Serial Port Tools to connect to remote serial port" />
+  </Enumeration>
+
+  <Enumeration key="CreateVirtualPort" description="Command: Tools.CreateVirtualPort">
+	<Item text="Create Virtual Port…" />
+	<Item text="Launch HHD Software Virtual Serial Port Tools to create new virtual serial port" />
+  </Enumeration>
+
+  <Enumeration key="MonitorPort" description="Command: Tools.MonitorPort">
+	<Item text="Monitor Serial Port…" />
+	<Item text="Launch HHD Software Serial Monitor to monitor serial port" />
+  </Enumeration>
+
+  <Enumeration key="SplitPort" description="Command: Tools.SplitPort">
+	<Item text="Split Serial Port…" />
+	<Item text="Launch HHD Software Virtual Serial Port Tools to split the serial port" />
+  </Enumeration>
+
+  <Message key="HotPlugCategory" description="Hot plug category" value="Hot Plug" />
+  <Message key="NextConnected" description="Next connected" value="Next connected" />
+
+	<Message key="TerminalAppPure" description="Application name (pure)" value="Automated Serial Terminal" />
+	
+	<Message key="TerminalApp" description="Application Name" value="Automated Serial Terminal{is free?} (Free Version, Non-Commercial Use Only){?is free}{is trial?} (Trial Version){?is trial}{is reg noncom?} (Non-Commercial Use Only){?is reg noncom}" revision="1">
+		<Param name="is free" format="?" />
+		<Param name="is trial" format="?" />
+		<Param name="is reg noncom" format="?" />
+	</Message>
+  <Message key="About title" description="About box title" value="About {product}">
+	<Param name="product"/>
+  </Message>
+
+  <Message key="AboutBoxTemplate" description="About box text template" value="[[[b[[[s:120:{name}]]]]]]\nVersion {major}.{minor}.{revision}.{build}\n\nCopyright ©2023 HHD Software Ltd.\nAll rights reserved.\n[[[hhttps://www.hhdsoftware.com]]]">
+	<Param name="name" />
+	<Param name="major" />
+	<Param name="minor" format="w2arf0" />
+	<Param name="revision" format="w2arf0" />
+	<Param name="build" format="w4arf0" />
+	<Param name="minor" format="w2arf0" />
+  </Message>
+
+  <Message key="Pattern not found" description="Pattern not found message" value="The pattern was not found."/>
+
+  <Message key="Go to line" description="Go to line text capiton" value="Enter line number between {from} and {to}:">
+	<Param name="from" />
+	<Param name="to" />
+  </Message>
+
+  <Message key="Out of range" description="Out of range error" value="Out of Range"/>
+  <Message key="Go to line out of range" description="Go to line out of range message" value="Entered value is out of required range." />
+
+  <!-- Open file filters -->
+  <Message key="Open filters" description="Open file filters" value="All script files|*.js; *.ts|JavaScript files (*.js)|*.js|TypeScript files (*.ts)|*.ts|All files|*||"/>
+
+  <!-- Devices tool window columns -->
+  <Enumeration key="Devices tool window columns" description="Devices tool window columns">
+	<Item text="Port"/>
+	<Item text="Device"/>
+  </Enumeration>
+
+	<Message key="Devices" description="Tool window: Devices" />
+
+	<Message key="toolbar.Devices" description="Toolbar: Devices" value="Devices" />
+
+	<!-- LM Dialog -->
+	<Enumeration key="LicenseState" description="Current license state">
+		<Item text="Free, trial period has not been started." />
+		<Item text="Free, trial period ends in [[[b{days}]]] days.">
+			<Param name="days"/>
+		</Item>
+		<Item text="Free, trial period is over." />
+		<Item text="[[[b{edition}]]]\r\nRegistered to [[[i{user}]]]">
+			<Param name="edition"/>
+			<Param name="user"/>
+		</Item>
+		<Item text="TODO: Upgrade plan expired" />
+	</Enumeration>
+
+	<Message key="ComNonComSuffix" description="Commercial or non-commercial license suffix" value="\r\n{comtype}">
+		<Param name="comtype"/>
+	</Message>
+
+	<Enumeration key="ComNonCom" description="Commercial and non-commercial license strings">
+		<Item text="Non-commercial use only"/>
+		<Item text="Commercial usage allowed"/>
+	</Enumeration>
+
+	<Message key="LicenseFileFilter" description="License file open dialog filter" value="License Files|*.termlic|All Files|*||">
+		<Validate rule="OpenFileDialogFilter"/>
+	</Message>
+	<Message key="License has been successfully installed." description="License has been successfully installed."/>
+	<Message key="There was an error installing a license file." description="There was an error installing a license file." value="There was an error installing a license file. The file might be corrupted or expired. Please log into the My Account section and download new license file."/>
+
+<!-- Welcome nag screen -->
+	<Message key="Trial dialog title: free" description="Trial dialog: title in free edition" value="Get Extended Functionality"/>
+	<Message key="Trial text: free" description="Trial dialog: text in free edition" value="You are currently using feature-limited [[[bFREE VERSION]]] of the product.\nYou may either continue using limited version or try extended functionality for 14 days first, then switch back to free."/>
+	<Message key="Trial link text: free" description="Trial link text: free" value="Continue with limited features" />
+
+	<Message key="Trial dialog title: trial" description="Trial dialog: title in trial" value="Get Extended Functionality"/>
+	<Message key="Trial text: trial" description="Trial dialog: text in trial edition" value="Some extended features of Automated Serial Terminal are trial and will expire in [[[b{days}]]] days.\nYou may continue with limited functionality or upgrade to the extended version. Purchasing extended functionality will remove this screen.">
+		<Param name="days" />
+	</Message>
+	<Message key="Trial link text: trial" description="Trial link text: trial" value="Continue evaluation" />
+
+	<Message key="Trial dialog title: expired" description="Trial dialog: title in expired edition" value="Get Extended Functionality"/>
+	<Message key="Trial text: expired" description="Trial dialog: text in expired edition" value="You are currently using feature-limited [[[bFREE VERSION]]] of the product.\nYou may either continue using limited version or upgrade to the extended version. Purchasing extended functionality will remove this screen." />
+	<Message key="Trial link text: expired" description="Trial link text: expired" value="Continue with limited features" />
+
+	<!-- Licensing -->
+	<Message key="NagFreeTitle" description="Title: Feature Not Available" value="Feature not Available"/>
+	<Message key="Close this notification" description="Link text: Close this notification" value="Close this notification"/>
+	<Message key="Try extended version" description="Button text: Try extended version"/>
+	<Message key="Purchase extended version" description="Button text: Purchase extended version" value="Get extended version"/>
+
+	<Message key="FreeVersionNagText1" description="Feature is not included in the Free version (trial not started)" value="{feature} feature is not included in the Free version.\n\nYou may continue with limited features of Free version or you may try the extended functionality for FREE during 14 days.">
+		<Param name="feature"/>
+	</Message>
+	<Message key="FreeVersionNagText2" description="Feature is not included in the Free version (trial finished)" value="{feature} feature is not included in the Free version.\n\nYou may continue with limited features of Free version or you may upgrade to the extended version.">
+		<Param name="feature"/>
+	</Message>
+	<Message key="PurchasedVersionNagText" description="Feature is not included in the current edition" value="{feature} feature is not included in the current edition.\n\nYou may continue with the features of the current edition or you may upgrade to the extended version.">
+		<Param name="feature"/>
+	</Message>
+
+	<!-- License features -->
+	<Message description="Feature: AnyNumberOfCopies" key="{50abd27b-7ff7-40db-9bcc-bd98dc555ba4}" value="2+ copies of Automated Serial Terminal" />
+	<Message description="Feature: ThreeOrMoreSessions" key="{a038db36-7555-4ad7-a16b-0b3c49e66ace}" value="3+ concurrent terminal sessions" />
+	<Message description="Feature: SessionsLongerThan5Mins" key="{a4ff6592-a914-4d6a-bae1-3d0d41a14c64}" value="5+ minutes terminal sessions" />
+	<Message description="Feature: ThreeOrMoreScripts" key="{2b4b7c3b-e22a-4edd-abf9-2da66c028f3f}" value="3+ concurrently running scripts" />
+	<Message description="Feature: ModbusSend" key="{80377ad6-d55a-4432-bccf-1eb720bbb053}" value="MODBUS Send" />
+	<Message description="Feature: ModbusScripts" key="{6e24a8d6-63e6-4b65-a0c5-eec56ffd76bc}" value="MODBUS Scripting" />
+</Definition>

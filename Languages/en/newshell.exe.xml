@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+	<Message key="General" description="Settings group: General"/>
+	<Message key="Notifications" description="Notifications settings group"/>
+	<Message key="AllSupported" description="Open dialog filter string: All Supported" value="All Supported"/>
+
+	<!-- Settings -->
+	<Message key="Tool Window settings" description="Settings: Tool Window Layout" value="Tool Window Layout"/>
+	<Message key="Commands settings" description="Settings: Commands Configuration" value="Commands Configuration"/>
+
+	<!-- File Menu -->
+	<Enumeration key="FileOpen" description="Command: File.Open">
+		<Item text="&amp;Open"/>
+		<Item text="Open new document"/>
+	</Enumeration>
+	<Enumeration key="FileExit" description="Command: File.Exit" revision="1">
+		<Item text="E&amp;xit"/>
+		<Item text="Exit Application"/>
+	</Enumeration>
+
+	<!-- View Menu -->
+	<Enumeration key="ViewImportConfiguration" description="Command: View.Import Configuration" revision="1">
+		<Item text="&amp;Import Configuration…"/>
+		<Item text="Import tool window configuration"/>
+	</Enumeration>
+	<Enumeration key="ViewExportConfiguration" description="Command: View.Export Configuration" revision="1">
+		<Item text="&amp;Export Configuration…"/>
+		<Item text="Export tool window configuration"/>
+	</Enumeration>
+	<Enumeration key="ViewResetConfiguration" description="Command: View.Reset Configuration" revision="1">
+		<Item text="&amp;Reset Configuration"/>
+		<Item text="Reset tool window configuration"/>
+	</Enumeration>
+	<Enumeration key="ViewLayouts" description="Command group: View.Layouts" revision="1">
+		<Item text="Predefined Layouts"/>
+		<Item text="Predefined Layouts"/>
+	</Enumeration>
+
+	<!-- Window Menu -->
+	<Enumeration key="WindowPrev" description="Command: Window.Prev" revision="1">
+		<Item text="&amp;Previous"/>
+		<Item text="Switch to the previous window"/>
+	</Enumeration>
+	<Enumeration key="WindowNext" description="Command: Window.Next" revision="1">
+		<Item text="&amp;Next"/>
+		<Item text="Switch to the next window"/>
+	</Enumeration>
+	<Enumeration key="WindowClose" description="Command: Window.Close" revision="1">
+		<Item text="&amp;Close Window"/>
+		<Item text="Close the active window"/>
+	</Enumeration>
+	<Enumeration key="WindowNextPane" description="Command: Window.Next Pane" revision="1">
+		<Item text="&amp;Next Pane"/>
+		<Item text="Next tool window"/>
+	</Enumeration>
+	<Enumeration key="WindowPrevPane" description="Command: Window.Prev Pane" revision="1">
+		<Item text="Previous Pane"/>
+		<Item text="Previous tool window"/>
+	</Enumeration>
+	<Enumeration key="WindowNewHorizontal" description="Command: Window.New Horizontal" revision="1">
+		<Item text="New &amp;Horizontal Frame"/>
+		<Item text="New Horizontal Frame"/>
+	</Enumeration>
+	<Enumeration key="WindowNewVertical" description="Command: Window.New Vertical" revision="1">
+		<Item text="New &amp;Vertical Frame"/>
+		<Item text="New Vertical Frame"/>
+	</Enumeration>
+	<Enumeration key="WindowWindows" description="Command: Window.Windows" revision="1">
+		<Item text="&amp;Windows…"/>
+		<Item text="Display the list of all opened document windows"/>
+	</Enumeration>
+	<Enumeration key="WindowDock" description="Command: Dock">
+		<Item text="&amp;Dock" />
+		<Item text="Dock current window" />
+	</Enumeration>
+	<Enumeration key="WindowFloat" description="Command: Float">
+		<Item text="&amp;Float" />
+		<Item text="Float current window" />
+	</Enumeration>
+	<Enumeration key="WindowTabbed" description="Command: Tabbed">
+		<Item text="&amp;Dock as Tabbed Window" />
+		<Item text="Show this window as tabbed document" />
+	</Enumeration>
+
+	<!-- Tools Menu -->
+	<Enumeration key="ToolsSettings" description="Command: Tools.Settings">
+		<Item text="&amp;Settings…" />
+		<Item text="Configure product settings"/>
+	</Enumeration>
+
+	<!-- Menu groups -->
+	<Enumeration key="MenuNew" description="Command group: New">
+		<Item text="&amp;New"/>
+		<Item text="New menu"/>
+	</Enumeration>
+	<Enumeration key="MenuFile" description="Command group: File">
+		<Item text="&amp;File"/>
+		<Item text="File menu group"/>
+	</Enumeration>
+	<Enumeration key="MenuView" description="Command group: View">
+		<Item text="&amp;View"/>
+		<Item text="View menu group"/>
+	</Enumeration>
+	<Enumeration key="MenuTools" description="Command group: Tools">
+		<Item text="&amp;Tools"/>
+		<Item text="Tools menu group"/>
+	</Enumeration>
+	<Enumeration key="MenuWindow" description="Command group: Window">
+		<Item text="&amp;Window"/>
+		<Item text="Window menu group"/>
+	</Enumeration>
+	<Enumeration key="MenuToolWindows" description="Command group: Tool Windows">
+		<Item text="&amp;Tool Windows"/>
+		<Item text="Tool Windows menu group"/>
+	</Enumeration>
+
+	<Message key="ActivatePane" description="Activate XXX pane" revision="1" value="Activate {pane} pane">
+		<Param name="pane"/>
+	</Message>
+
+	<Message key="Settings" description="Window title: Settings"/>
+
+	<!-- Commands page -->
+	<Message key="This toolbar cannot be deleted." description="This toolbar cannot be deleted" />
+	<Message key="Toolbar Deletion Failed" description="Message box title: Toolbar Deletion Failed" />
+	<Message key="Invalid toolbar name" description="Invalid toolbar name" value="Invalid toolbar name. Valid name must start with a letter."/>
+	<Message key="Toolbar Creation Failed" description="Message box title: Toolbar Creation Failed" />
+	<Message key="Toolbar already exists" description="Toolbar already exists" value="The toolbar with the name you specified already exists."/>
+	<Message key="All commands" description="All commands" />
+	<Message key="Commands Page" description="Commands Page window title" value="Commands"/>
+	<Message key="Toolbars" description="Field: Toolbars" value="Toolbars:"/>
+	<Message key="New" description="Button: New…" value="&amp;New…"/>
+	<Message key="Delete" description="Button: Delete" value="&amp;Delete"/>
+	<Message key="Button size" description="Field: Button size" value="Button size:"/>
+	<Message key="Select a command to view its description or drag it to a toolbar" description="Field: Select a command to view its description or drag it to a toolbar" value="Select a command to view its description or drag it to a toolbar:"/>
+
+	<!-- Keyboard page -->
+	<Message key="Keyboard" description="Message box title: Keyboard" />
+	<Message key="MaxShortcuts" description="Maximum number of shortcuts reached" value="You cannot assign more than 5 shortcuts to a command."/>
+	<Message key="ShortcutExists" description="Shortcut already exists" value="This shortcut is already defined for {command}. Do you want to redefine it?">
+		<Param name="command"/>
+	</Message>
+
+	<Message key="Keyboard Page" description="Keyboard page title" value="Keyboard"/>
+	<Message key="Category" description="Field: Category" value="Category:"/>
+	<Message key="Commands" description="Field: Commands" value="Commands:"/>
+	<Message key="Current keys" description="Field: Current keys" value="Current keys:"/>
+	<Message key="Press new shortcut key" description="Field: Press new shortcut key" value="Press &amp;new shortcut key:"/>
+	<Message key="Description" description="Field: Description" value="Description:"/>
+	<Message key="Currently assigned to" description="Field: Currently assigned to" value="Currently assigned to:"/>
+
+	<Message key="Assign" description="Button: Assign" value="&amp;Assign"/>
+	<Message key="Keyboard Map" description="Button: Keyboard Map" value="Keyboard &amp;Map"/>
+
+	<Message key="[unassigned]" description="Keyboard shortcut: [unassigned]" />
+	<Enumeration key="KeyboardColumns" description="Keyboard dialog columns" >
+		<Item text="Command"/>
+		<Item text="Shortcuts"/>
+		<Item text="Description"/>
+	</Enumeration>
+
+	<Message key="Configuration Filter String" description="UI Configuration Filter String" value="UI Configuration Files|*.tcf|">
+		<Validate rule="OpenFileDialogFilter"/>
+	</Message>
+
+	<Message key="Launch error" description="Program startup error" value="There was an error launching application: {error}">
+		<Param name="error" />
+	</Message>
+
+	<Message key="UI Layout" description="UI Layout Settings Manager Component" />
+	<Message key="Switch Window" description="Window title: Switch Window" />
+	<Message key="Error loading layout" description="Error message: error loading layout"/>
+	<Message key="Windows settings" description="Settings: Window positions" value="Dialog Window Positions"/>
+
+	<!-- Settings Page -->
+	<Message key="Settings Page" description="Settings page title" value="Settings"/>
+
+	<Message key="Settings Storage Location" description="Control group: Settings Storage Location"/>
+	<Enumeration key="Registry" description="Radio button: Registry">
+		<Item text="Registry"/>
+		<Item text="Default per-user storage location."/>
+	</Enumeration>
+	<Enumeration key="Portable mode" description="Radio button: Portable mode">
+		<Item text="Portable mode"/>
+		<Item text="Store application settings in portable.hexset file in startup folder."/>
+	</Enumeration>
+	<Enumeration key="External file:" description="Radio button: External File">
+		<Item text="External file:"/>
+		<Item text="Store application settings in external file. Specify shared location (like OneDrive or Dropbox shared folder) to share your settings between devices."/>
+	</Enumeration>
+
+	<Message key="Settings Management" description="Control group: Settings Management"/>
+	<Message key="Export Settings…" description="Button: Export Settings…"/>
+	<Message key="Import Settings…" description="Button: Import Settings…"/>
+	<Message key="Reset Settings…" description="Button: Reset Settings…"/>
+
+	<Message key="Ask to import settings" description="Import settings prompt" value="Specified file already exists. Do you want to import its contents now? If you click No, file will be overwritten with current settings."/>
+	<Message key="Ask to reset settings" description="Settings reset prompt" value="Application needs to be restarted to reset settings. Do you want to continue?"/>
+	<Message key="Ask to restart" description="Settings import restart prompt" value="It is recommended to restart application to apply imported settings. Do you want to restart now?"/>
+
+	<Message key="Export successful" description="Message: settings export successful" value="Settings have been successfully saved to a file."/>
+	<Message key="Import successful" description="Message: settings import successful" value="Settings have been successfully imported."/>
+
+
+	<Message key="Setting files" description="Filter string: Setting files" value="Settings|*.hhdset|">
+		<Validate rule="OpenFileDialogFilter"/>
+	</Message>
+
+	<Message key="AllFilesFilterString" description="Filter string: All files" revision="1" value="All Files|*|">
+		<Validate rule="OpenFileDialogFilter"/>
+	</Message>
+
+	<!-- Select Components dialog -->
+	<Message key="Select Components" description="Window title: Select Components"/>
+	<Message key="Select components:" description="Field: Select components"/>
+	<Message key="Select all" description="Checkbox: Select all"/>
+
+	<Message key="File creation error" revision="1" description="Generic file creation error" value='There was an error {create?}creating{|create}opening{?create} file "{name}": {text} ({code})'>
+		<Param name="create" format="?"/>
+		<Param name="name"/>
+		<Param name="text"/>
+		<Param name="code" format="ub016"/>
+	</Message>
+
+	<!-- -->
+	<Message key="UpgradePrompt" description="Upgrade prompt" value="{product name} version {major}.{minor}.{revision}.{build} is available. Do you want to upgrade now?">
+		<Param name="product name"/>
+		<Param name="major"/>
+		<Param name="minor" format="w2arf0"/>
+		<Param name="revision" format="w2arf0"/>
+		<Param name="build" format="w4arf0"/>
+	</Message>
+
+	<Message key="Loading" description="Tool window loading placeholder" value="Loading…" />
+
+	<!-- Color scheme -->
+
+	<Message key="clr.default_colors" description="Color: Default UI Colors" value="Default UI Colors" />
+	<Message key="clr.default_colors.background" description="Color: Default UI Background Color" value="Background" />
+	<Message key="clr.default_colors.control_background" description="Color: Default UI Control Color" value="Control background" />
+	<Message key="clr.default_colors.text" description="Color: Default UI Text Color" value="Text/foreground" />
+	<Message key="clr.default_colors.hyperlink" description="Color: Default Hyperlink Color" value="Hyperlink" />
+	<Message key="clr.default_colors.disabled" description="Color: Default UI Disabled Color" value="Disabled text" />
+	<Message key="clr.default_colors.hover.fill" description="Color: Default UI Hover Background Color" value="Hover background" />
+	<Message key="clr.default_colors.hover.stroke" description="Color: Default UI Hover Stroke Color" value="Hover stroke" />
+	<Message key="clr.default_colors.hover.text" description="Color: Default UI Hover Text Color" value="Hover text" />
+	<Message key="clr.default_colors.selected.fill" description="Color: Default UI Selected Background Color" value="Selected background" />
+	<Message key="clr.default_colors.selected.stroke" description="Color: Default UI Selected Stroke Color" value="Selected stroke" />
+	<Message key="clr.default_colors.selected.text" description="Color: Default UI Selected Text Color" value="Selected text" />
+	<Message key="clr.menu" description="Color: Menu Colors" value="Menu Colors" />
+	<Message key="clr.menu.background" description="Color: Menu Background Color" value="Background" />
+	<Message key="clr.menu.text" description="Color: Menu Text Color" value="Text" />
+	<Message key="clr.menu.separator" description="Color: Menu Separator Color" value="Separator" />
+	<Message key="clr.menu.disabled_text" description="Color: Menu Disabled Text Color" value="Disabled text" />
+	<Message key="clr.menu.checked" description="Color: Menu Checked Color" value="Checked background" />
+	<Message key="clr.menu.checked_disabled" description="Color: Menu Checked Disabled Color" value="Checked &amp; disabled background" />
+	<Message key="clr.menu.hover.fill" description="Color: Menu Hover Background Color" value="Hover background" />
+	<Message key="clr.menu.hover.stroke" description="Color: Menu Hover Stroke Color" value="Hover stroke" />
+	<Message key="clr.menu.hover.text" description="Color: Menu Hover Text Color" value="Hover text" />
+	<Message key="clr.menu.disabled_hover.fill" description="Color: Menu Disabled Hover Background Color" value="Disabled hover background" />
+	<Message key="clr.menu.disabled_hover.stroke" description="Color: Menu Disabled Hover Stroke Color" value="Disabled hover stroke" />
+	<Message key="clr.menu.disabled_hover.text" description="Color: Menu Disabled Hover Text Color" value="Disabled hover text" />
+	<Message key="clr.rebar" description="Color: Rebar Colors" value="Rebar Colors" />
+	<Message key="clr.rebar.background" description="Color: Rebar Background Color" value="Background" />
+	<Message key="clr.rebar.chevron.fill" description="Color: Rebar Chevron Dot Fill Color" value="Chevron dot fill color" />
+	<Message key="clr.rebar.chevron.stroke" description="Color: Rebar Chevron Dot Stroke Color" value="Chevron dot stroke color" />
+	<Message key="clr.toolbar" description="Color: Toolbar Colors" value="Toolbar Colors" />
+	<Message key="clr.toolbar.background" description="Color: Toolbar Background Color" value="Background" />
+	<Message key="clr.toolbar.text" description="Color: Toolbar Text Color" value="Text" />
+	<Message key="clr.toolbar.disabled" description="Color: Toolbar Disabled Text Color" value="Disabled text" />
+	<Message key="clr.toolbar.separator" description="Color: Toolbar Separator Color" value="Separator" />
+	<Message key="clr.toolbar.hover.fill" description="Color: Toolbar Hover Background Color" value="Hover background" />
+	<Message key="clr.toolbar.hover.stroke" description="Color: Toolbar Hover Stroke Color" value="Hover stroke" />
+	<Message key="clr.toolbar.hover.text" description="Color: Toolbar Hover Text Color" value="Hover text" />
+	<Message key="clr.toolbar.pressed.fill" description="Color: Toolbar Pressed Background Color" value="Pressed background" />
+	<Message key="clr.toolbar.pressed.stroke" description="Color: Toolbar Pressed Stroke Color" value="Pressed stroke" />
+	<Message key="clr.toolbar.pressed.text" description="Color: Toolbar Pressed Text Color" value="Pressed text" />
+	<Message key="clr.toolbar.disabled_pressed.fill" description="Color: Toolbar Disabled Pressed Background Color" value="Disabled pressed background" />
+	<Message key="clr.toolbar.disabled_pressed.stroke" description="Color: Toolbar Disabled Pressed Stroke Color" value="Disabled pressed stroke" />
+	<Message key="clr.frame" description="Color: Frame Colors" value="Frame Colors" />
+	<Message key="clr.frame.frame.background" description="Color: Frame Background Color" value="Background" />
+	<Message key="clr.frame.frame.client_background" description="Color: Frame Client Background Color" value="Client background" />
+	<Message key="clr.frame.frame.document_frame_background" description="Color: Frame Document Frame Background Color" value="Document frame background" />
+	<Message key="clr.frame.frame.border" description="Color: Frame Border Color" value="Border" />
+	<Message key="clr.frame.header.inactive.fill" description="Color: Frame Header Inactive Background Color" value="Inactive header background" />
+	<Message key="clr.frame.header.inactive.stroke" description="Color: Frame Header Inactive Stroke Color" value="Inactive header text/stroke" />
+	<Message key="clr.frame.header.active.fill" description="Color: Frame Header Active Background Color" value="Active header background" />
+	<Message key="clr.frame.header.active.stroke" description="Color: Frame Header Active Stroke Color" value="Active header text/stroke" />
+	<Message key="clr.frame.hover.fill" description="Color: Frame Hover Background Color" value="Hover background" />
+	<Message key="clr.frame.hover.stroke" description="Color: Frame Hover Stroke Color" value="Hover stroke" />
+	<Message key="clr.frame.hover.text" description="Color: Frame Hover Text Color" value="Hover text" />
+	<Message key="clr.frame.title_text" description="Color: Frame Title Text Color" value="Title text" />
+	<Message key="clr.frame.nav.shadow" description="Color: Frame Nav Shadow Color" value="Navigation icon shadow" />
+	<Message key="clr.frame.nav.background" description="Color: Frame Nav Background Color" value="Navigation icon background" />
+	<Message key="clr.frame.nav.highlight" description="Color: Frame Nav Highlight Color" value="Navigation icon highlight" />
+	<Message key="clr.frame.nav.header" description="Color: Frame Nav Header Color" value="Navigation icon header" />
+	<Message key="clr.frame.nav.frame" description="Color: Frame Nav Frame Color" value="Navigation icon border" />
+
+	<Message key="clr.listview" description="Color: List View Colors" value="List View Colors"/>
+	
+	<Message key="clr.listview.normal.fill" description="Color: ListView Background Color" value="Background"/>
+	<Message key="clr.listview.normal.stroke" description="Color: ListView Text Color" value="Text"/>
+
+	<Message key="clr.listview.header.fill" description="Color: ListView Header Background Color" value="Header background"/>
+	<Message key="clr.listview.header.stroke" description="Color: ListView Header Text Color" value="Header text"/>
+
+	<Message key="clr.listview.selected.inactive.fill" description="Color: ListView Inactive Selection Background Color" value="Inactive selection background"/>
+	<Message key="clr.listview.selected.inactive.text" description="Color: ListView Inactive Selection Text Color" value="Inactive selection text"/>
+	<Message key="clr.listview.selected.inactive.stroke" description="Color: ListView Inactive Selection Stroke Color" value="Inactive selection stroke"/>
+
+	<Message key="clr.listview.selected.active.fill" description="Color: Active ListView Selection Background Color" value="Active selection background"/>
+	<Message key="clr.listview.selected.active.text" description="Color: Active ListView Selection Text Color" value="Active selection text"/>
+	<Message key="clr.listview.selected.active.stroke" description="Color: Active ListView Selection Stroke Color" value="Active selection stroke"/>
+
+	<Message key="clr.listview.hover.fill" description="Color: ListView Hover Background Color" value="Hover background"/>
+	<Message key="clr.listview.hover.stroke" description="Color: ListView Hover Text Color" value="Hover text"/>
+
+	<Message key="clr.listview.grid" description="Color: ListView Grid Color" value="Grid"/>
+	<Message key="clr.listview.alternate_background" description="Color: ListView Alternate Background Color" value="Alternate background"/>
+	<Message key="clr.listview.hyperlink" description="Color: ListView Hyperlink Color" value="Hyperlink"/>
+
+	<Message key="clr.balloon" description="Color: Notification Window Colors" value="Notification Window Colors"/>
+	<Message key="clr.balloon.balloon.fill" description="Color: Notification Window Background" value="Background"/>
+	<Message key="clr.balloon.balloon.text" description="Color: Notification Window Text" value="Text"/>
+	<Message key="clr.balloon.balloon.stroke" description="Color: Notification Window Stroke" value="Stroke"/>
+	<Message key="clr.balloon.dontDisplay" description="Color: Notification Window Don't Display Anymore" value="&quot;Don't display anymore&quot; message"/>
+
+	
+	<Message key="Colors Page" description="Themes settings page" value="Themes" />
+
+	<Message key="Enter the scheme name and press the Save button" description="Color scheme name banner" />
+	<Message key="ColorSchemeExists" description="Color scheme overwrite prompt" value="Color scheme already exists. Do you want to override it?"/>
+
+	<Message key="ColorWheelIssue" description="Color wheel warning message" value="You cannot click on a color wheel for full white (L = 100) and full black (L = 0) colors. Change any color component first." />
+
+	<!-- Settings page groups -->
+	<Message key="Settings group.Visual" description="Settings group: Visual" value="Visual" />
+	<Message key="Settings group.User Interface" description="Settings group: User Interface" value="User Interface" />
+	<Message key="Settings group.Network" description="Settings group: Network &amp; Support" value="Network &amp; Support" />
+	<Message key="Settings group.Misc" description="Settings group: Misc" value="Other" />
+
+	<Message key="General Page" description="Settings page: General" value="General" />
+	<Message key="Search settings" description="Search settings"/>
+
+	<Message key="Cancel" description="Button: Cancel" />
+	<Message key="Close" description="Button: Close" />
+
+	<Message key="toolbar.Standard" description="Toolbar: Standard" value="Standard" />
+
+	<!-- Props -->
+	<Message key="restoreWindowPosition" description="PROP: Restore window position on startup" value="Restore window position on startup" />
+	<Message key="documentsToRemember" description="PROP: Number of recent documents to remember" value="Number of recent documents to remember" />
+
+	<Message key="ThemeFiles" description="Format string: Theme files" value="Theme Files (*.hhdtheme)|*.hhdtheme||">
+		<Validate rule="OpenFileDialogFilter" />
+	</Message>
+</Definition>
