@@ -1,138 +1,169 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="HotPlugCategory" value="Горячее соединение" revision="0" />
+  <Message key="NextConnected" value="Следующее подключённое" revision="0" />
+  <Message key="TerminalAppPure" value="Automated Serial Terminal" revision="0" />
+  <Message key="About title" value="О продукте {product}" revision="0" />
+  <Message key="Pattern not found" value="Шаблон не найден." revision="0" />
+  <Message key="Go to line" value="Введите номер строки от {from} до {to}:" revision="0" />
+  <Message key="Out of range" value="Вне диапазона" revision="0" />
+  <Message key="Go to line out of range" value="Введённое значение за пределами диапазона." revision="0" />
+  <Message key="Open filters" value="Все скрипт файлы|*.js; *.ts|Все JavaScript файлы (*.js)|*.js|Все TypeScript файлы (*.ts)|*.ts|Все файлы|*||" revision="0" />
+  <Message key="Devices" value="Устройства" revision="0" />
+  <Message key="toolbar.Devices" value="Устройства" revision="0" />
+  <Message key="ComNonComSuffix" value="\r\n{comtype}" revision="0" />
+  <Message key="LicenseFileFilter" value="Лицензионные файлы|*.termlic|Все файлы|*||" revision="0" />
+  <Message key="License has been successfully installed." value="Лицензия успешно установлена." revision="0" />
+  <Message key="There was an error installing a license file." value="Возникла ошибка при установке файла лицензии. Возможно, файл повреждён или срок его действия истёк. Пожалуйста, войдите в раздел «Моя учётная запись» и загрузите новый файл лицензии." revision="0" />
+  <Message key="Trial dialog title: free" value="Получить расширенные функции" revision="0" />
+  <Message key="Trial link text: free" value="Продолжить с ограниченными функциями" revision="0" />
+  <Message key="Trial dialog title: trial" value="Получить расширенные функции]" revision="0" />
+  <Message key="Trial link text: trial" value="Продолжить пробу" revision="0" />
+  <Message key="Trial dialog title: expired" value="Получить расширенные функции" revision="0" />
+  <Message key="Trial link text: expired" value="Продолжить с ограниченными функциями" revision="0" />
+  <Message key="NagFreeTitle" value="Функция недоступна" revision="0" />
+  <Message key="Close this notification" value="Закрыть это уведомление" revision="0" />
+  <Message key="Try extended version" value="Попробовать расширенную версию" revision="0" />
+  <Message key="Purchase extended version" value="Получить расширенные функции" revision="0" />
+  <Message key="{50abd27b-7ff7-40db-9bcc-bd98dc555ba4}" value="2+ копии Automated Serial Terminal" revision="0" />
+  <Message key="{a038db36-7555-4ad7-a16b-0b3c49e66ace}" value="3+ одновременных терминальных сессий" revision="0" />
+  <Message key="{a4ff6592-a914-4d6a-bae1-3d0d41a14c64}" value="Терминальные сессии продолжительностью 5+ минут" revision="0" />
+  <Message key="{2b4b7c3b-e22a-4edd-abf9-2da66c028f3f}" value="3+ одновременно выполняемых скриптов" revision="0" />
+  <Message key="{80377ad6-d55a-4432-bccf-1eb720bbb053}" value="Отсылка MODBUS" revision="0" />
+  <Message key="{6e24a8d6-63e6-4b65-a0c5-eec56ffd76bc}" value="Скрипты MODBUS" revision="0" />
   <Enumeration key="HelpContents">
-    <Item />
-    <Item />
+    <Item value="&amp;Содержание" revision="1" />
+    <Item value="Отобразить содержимое файла справки" revision="1" />
   </Enumeration>
   <Enumeration key="HelpAbout">
-    <Item />
-    <Item />
+    <Item value="&amp;О продукте Automated Serial Terminal" revision="1" />
+    <Item value="Отображение информации об этом продукте" revision="1" />
   </Enumeration>
   <Enumeration key="HelpLicenseManagement">
-    <Item />
-    <Item />
+    <Item value="&amp;Управление лицензиями…" revision="0" />
+    <Item value="Управление установленными лицензиями" revision="0" />
   </Enumeration>
   <Enumeration key="MenuHelp">
-    <Item />
-    <Item />
+    <Item value="&amp;Справка" revision="0" />
+    <Item value="Группа меню Справка" revision="0" />
   </Enumeration>
   <Enumeration key="FileSave">
-    <Item />
-    <Item />
+    <Item value="&amp;Сохранить" revision="0" />
+    <Item value="Сохранить текущий документ" revision="0" />
   </Enumeration>
   <Enumeration key="FileSaveAs">
-    <Item />
-    <Item />
+    <Item value="Сохранить &amp;как" revision="0" />
+    <Item value="Сохраните текущий документ под новым именем" revision="0" />
   </Enumeration>
   <Enumeration key="EditUndo">
-    <Item />
-    <Item />
+    <Item value="&amp;Отменить" revision="0" />
+    <Item value="Отменить последнее действие" revision="0" />
   </Enumeration>
   <Enumeration key="EditRedo">
-    <Item />
-    <Item />
+    <Item value="&amp;Повторить" revision="0" />
+    <Item value="Повторить отмененное ранее действие" revision="0" />
   </Enumeration>
   <Enumeration key="EditCut">
-    <Item />
-    <Item />
+    <Item value="Вы&amp;резать" revision="0" />
+    <Item value="Вырезать выделенное и поместить его в буфер обмена" revision="0" />
   </Enumeration>
   <Enumeration key="EditCopy">
-    <Item />
-    <Item />
+    <Item value="&amp;Копировать" revision="0" />
+    <Item value="Скопировать выделенное и поместить его в буфер обмена" revision="0" />
   </Enumeration>
   <Enumeration key="EditPaste">
-    <Item />
-    <Item />
+    <Item value="&amp;Вставить" revision="0" />
+    <Item value="Вставить содержимое буфера обмена" revision="0" />
   </Enumeration>
   <Enumeration key="EditClear">
-    <Item />
-    <Item />
+    <Item value="&amp;Очистить" revision="0" />
+    <Item value="Удалить текущее выделенное" revision="0" />
   </Enumeration>
   <Enumeration key="EditGotoLine">
-    <Item />
-    <Item />
+    <Item value="&amp;Перейти к линии…" revision="0" />
+    <Item value="Перейти к определенной строке" revision="0" />
   </Enumeration>
   <Enumeration key="EditFind">
-    <Item />
-    <Item />
+    <Item value="&amp;Найти…" revision="0" />
+    <Item value="Найти шаблон или все вхождения шаблона" revision="0" />
   </Enumeration>
   <Enumeration key="EditFindNext">
-    <Item />
-    <Item />
+    <Item value="Найти &amp; следующее" revision="0" />
+    <Item value="Найти следующее вхождение" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectAll">
-    <Item />
-    <Item />
+    <Item value="Выбрать все" revision="0" />
+    <Item value="Выберите все содержимое окна" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectNone">
-    <Item />
-    <Item />
+    <Item value="Сбросить выделение" revision="0" />
+    <Item value="Сбросить текущее выделение" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectPacket">
-    <Item />
-    <Item />
+    <Item value="Выбрать пакет" revision="0" />
+    <Item value="Выбрать пакет под курсором" revision="0" />
   </Enumeration>
   <Enumeration key="EditExport">
-    <Item />
-    <Item />
+    <Item value="Экспортировать…" revision="0" />
+    <Item value="Экспорт выбранных данных" revision="0" />
   </Enumeration>
   <Enumeration key="EditClearView">
-    <Item />
-    <Item />
+    <Item value="Очистить" revision="0" />
+    <Item value="Очистить текущее окно" revision="0" />
   </Enumeration>
   <Enumeration key="EditColors">
-    <Item />
-    <Item />
+    <Item value="Цвета…" revision="0" />
+    <Item value="Изменить цвета окон" revision="0" />
   </Enumeration>
   <Enumeration key="FilteringX">
-    <Item />
-    <Item />
+    <Item value="Фильтры…" revision="0" />
+    <Item value="Изменить фильтры" revision="0" />
   </Enumeration>
   <Enumeration key="MenuEdit">
-    <Item />
-    <Item />
+    <Item value="&amp;Редактировать" revision="0" />
+    <Item value="Группа меню Редактирование" revision="0" />
   </Enumeration>
   <Enumeration key="SessionStart">
-    <Item />
-    <Item />
+    <Item value="Начало сессии…" revision="0" />
+    <Item value="Запуск терминальной сессии для выбранного устройства." revision="0" />
   </Enumeration>
   <Enumeration key="SessionStop">
-    <Item />
-    <Item />
+    <Item value="Остановить сессию" revision="0" />
+    <Item value="Остановить терминальную сессию для выбранного устройства." revision="0" />
   </Enumeration>
   <Enumeration key="SessionEdit">
-    <Item />
-    <Item />
+    <Item value="Редактировать сессию…" revision="0" />
+    <Item value="Настройте параметры для запущенного сеанса." revision="0" />
   </Enumeration>
   <Enumeration key="ConnectRemotePort">
-    <Item />
-    <Item />
+    <Item value="Подключить к удаленному порту…" revision="0" />
+    <Item value="Запустите HHD Software Virtual Serial Port Tools для подключения к удаленному последовательному порту" revision="0" />
   </Enumeration>
   <Enumeration key="CreateVirtualPort">
-    <Item />
-    <Item />
+    <Item value="Создать виртуальный порт…" revision="0" />
+    <Item value="Запустите HHD Software Virtual Serial Port Tools для создания нового виртуального последовательного порта" revision="0" />
   </Enumeration>
   <Enumeration key="MonitorPort">
-    <Item />
-    <Item />
+    <Item value="Мониторить Serial порт…" revision="0" />
+    <Item value="Запустите HHD Software Serial Monitor для мониторинга последовательного порта" revision="0" />
   </Enumeration>
   <Enumeration key="SplitPort">
-    <Item />
-    <Item />
+    <Item value="Разделить Serial порт…" revision="0" />
+    <Item value="Запустите HHD Software Virtual Serial Port Tools для разделения последовательного порта" revision="0" />
   </Enumeration>
   <Enumeration key="Devices tool window columns">
-    <Item />
-    <Item />
+    <Item value="Порт" revision="0" />
+    <Item value="Устройство" revision="0" />
   </Enumeration>
   <Enumeration key="LicenseState">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Бесплатная, пробный период еще не начался." revision="0" />
+    <Item value="Бесплатная, пробный период заканчивается через [[[b{days}]]] дней." revision="0" />
+    <Item value="Бесплатно, пробный период закончился." revision="0" />
+    <Item value="[[[b{edition}]]]\r\nЗарегистрирован на [[[i{user}]]]" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="ComNonCom">
-    <Item />
-    <Item />
+    <Item value="Только некоммерческое использование" revision="0" />
+    <Item value="Коммерческое использование разрешено" revision="0" />
   </Enumeration>
 </Language>

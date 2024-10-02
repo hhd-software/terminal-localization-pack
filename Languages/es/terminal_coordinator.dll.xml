@@ -1,138 +1,169 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="HotPlugCategory" value="Conexión en caliente" revision="0" />
+  <Message key="NextConnected" value="Siguiente conectado" revision="0" />
+  <Message key="TerminalAppPure" value="Automated Serial Terminal" revision="0" />
+  <Message key="About title" value="Acerca {product}" revision="0" />
+  <Message key="Pattern not found" value="No se ha encontrado el patrón." revision="0" />
+  <Message key="Go to line" value="Introduzca el número de línea entre {from} y {to}:" revision="0" />
+  <Message key="Out of range" value="Fuera de rango" revision="0" />
+  <Message key="Go to line out of range" value="El valor introducido está fuera del rango requerido." revision="0" />
+  <Message key="Open filters" value="Todos los archivos de script|*.js; *.ts|Archivos JavaScript (*.js)|*.js|Archivos TypeScript(*.ts)|*.ts|Todos los archivos|*||" revision="0" />
+  <Message key="Devices" value="Dispositivos" revision="0" />
+  <Message key="toolbar.Devices" value="Dispositivos" revision="0" />
+  <Message key="ComNonComSuffix" value="\r\n{comtype}" revision="0" />
+  <Message key="LicenseFileFilter" value="Archivos de licencia|*.termlic|Todos los archivos|*||" revision="0" />
+  <Message key="License has been successfully installed." value="La licencia se ha instalado correctamente." revision="0" />
+  <Message key="There was an error installing a license file." value="Se ha producido un error al instalar un archivo de licencia. El archivo puede estar dañado o caducado. Inicie sesión en la sección Mi cuenta y descargue un nuevo archivo de licencia." revision="0" />
+  <Message key="Trial dialog title: free" value="Obtenga funciones ampliadas" revision="0" />
+  <Message key="Trial link text: free" value="Continuar con funciones limitadas" revision="0" />
+  <Message key="Trial dialog title: trial" value="Obtenga funciones ampliadas" revision="0" />
+  <Message key="Trial link text: trial" value="Continuar la evaluación" revision="0" />
+  <Message key="Trial dialog title: expired" value="Obtenga funciones ampliadas" revision="0" />
+  <Message key="Trial link text: expired" value="Continuar con funciones limitadas" revision="0" />
+  <Message key="NagFreeTitle" value="Función no disponible" revision="0" />
+  <Message key="Close this notification" value="Cerrar esta notificación" revision="0" />
+  <Message key="Try extended version" value="Pruebe la versión ampliada" revision="0" />
+  <Message key="Purchase extended version" value="Obtenga funciones ampliadas" revision="0" />
+  <Message key="{50abd27b-7ff7-40db-9bcc-bd98dc555ba4}" value="2+ copias de Automated Serial Terminal" revision="0" />
+  <Message key="{a038db36-7555-4ad7-a16b-0b3c49e66ace}" value="Más de 3 sesiones simultáneas de terminal" revision="0" />
+  <Message key="{a4ff6592-a914-4d6a-bae1-3d0d41a14c64}" value="Sesiones terminales de más de 5 minutos" revision="0" />
+  <Message key="{2b4b7c3b-e22a-4edd-abf9-2da66c028f3f}" value="Más de 3 scripts en ejecución simultánea" revision="0" />
+  <Message key="{80377ad6-d55a-4432-bccf-1eb720bbb053}" value="MODBUS Enviar" revision="0" />
+  <Message key="{6e24a8d6-63e6-4b65-a0c5-eec56ffd76bc}" value="Script MODBUS" revision="0" />
   <Enumeration key="HelpContents">
-    <Item />
-    <Item />
+    <Item value="&amp;Contenido" revision="1" />
+    <Item value="Mostrar el contenido del archivo de ayuda" revision="1" />
   </Enumeration>
   <Enumeration key="HelpAbout">
-    <Item />
-    <Item />
+    <Item value="&amp;Acerca de Automated Serial Terminal" revision="1" />
+    <Item value="Mostrar información sobre este producto" revision="1" />
   </Enumeration>
   <Enumeration key="HelpLicenseManagement">
-    <Item />
-    <Item />
+    <Item value="&amp;Gestión de licencias…" revision="0" />
+    <Item value="Gestionar las licencias instaladas" revision="0" />
   </Enumeration>
   <Enumeration key="MenuHelp">
-    <Item />
-    <Item />
+    <Item value="&amp;Ayuda" revision="0" />
+    <Item value="Grupo de menús Ayuda" revision="0" />
   </Enumeration>
   <Enumeration key="FileSave">
-    <Item />
-    <Item />
+    <Item value="&amp;Guardar" revision="0" />
+    <Item value="Guardar el documento actual" revision="0" />
   </Enumeration>
   <Enumeration key="FileSaveAs">
-    <Item />
-    <Item />
+    <Item value="Guardar &amp;como" revision="0" />
+    <Item value="Guardar el documento actual con un nuevo nombre" revision="0" />
   </Enumeration>
   <Enumeration key="EditUndo">
-    <Item />
-    <Item />
+    <Item value="&amp;Deshacer" revision="0" />
+    <Item value="Deshacer la última acción" revision="0" />
   </Enumeration>
   <Enumeration key="EditRedo">
-    <Item />
-    <Item />
+    <Item value="&amp;Rehacer" revision="0" />
+    <Item value="Rehacer la acción previamente deshecha" revision="0" />
   </Enumeration>
   <Enumeration key="EditCut">
-    <Item />
-    <Item />
+    <Item value="Cor&amp;tar" revision="0" />
+    <Item value="Cortar la selección y ponerla en el Portapapeles" revision="0" />
   </Enumeration>
   <Enumeration key="EditCopy">
-    <Item />
-    <Item />
+    <Item value="&amp;Copiar" revision="0" />
+    <Item value="Copiar la selección y ponerla en el Portapapeles" revision="0" />
   </Enumeration>
   <Enumeration key="EditPaste">
-    <Item />
-    <Item />
+    <Item value="&amp;Pegar" revision="0" />
+    <Item value="Insertar el contenido del portapapeles" revision="0" />
   </Enumeration>
   <Enumeration key="EditClear">
-    <Item />
-    <Item />
+    <Item value="&amp;Borrar" revision="0" />
+    <Item value="Borrar la selección actual" revision="0" />
   </Enumeration>
   <Enumeration key="EditGotoLine">
-    <Item />
-    <Item />
+    <Item value="&amp;Ir a la línea…" revision="0" />
+    <Item value="Ir a una línea específica" revision="0" />
   </Enumeration>
   <Enumeration key="EditFind">
-    <Item />
-    <Item />
+    <Item value="&amp;Buscar…" revision="0" />
+    <Item value="Buscar patrón o todas las ocurrencias del patrón" revision="0" />
   </Enumeration>
   <Enumeration key="EditFindNext">
-    <Item />
-    <Item />
+    <Item value="Buscar &amp;siguiente" revision="0" />
+    <Item value="Buscar el siguiente patrón" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectAll">
-    <Item />
-    <Item />
+    <Item value="Seleccionar todos" revision="0" />
+    <Item value="Seleccionar todo el contenido de la ventana" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectNone">
-    <Item />
-    <Item />
+    <Item value="Seleccionar Ninguno" revision="0" />
+    <Item value="Dejar la selección actual" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectPacket">
-    <Item />
-    <Item />
+    <Item value="Seleccionar paquete" revision="0" />
+    <Item value="Seleccionar paquete bajo el cursor" revision="0" />
   </Enumeration>
   <Enumeration key="EditExport">
-    <Item />
-    <Item />
+    <Item value="Exportar…" revision="0" />
+    <Item value="Exportar datos seleccionados" revision="0" />
   </Enumeration>
   <Enumeration key="EditClearView">
-    <Item />
-    <Item />
+    <Item value="Borrar" revision="0" />
+    <Item value="Borrar la ventana actual" revision="0" />
   </Enumeration>
   <Enumeration key="EditColors">
-    <Item />
-    <Item />
+    <Item value="Colores…" revision="0" />
+    <Item value="Modificar los colores de las ventanas" revision="0" />
   </Enumeration>
   <Enumeration key="FilteringX">
-    <Item />
-    <Item />
+    <Item value="Filtros…" revision="0" />
+    <Item value="Modificar filtros" revision="0" />
   </Enumeration>
   <Enumeration key="MenuEdit">
-    <Item />
-    <Item />
+    <Item value="&amp;Editar" revision="0" />
+    <Item value="Grupo de menús Editar" revision="0" />
   </Enumeration>
   <Enumeration key="SessionStart">
-    <Item />
-    <Item />
+    <Item value="Iniciar sesión…" revision="0" />
+    <Item value="Iniciar sesión de terminal para el dispositivo seleccionado." revision="0" />
   </Enumeration>
   <Enumeration key="SessionStop">
-    <Item />
-    <Item />
+    <Item value="Parar la sesión" revision="0" />
+    <Item value="Detener la sesión de terminal para el dispositivo seleccionado." revision="0" />
   </Enumeration>
   <Enumeration key="SessionEdit">
-    <Item />
-    <Item />
+    <Item value="Editar sesión…" revision="0" />
+    <Item value="Configurar los parámetros de una sesión en curso." revision="0" />
   </Enumeration>
   <Enumeration key="ConnectRemotePort">
-    <Item />
-    <Item />
+    <Item value="Conectar puerto remoto…" revision="0" />
+    <Item value="Inicie HHD Software Virtual Serial Port Tools para conectarse al puerto serie remoto" revision="0" />
   </Enumeration>
   <Enumeration key="CreateVirtualPort">
-    <Item />
-    <Item />
+    <Item value="Crear puerto virtual…" revision="0" />
+    <Item value="Inicie HHD Software Virtual Serial Port Tools para crear un nuevo puerto serie virtual" revision="0" />
   </Enumeration>
   <Enumeration key="MonitorPort">
-    <Item />
-    <Item />
+    <Item value="Monitor Puerto serie…" revision="0" />
+    <Item value="Inicie HHD Software Serial Monitor para supervisar el puerto serie." revision="0" />
   </Enumeration>
   <Enumeration key="SplitPort">
-    <Item />
-    <Item />
+    <Item value="Conexión serie dividida…" revision="0" />
+    <Item value="Inicia HHD Software Virtual Serial Port Tools para dividir el puerto serie" revision="0" />
   </Enumeration>
   <Enumeration key="Devices tool window columns">
-    <Item />
-    <Item />
+    <Item value="Puerto" revision="0" />
+    <Item value="Dispositivo" revision="0" />
   </Enumeration>
   <Enumeration key="LicenseState">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Gratuito, no se ha iniciado el periodo de prueba." revision="0" />
+    <Item value="Gratuito, el periodo de prueba finaliza en [[[b{days}]]] días." revision="0" />
+    <Item value="Gratis, el periodo de prueba ha terminado." revision="0" />
+    <Item value="[[[b{edition}]]]\r\nRegistrado en [[[i{user}]]]" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="ComNonCom">
-    <Item />
-    <Item />
+    <Item value="Sólo para uso no comercial" revision="0" />
+    <Item value="Uso comercial permitido" revision="0" />
   </Enumeration>
 </Language>
