@@ -18,10 +18,10 @@
   <Message key="New" value="&amp;Новый…" revision="0" />
   <Message key="Delete" value="&amp;Удалить" revision="0" />
   <Message key="Button size" value="Размер кнопки:" revision="0" />
-  <Message key="Select a command to view its description or drag it to a toolbar" value="Выберите команду, чтобы просмотреть ее описание, или перетащите ее на панель инструментов:" revision="0" />
+  <Message key="Select a command to view its description or drag it to a toolbar" value="Выберите команду, чтобы просмотреть её описание, или перетащите её на панель инструментов:" revision="0" />
   <Message key="Keyboard" value="Клавиатура" revision="0" />
   <Message key="MaxShortcuts" value="На одну команду нельзя назначить более 5 ярлыков." revision="0" />
-  <Message key="ShortcutExists" value="Этот ярлык уже определен для {command}. Вы хотите переопределить его?" revision="0" />
+  <Message key="ShortcutExists" value="Этот ярлык уже определён для {command}. Вы хотите переопределить его?" revision="0" />
   <Message key="Keyboard Page" value="Клавиатура" revision="0" />
   <Message key="Category" value="Группа:" revision="0" />
   <Message key="Commands" value="Команды:" revision="0" />
@@ -140,8 +140,8 @@
   <Message key="clr.balloon.dontDisplay" value="Сообщение &quot;Больше не выводить это&quot;" revision="0" />
   <Message key="Colors Page" value="Темы" revision="0" />
   <Message key="Enter the scheme name and press the Save button" value="Введите название схемы и нажмите кнопку Сохранить" revision="0" />
-  <Message key="ColorSchemeExists" value="Цветовая схема уже существует. Вы хотите переопределить ее?" revision="0" />
-  <Message key="ColorWheelIssue" value="Вы не можете щелкнуть на цветовом круге для полностью белого (L = 100) и полностью черного (L = 0) цветов. Сначала измените любой цветовой компонент." revision="0" />
+  <Message key="ColorSchemeExists" value="Цветовая схема уже существует. Вы хотите переопределить её?" revision="0" />
+  <Message key="ColorWheelIssue" value="Вы не можете щёлкнуть на цветовом круге для полностью белого (L = 100) и полностью чёрного (L = 0) цветов. Сначала измените любой цветовой компонент." revision="0" />
   <Message key="Settings group.Visual" value="Визуальный" revision="0" />
   <Message key="Settings group.User Interface" value="Интерфейс пользователя" revision="0" />
   <Message key="Settings group.Network" value="Сеть &amp; поддержка" revision="0" />

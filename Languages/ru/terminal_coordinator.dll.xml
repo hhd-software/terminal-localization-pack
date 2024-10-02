@@ -101,7 +101,7 @@
   </Enumeration>
   <Enumeration key="EditSelectAll">
     <Item value="Выбрать все" revision="0" />
-    <Item value="Выберите все содержимое окна" revision="0" />
+    <Item value="Выберите всё содержимое окна" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectNone">
     <Item value="Сбросить выделение" revision="0" />
@@ -144,8 +144,8 @@
     <Item value="Настройте параметры для запущенного сеанса." revision="0" />
   </Enumeration>
   <Enumeration key="ConnectRemotePort">
-    <Item value="Подключить к удаленному порту…" revision="0" />
-    <Item value="Запустите HHD Software Virtual Serial Port Tools для подключения к удаленному последовательному порту" revision="0" />
+    <Item value="Подключить к удалённому порту…" revision="0" />
+    <Item value="Запустите HHD Software Virtual Serial Port Tools для подключения к удалённому последовательному порту" revision="0" />
   </Enumeration>
   <Enumeration key="CreateVirtualPort">
     <Item value="Создать виртуальный порт…" revision="0" />
@@ -164,7 +164,7 @@
     <Item value="Устройство" revision="0" />
   </Enumeration>
   <Enumeration key="LicenseState">
-    <Item value="Бесплатная, пробный период еще не начался." revision="0" />
+    <Item value="Бесплатная, пробный период ещё не начался." revision="0" />
     <Item value="Бесплатная, пробный период заканчивается через [[[b{days}]]] дней." revision="0" />
     <Item value="Бесплатно, пробный период закончился." revision="0" />
     <Item value="[[[b{edition}]]]\r\nЗарегистрирован на [[[i{user}]]]" revision="0" />
