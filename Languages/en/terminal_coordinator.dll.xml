@@ -154,7 +154,7 @@
 	<Param name="product"/>
   </Message>
 
-  <Message key="AboutBoxTemplate" description="About box text template" value="[[[b[[[s:120:{name}]]]]]]\nVersion {major}.{minor}.{revision}.{build}\n\nCopyright ©2023 HHD Software Ltd.\nAll rights reserved.\n[[[hhttps://www.hhdsoftware.com]]]">
+  <Message key="AboutBoxTemplate" description="About box text template" value="[[[b[[[s:120:{name}]]]]]]\nVersion {major}.{minor}.{revision}.{build}\n\nCopyright ©2024 HHD Software Ltd.\nAll rights reserved.\n[[[hhttps://www.hhdsoftware.com]]]">
 	<Param name="name" />
 	<Param name="major" />
 	<Param name="minor" format="w2arf0" />

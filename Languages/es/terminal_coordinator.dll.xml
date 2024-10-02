@@ -3,7 +3,9 @@
   <Message key="HotPlugCategory" value="Conexión en caliente" revision="0" />
   <Message key="NextConnected" value="Siguiente conectado" revision="0" />
   <Message key="TerminalAppPure" value="Automated Serial Terminal" revision="0" />
+  <Message key="TerminalApp" value="Automated Serial Terminal{is free?} (Versión gratuita, sólo para uso no comercial){?is free}{is trial?} (Versión de prueba){?is trial}{is reg noncom?} (Sólo para uso no comercial){?is reg noncom}" revision="1" />
   <Message key="About title" value="Acerca {product}" revision="0" />
+  <Message key="AboutBoxTemplate" value="[[[b[[[s:120:{name}]]]]]]\nVersión {major}.{minor}.{revision}.{build}\n\nDerechos de autor ©2024 HHD Software Ltd.\nTodos los derechos reservados.\n[[[hhttps://www.hhdsoftware.com]]]" revision="0" />
   <Message key="Pattern not found" value="No se ha encontrado el patrón." revision="0" />
   <Message key="Go to line" value="Introduzca el número de línea entre {from} y {to}:" revision="0" />
   <Message key="Out of range" value="Fuera de rango" revision="0" />
@@ -16,15 +18,21 @@
   <Message key="License has been successfully installed." value="La licencia se ha instalado correctamente." revision="0" />
   <Message key="There was an error installing a license file." value="Se ha producido un error al instalar un archivo de licencia. El archivo puede estar dañado o caducado. Inicie sesión en la sección Mi cuenta y descargue un nuevo archivo de licencia." revision="0" />
   <Message key="Trial dialog title: free" value="Obtenga funciones ampliadas" revision="0" />
+  <Message key="Trial text: free" value="Actualmente está utilizando una [[[bFREE VERSION]]] limitada del producto.\nPuede seguir utilizando la versión limitada o probar primero la funcionalidad ampliada durante 14 días y luego volver a la versión gratuita." revision="0" />
   <Message key="Trial link text: free" value="Continuar con funciones limitadas" revision="0" />
   <Message key="Trial dialog title: trial" value="Obtenga funciones ampliadas" revision="0" />
+  <Message key="Trial text: trial" value="Algunas funciones ampliadas de Automated Serial Terminal son de prueba y caducarán en [[[b{days}]]] días.\nPuede continuar con la funcionalidad limitada o actualizar a la versión extendida. La compra de la funcionalidad ampliada eliminará esta pantalla." revision="0" />
   <Message key="Trial link text: trial" value="Continuar la evaluación" revision="0" />
   <Message key="Trial dialog title: expired" value="Obtenga funciones ampliadas" revision="0" />
+  <Message key="Trial text: expired" value="Actualmente está utilizando una [[[bFREE VERSION]]] limitada del producto.\nPuede seguir utilizando la versión limitada o pasar a la versión ampliada. La compra de la funcionalidad ampliada eliminará esta pantalla." revision="0" />
   <Message key="Trial link text: expired" value="Continuar con funciones limitadas" revision="0" />
   <Message key="NagFreeTitle" value="Función no disponible" revision="0" />
   <Message key="Close this notification" value="Cerrar esta notificación" revision="0" />
   <Message key="Try extended version" value="Pruebe la versión ampliada" revision="0" />
   <Message key="Purchase extended version" value="Obtenga funciones ampliadas" revision="0" />
+  <Message key="FreeVersionNagText1" value="La función {feature} no está incluida en la versión gratuita.\n\nPuede continuar con las funciones limitadas de la versión gratuita o puede probar la funcionalidad ampliada de forma GRATUITA durante 14 días." revision="0" />
+  <Message key="FreeVersionNagText2" value="La función {feature} no está incluida en la versión gratuita.\n\nPuede continuar con las funciones limitadas de la versión gratuita o puede actualizar a la versión ampliada." revision="0" />
+  <Message key="PurchasedVersionNagText" value="La función {feature} no está incluida en la edición actual.\n\nPuede continuar con las funciones de la edición actual o puede actualizarse a la versión ampliada." revision="0" />
   <Message key="{50abd27b-7ff7-40db-9bcc-bd98dc555ba4}" value="2+ copias de Automated Serial Terminal" revision="0" />
   <Message key="{a038db36-7555-4ad7-a16b-0b3c49e66ace}" value="Más de 3 sesiones simultáneas de terminal" revision="0" />
   <Message key="{a4ff6592-a914-4d6a-bae1-3d0d41a14c64}" value="Sesiones terminales de más de 5 minutos" revision="0" />
