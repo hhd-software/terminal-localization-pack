@@ -30,6 +30,15 @@
   <Message key="Loop mode:" value="Schleifenmodus:" revision="0" />
   <Message key="loops" value="Schleifen" revision="0" />
   <Message key="milliseconds" value="Millisekunden" revision="0" />
+  <Message key="clr.lamp_colors" value="Signale" revision="0" />
+  <Message key="clr.lamp_colors.unknown" value="Unbekannter Staat" revision="0" />
+  <Message key="clr.lamp_colors.on" value="Signalzustand: EIN" revision="0" />
+  <Message key="clr.lamp_colors.off" value="Signalzustand: AUS" revision="0" />
+  <Message key="LampWindowText" value="[[[h#[Klicken, um den Status zu ändern]#[[[I:{rts}: ]]] RTS]]] [[[I:{cts}: ]]] CTS [[[I:{dsr}: ]]] DSR [[[I:{dcd}: ]]] DCD [[[h#[Klicken, um den Status zu ändern]#[[[I:{dtr}: ]]] DTR]]] [[[I:{ri}: ]]] RI.  Gesendet: [[[b{sent}]]], Empfangen: [[[b{received}]]]" revision="0" />
+  <Enumeration key="MenuTerminal">
+    <Item value="Serielles Terminal" revision="0" />
+    <Item value="Serielle Terminalbefehle" revision="0" />
+  </Enumeration>
   <Enumeration key="TerminalNewSession">
     <Item value="Terminal-Sitzung starten…" revision="0" />
     <Item value="Serielles Terminal für das ausgewählte Gerät starten." revision="0" />

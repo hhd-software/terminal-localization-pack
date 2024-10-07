@@ -57,6 +57,7 @@
   <Message key="File creation error" value="Si è verificato un errore {create?}nella creazione{|create}nell'apertura{?create} del file &quot;{name}&quot;: {text} ({code})" revision="1" />
   <Message key="UpgradePrompt" value="Il prodotto {product name} versione {major}.{minor}.{revision}.{build} è disponibile. Volete aggiornare ora?" revision="0" />
   <Message key="Loading" value="Caricamento…" revision="0" />
+  <Message key="B" value="byte" revision="0" />
   <Message key="clr.default_colors" value="Colori predefiniti della UI" revision="0" />
   <Message key="clr.default_colors.background" value="Sfondo" revision="0" />
   <Message key="clr.default_colors.control_background" value="Sfondo dei controlli" revision="0" />
@@ -266,5 +267,17 @@
   <Enumeration key="External file:">
     <Item value="File esterno:" revision="0" />
     <Item value="Memorizzare le impostazioni dell'applicazione in un file esterno. Specificate una posizione condivisa (come una cartella condivisa di OneDrive o Dropbox) per condividere le impostazioni tra i dispositivi." revision="0" />
+  </Enumeration>
+  <Enumeration key="themingMode">
+    <Item value="Modalità del tema colore (richiede il riavvio)" revision="0" />
+    <Item value="Utilizzare il sistema" revision="0" />
+    <Item value="Utilizzare sempre un tema leggero" revision="0" />
+    <Item value="Utilizzare sempre il tema scuro" revision="0" />
+  </Enumeration>
+  <Enumeration key="cfuMode">
+    <Item value="Controlla gli aggiornamenti" revision="0" />
+    <Item value="Mai" revision="0" />
+    <Item value="Ogni lancio" revision="0" />
+    <Item value="Una volta alla settimana" revision="0" />
   </Enumeration>
 </Language>

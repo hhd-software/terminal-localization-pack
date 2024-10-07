@@ -57,6 +57,7 @@
   <Message key="File creation error" value="Une erreur s'est produite lors {create?}de la création{|create}de l'ouverture{?create} du fichier &quot;{name}&quot;: {text} ({code})" revision="1" />
   <Message key="UpgradePrompt" value="Le produit {product name} version {major}.{minor}.{revision}.{build} est disponible. Voulez-vous effectuer la mise à jour maintenant ?" revision="0" />
   <Message key="Loading" value="Chargement…" revision="0" />
+  <Message key="B" value="octets" revision="0" />
   <Message key="clr.default_colors" value="Couleurs par défaut de l'IU" revision="0" />
   <Message key="clr.default_colors.background" value="Arrière-plan " revision="0" />
   <Message key="clr.default_colors.control_background" value="Arrière-plan des contrôles" revision="0" />
@@ -266,5 +267,17 @@
   <Enumeration key="External file:">
     <Item value="Fichier externe :" revision="0" />
     <Item value="Stocker les paramètres de l'application dans un fichier externe. Spécifiez un emplacement partagé (comme un dossier partagé OneDrive ou Dropbox) pour partager vos paramètres entre les appareils." revision="0" />
+  </Enumeration>
+  <Enumeration key="themingMode">
+    <Item value="Mode du thème de couleur (nécessite un redémarrage)" revision="0" />
+    <Item value="Utiliser le système" revision="0" />
+    <Item value="Toujours utiliser le thème léger" revision="0" />
+    <Item value="Utilisez toujours un thème sombre" revision="0" />
+  </Enumeration>
+  <Enumeration key="cfuMode">
+    <Item value="Vérifier les mises à jour" revision="0" />
+    <Item value="Jamais" revision="0" />
+    <Item value="Chaque lancement" revision="0" />
+    <Item value="Une fois par semaine" revision="0" />
   </Enumeration>
 </Language>

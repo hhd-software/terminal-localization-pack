@@ -30,6 +30,15 @@
   <Message key="Loop mode:" value="Modo cíclico:" revision="0" />
   <Message key="loops" value="ciclos" revision="0" />
   <Message key="milliseconds" value="milissegundos" revision="0" />
+  <Message key="clr.lamp_colors" value="Sinais" revision="0" />
+  <Message key="clr.lamp_colors.unknown" value="Estado desconhecido" revision="0" />
+  <Message key="clr.lamp_colors.on" value="Estado do sinal: LIGADO" revision="0" />
+  <Message key="clr.lamp_colors.off" value="Estado do sinal: DESLIGADO" revision="0" />
+  <Message key="LampWindowText" value="[[[h#[Clique para alterar o estado]#[[[I:{rts}: ]]] RTS]]] [[[I:{cts}: ]]] CTS [[[I:{dsr}: ]]] DSR [[[I:{dcd}: ]]] DCD [[[h#[Clique para alterar o estado]#[[[I:{dtr}: ]]] DTR]]] [[[I:{ri}: ]]] RI.  Enviado: [[[b{sent}]]], Recebido: [[[b{received}]]]" revision="0" />
+  <Enumeration key="MenuTerminal">
+    <Item value="Terminal de série" revision="0" />
+    <Item value="Comandos do terminal de série" revision="0" />
+  </Enumeration>
   <Enumeration key="TerminalNewSession">
     <Item value="Iniciar sessão de terminal…" revision="0" />
     <Item value="Lançar o terminal de série para o dispositivo selecionado." revision="0" />

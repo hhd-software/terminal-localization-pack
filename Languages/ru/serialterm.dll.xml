@@ -30,6 +30,15 @@
   <Message key="Loop mode:" value="Циклический режим:" revision="0" />
   <Message key="loops" value="циклов" revision="0" />
   <Message key="milliseconds" value="миллисекунд" revision="0" />
+  <Message key="clr.lamp_colors" value="Сигналы" revision="0" />
+  <Message key="clr.lamp_colors.unknown" value="Неизвестное состояние" revision="0" />
+  <Message key="clr.lamp_colors.on" value="Состояние сигнала: ВКЛ" revision="0" />
+  <Message key="clr.lamp_colors.off" value="Состояние сигнала: ВЫКЛ" revision="0" />
+  <Message key="LampWindowText" value="[[[h#[Нажмите, чтобы сменить состояние]#[[[I:{rts}: ]]] RTS]]] [[[I:{cts}: ]]] CTS [[[I:{dsr}: ]]] DSR [[[I:{dcd}: ]]] DCD [[[h#[Нажмите, чтобы сменить состояние]#[[[I:{dtr}: ]]] DTR]]] [[[I:{ri}: ]]] RI.  Отправлено: [[[b{sent}]]], Получено: [[[b{received}]]]" revision="0" />
+  <Enumeration key="MenuTerminal">
+    <Item value="Последовательный Терминал" revision="0" />
+    <Item value="Команды последовательного терминала" revision="0" />
+  </Enumeration>
   <Enumeration key="TerminalNewSession">
     <Item value="Начать терминальную сессию…" revision="0" />
     <Item value="Запустить последовательный терминал для выбранного устройства." revision="0" />
