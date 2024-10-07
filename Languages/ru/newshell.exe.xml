@@ -58,6 +58,10 @@
   <Message key="UpgradePrompt" value="Доступна версия {major}.{minor}.{revision}.{build} продукта {product name}. Хотите обновиться прямо сейчас?" revision="0" />
   <Message key="Loading" value="Загрузка…" revision="0" />
   <Message key="B" value="байт" revision="0" />
+  <Message key="KB" value="КБ" revision="0" />
+  <Message key="MB" value="МБ" revision="0" />
+  <Message key="GB" value="ГБ" revision="0" />
+  <Message key="TB" value="ТБ" revision="0" />
   <Message key="clr.default_colors" value="Цвета интерфейса по умолчанию" revision="0" />
   <Message key="clr.default_colors.background" value="Фон" revision="0" />
   <Message key="clr.default_colors.control_background" value="Фон контролов" revision="0" />

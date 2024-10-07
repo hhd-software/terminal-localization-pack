@@ -3,9 +3,9 @@
   <Message key="HotPlugCategory" value="Ligação a quente" revision="0" />
   <Message key="NextConnected" value="Próximo ligado" revision="0" />
   <Message key="TerminalAppPure" value="Automated Serial Terminal" revision="0" />
-  <Message key="TerminalApp" value="Automated Serial Terminal{is free?} (Versão gratuita, apenas para uso não comercial){?is free}{is trial?} (Versão de teste){?is trial}{is reg noncom?} (Apenas para uso não comercial){?is reg noncom}" revision="1" />
+  <Message key="TerminalApp" value="Automated Serial Terminal{is free?} (Versão gratuita){?is free}{is trial?} (Versão de teste){?is trial}{is reg noncom?} (Apenas para uso não comercial){?is reg noncom}" revision="2" />
   <Message key="About title" value="Sobre {product}" revision="0" />
-  <Message key="AboutBoxTemplate" value="[[[b[[[s:120:{name}]]]]]]\nVersão {major}.{minor}.{revision}.{build}\n\nDireitos de autor ©2024 HHD Software Ltd.\nTodos os direitos reservados.\n[[[hhttps://www.hhdsoftware.com]]]" revision="0" />
+  <Message key="AboutBoxTemplate" value="[[[b[[[s:120:{name}]]]]]]\nVersão {major}.{minor}.{revision}.{build}\n\nDireitos de autor ©2024 HHD Software Ltd.\nTodos os direitos reservados.\n[[[hhttps://hhdsoftware.com]]]" revision="1" />
   <Message key="Pattern not found" value="O padrão não foi encontrado." revision="0" />
   <Message key="Go to line" value="Introduzir o número da linha entre {from} e {to}:" revision="0" />
   <Message key="Out of range" value="Fora de alcance" revision="0" />
@@ -26,10 +26,14 @@
   <Message key="Trial dialog title: expired" value="Obter funcionalidade alargada" revision="0" />
   <Message key="Trial text: expired" value="Está atualmente a utilizar a [[[bFREE VERSION]]] do produto com funcionalidades limitadas.\nPode continuar a utilizar a versão limitada ou atualizar para a versão alargada. A aquisição da funcionalidade alargada eliminará este ecrã." revision="0" />
   <Message key="Trial link text: expired" value="Continuar com funcionalidades limitadas" revision="0" />
+  <Message key="Trial dialog title: up expired" value="Plano de atualização expirou" revision="0" />
+  <Message key="Trial text: up expired" value="O seu plano de atualização expirou! A sua licença não pode ser utilizada com a versão atual do produto.\nPor favor, volte a utilizar a versão anterior do produto ou adquira uma atualização." revision="0" />
+  <Message key="Trial link text: up expired" value="Continuar como Edição gratuita" revision="0" />
   <Message key="NagFreeTitle" value="Funcionalidade não disponível" revision="0" />
   <Message key="Close this notification" value="Fechar esta notificação" revision="0" />
   <Message key="Try extended version" value="Experimentar a versão alargada" revision="0" />
   <Message key="Purchase extended version" value="Obter funcionalidade alargada" revision="0" />
+  <Message key="Purchase upgrade plan" value="Comprar plano de atualização" revision="0" />
   <Message key="FreeVersionNagText1" value="A funcionalidade {feature} não está incluída na versão gratuita.\n\nPode continuar com as caraterísticas limitadas da versão gratuita ou pode experimentar a funcionalidade alargada GRATUITAMENTE durante 14 dias." revision="0" />
   <Message key="FreeVersionNagText2" value="A funcionalidade {feature} não está incluída na versão gratuita.\n\nPode continuar a utilizar as funcionalidades limitadas da versão gratuita ou pode atualizar para a versão alargada." revision="0" />
   <Message key="PurchasedVersionNagText" value="A caraterística {feature} não está incluída na edição atual.\n\nPode continuar a utilizar as funcionalidades da edição atual ou pode atualizar para a versão alargada." revision="0" />
@@ -39,6 +43,20 @@
   <Message key="{2b4b7c3b-e22a-4edd-abf9-2da66c028f3f}" value="Mais de 3 scripts em execução em simultâneo" revision="0" />
   <Message key="{80377ad6-d55a-4432-bccf-1eb720bbb053}" value="Envio MODBUS" revision="0" />
   <Message key="{6e24a8d6-63e6-4b65-a0c5-eec56ffd76bc}" value="Script MODBUS" revision="0" />
+  <Message key="License Management" value="Gestão de licenças" revision="0" />
+  <Message key="Installed license" value="Licença instalada" revision="0" />
+  <Message key="install license static" value="Se você precisar renovar uma licença, clique no botão “Descarregar licença…”. (Requer login e senha).\n\nSe você já tiver recebido um arquivo de licença, clique no botão “Instalar Licença…”." revision="0" />
+  <Message key="Start Trial!" value="Iniciar Avaliação!" revision="0" />
+  <Message key="Install License" value="Instalar Licença…" revision="0" />
+  <Message key="Download License" value="Descarregar licença…" revision="0" />
+  <Message key="Find" value="Localizar" revision="0" />
+  <Message key="Find what" value="Descobrir o que" revision="0" />
+  <Message key="Match whole word only" value="Corresponder apenas à palavra inteira" revision="0" />
+  <Message key="Match case" value="Corresponder ao caso" revision="0" />
+  <Message key="Whole window" value="Toda a janela" revision="0" />
+  <Message key="Selection" value="Seleção" revision="0" />
+  <Message key="Options" value="Opções" revision="0" />
+  <Message key="Find within" value="Encontrar dentro" revision="0" />
   <Enumeration key="HelpContents">
     <Item value="&amp;Conteúdo" revision="1" />
     <Item value="Mostrar o conteúdo do ficheiro de ajuda" revision="1" />
@@ -164,11 +182,11 @@
     <Item value="Dispositivo" revision="0" />
   </Enumeration>
   <Enumeration key="LicenseState">
-    <Item value="Gratuito, o período experimental ainda não foi iniciado." revision="0" />
-    <Item value="Gratuito, o período experimental termina em [[[b{days}]]] dias." revision="0" />
-    <Item value="Gratuito, o período experimental terminou." revision="0" />
-    <Item value="[[[b{edition}]]]\r\nRegistado em [[[i{user}]]]" revision="0" />
-    <Item />
+    <Item value="Gratuito, o período experimental ainda não foi iniciado." revision="1" />
+    <Item value="Gratuito, o período experimental termina em [[[b{days}]]] dias." revision="1" />
+    <Item value="Gratuito, o período experimental terminou." revision="1" />
+    <Item value="[[[b{edition}]]]\r\nRegistado em [[[i{user}]]]" revision="1" />
+    <Item value="Plano de atualização expirou" revision="1" />
   </Enumeration>
   <Enumeration key="ComNonCom">
     <Item value="Apenas para uso não comercial" revision="0" />

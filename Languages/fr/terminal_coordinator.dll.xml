@@ -3,9 +3,9 @@
   <Message key="HotPlugCategory" value="Branchement à chaud" revision="0" />
   <Message key="NextConnected" value="Prochain connecté" revision="0" />
   <Message key="TerminalAppPure" value="Automated Serial Terminal" revision="0" />
-  <Message key="TerminalApp" value="Automated Serial Terminal{is free?} (Version gratuite, usage non commercial uniquement){?is free}{is trial?} (Version d'essai){?is trial}{is reg noncom?} (Usage non commercial uniquement){?is reg noncom}" revision="1" />
+  <Message key="TerminalApp" value="Automated Serial Terminal{is free?} (Version gratuite){?is free}{is trial?} (Version d'essai){?is trial}{is reg noncom?} (Usage non commercial uniquement){?is reg noncom}" revision="2" />
   <Message key="About title" value="A propos de {product}" revision="0" />
-  <Message key="AboutBoxTemplate" value="[[[b[[[s:120:{name}]]]]]]\nVersion {major}.{minor}.{revision}.{build}\n\nDroit d'auteur ©2024 HHD Software Ltd.\nTous droits réservés.\n[[[hhttps://www.hhdsoftware.com]]]" revision="0" />
+  <Message key="AboutBoxTemplate" value="[[[b[[[s:120:{name}]]]]]]\nVersion {major}.{minor}.{revision}.{build}\n\nDroit d'auteur ©2024 HHD Software Ltd.\nTous droits réservés.\n[[[hhttps://hhdsoftware.com]]]" revision="1" />
   <Message key="Pattern not found" value="Le modèle n'a pas été trouvé." revision="0" />
   <Message key="Go to line" value="Saisissez le numéro de ligne entre {from} et {to} :" revision="0" />
   <Message key="Out of range" value="Hors de portée" revision="0" />
@@ -26,10 +26,14 @@
   <Message key="Trial dialog title: expired" value="Obtenir des fonctionnalités étendues" revision="0" />
   <Message key="Trial text: expired" value="Vous utilisez actuellement une [[[bFREE VERSION]]] du produit dont les fonctionnalités sont limitées.\nVous pouvez continuer à utiliser la version limitée ou passer à la version étendue. L'achat de la version étendue supprimera cet écran." revision="0" />
   <Message key="Trial link text: expired" value="Poursuivre avec des fonctionnalités limitées" revision="0" />
+  <Message key="Trial dialog title: up expired" value="Plan de mise à niveau expiré" revision="0" />
+  <Message key="Trial text: up expired" value="Votre plan de mise à niveau a expiré ! Votre licence ne peut pas être utilisée avec la version actuelle du produit.\nVeuillez revenir à la version précédente du produit ou acheter une mise à niveau." revision="0" />
+  <Message key="Trial link text: up expired" value="Continuer en tant qu'édition gratuite" revision="0" />
   <Message key="NagFreeTitle" value="Caractéristique non disponible" revision="0" />
   <Message key="Close this notification" value="Fermer cette notification" revision="0" />
   <Message key="Try extended version" value="Essayer la version étendue" revision="0" />
   <Message key="Purchase extended version" value="Obtenir des fonctionnalités étendues" revision="0" />
+  <Message key="Purchase upgrade plan" value="Achat Plan de mise à niveau" revision="0" />
   <Message key="FreeVersionNagText1" value="La fonction {feature} n'est pas incluse dans la version gratuite.\n\nVous pouvez continuer à utiliser les fonctionnalités limitées de la version gratuite ou essayer les fonctionnalités étendues GRATUITEMENT pendant 14 jours." revision="0" />
   <Message key="FreeVersionNagText2" value="La fonction {feature} n'est pas incluse dans la version gratuite.\n\nVous pouvez continuer à utiliser les fonctionnalités limitées de la version gratuite ou passer à la version étendue." revision="0" />
   <Message key="PurchasedVersionNagText" value="La fonction {feature} n'est pas incluse dans l'édition actuelle.\n\nVous pouvez continuer à utiliser les fonctionnalités de l'édition actuelle ou passer à la version étendue." revision="0" />
@@ -39,6 +43,20 @@
   <Message key="{2b4b7c3b-e22a-4edd-abf9-2da66c028f3f}" value="Plus de 3 scripts exécutés simultanément" revision="0" />
   <Message key="{80377ad6-d55a-4432-bccf-1eb720bbb053}" value="Envoi MODBUS" revision="0" />
   <Message key="{6e24a8d6-63e6-4b65-a0c5-eec56ffd76bc}" value="Script MODBUS" revision="0" />
+  <Message key="License Management" value="Gestion des licences" revision="0" />
+  <Message key="Installed license" value="Licence installée" revision="0" />
+  <Message key="install license static" value="Si vous devez renouveler une licence, cliquez sur le bouton « Télécharger Licence… ». (Nécessite un login et un mot de passe).\n\nSi vous avez déjà reçu un fichier de licence, cliquez sur le bouton « Installer Licence… »." revision="0" />
+  <Message key="Start Trial!" value="Démarrer la période d’essai!" revision="0" />
+  <Message key="Install License" value="Installer Licence…" revision="0" />
+  <Message key="Download License" value="Télécharger Licence…" revision="0" />
+  <Message key="Find" value="Trouver" revision="0" />
+  <Message key="Find what" value="Trouver quoi" revision="0" />
+  <Message key="Match whole word only" value="Correspondre uniquement à un mot entier" revision="0" />
+  <Message key="Match case" value="Correspondance de la casse" revision="0" />
+  <Message key="Whole window" value="Fenêtre entière" revision="0" />
+  <Message key="Selection" value="Sélection" revision="0" />
+  <Message key="Options" value="Options" revision="0" />
+  <Message key="Find within" value="Trouver à l'intérieur" revision="0" />
   <Enumeration key="HelpContents">
     <Item value="&amp;Contenu" revision="1" />
     <Item value="Afficher le contenu du fichier d'aide" revision="1" />
@@ -164,11 +182,11 @@
     <Item value="Appareil" revision="0" />
   </Enumeration>
   <Enumeration key="LicenseState">
-    <Item value="Gratuit, la période d'essai n'a pas encore commencé." revision="0" />
-    <Item value="Gratuit, la période d'essai se termine dans [[[b{days}]]] jours." revision="0" />
-    <Item value="Gratuit, la période d'essai est terminée." revision="0" />
-    <Item value="[[[b{edition}]]]\r\nEnregistré auprès de [[[i{user}]]]" revision="0" />
-    <Item />
+    <Item value="Gratuit, la période d'essai n'a pas encore commencé." revision="1" />
+    <Item value="Gratuit, la période d'essai se termine dans [[[b{days}]]] jours." revision="1" />
+    <Item value="Gratuit, la période d'essai est terminée." revision="1" />
+    <Item value="[[[b{edition}]]]\r\nEnregistré auprès de [[[i{user}]]]" revision="1" />
+    <Item value="Plan de mise à niveau expiré" revision="1" />
   </Enumeration>
   <Enumeration key="ComNonCom">
     <Item value="Usage non commercial uniquement" revision="0" />

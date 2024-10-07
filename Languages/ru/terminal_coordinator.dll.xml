@@ -3,9 +3,9 @@
   <Message key="HotPlugCategory" value="Горячее соединение" revision="0" />
   <Message key="NextConnected" value="Следующее подключённое" revision="0" />
   <Message key="TerminalAppPure" value="Automated Serial Terminal" revision="0" />
-  <Message key="TerminalApp" value="Automated Serial Terminal{is free?} (Бесплатная, Некоммерческое использование){?is free}{is trial?} (Пробная версия){?is trial}{is reg noncom?} (Некоммерческое использование){?is reg noncom}" revision="1" />
+  <Message key="TerminalApp" value="Automated Serial Terminal{is free?} (Бесплатная){?is free}{is trial?} (Пробная версия){?is trial}{is reg noncom?} (Некоммерческое использование){?is reg noncom}" revision="2" />
   <Message key="About title" value="О продукте {product}" revision="0" />
-  <Message key="AboutBoxTemplate" value="[[[b[[[s:120:{name}]]]]]]\nВерсия {major}.{minor}.{revision}.{build}\n\nКопирайт ©2024 HHD Software Ltd.\nВсе права защищены.\n[[[hhttps://www.hhdsoftware.com]]]" revision="0" />
+  <Message key="AboutBoxTemplate" value="[[[b[[[s:120:{name}]]]]]]\nВерсия {major}.{minor}.{revision}.{build}\n\nКопирайт ©2024 HHD Software Ltd.\nВсе права защищены.\n[[[hhttps://hhdsoftware.com]]]" revision="1" />
   <Message key="Pattern not found" value="Шаблон не найден." revision="0" />
   <Message key="Go to line" value="Введите номер строки от {from} до {to}:" revision="0" />
   <Message key="Out of range" value="Вне диапазона" revision="0" />
@@ -26,10 +26,14 @@
   <Message key="Trial dialog title: expired" value="Получить расширенные функции" revision="0" />
   <Message key="Trial text: expired" value="В настоящее время вы используете ограниченную по возможностям [[[bFREE VERSION]]] продукта.\nВы можете либо продолжить использование ограниченной версии, либо перейти на расширенную версию. Приобретение расширенной функциональности убирает данное окно." revision="0" />
   <Message key="Trial link text: expired" value="Продолжить с ограниченными функциями" revision="0" />
+  <Message key="Trial dialog title: up expired" value="План обновлений закончился" revision="0" />
+  <Message key="Trial text: up expired" value="Срок действия вашего плана обновления истёк! Ваша лицензия не может быть использована с текущей версией продукта.\nПожалуйста, либо вернитесь к предыдущей версии продукта, либо приобретите обновление." revision="0" />
+  <Message key="Trial link text: up expired" value="Продолжить как бесплатную версию" revision="0" />
   <Message key="NagFreeTitle" value="Функция недоступна" revision="0" />
   <Message key="Close this notification" value="Закрыть это уведомление" revision="0" />
   <Message key="Try extended version" value="Попробовать расширенную версию" revision="0" />
   <Message key="Purchase extended version" value="Получить расширенные функции" revision="0" />
+  <Message key="Purchase upgrade plan" value="Купить план обновлений" revision="0" />
   <Message key="FreeVersionNagText1" value="Функция {feature} не включена в бесплатную версию.\n\nВы можете продолжить пользоваться ограниченными возможностями бесплатной версии или попробовать расширенный функционал БЕСПЛАТНО в течение 14 дней." revision="0" />
   <Message key="FreeVersionNagText2" value="Функция {feature} не включена в бесплатную версию.\n\nВы можете продолжать пользоваться ограниченными возможностями бесплатной версии или перейти на расширенную версию." revision="0" />
   <Message key="PurchasedVersionNagText" value="Функция {feature} не включена в текущую редакцию.\n\nВы можете продолжать пользоваться функциями текущей версии или перейти на расширенную версию." revision="0" />
@@ -39,6 +43,20 @@
   <Message key="{2b4b7c3b-e22a-4edd-abf9-2da66c028f3f}" value="3+ одновременно выполняемых скриптов" revision="0" />
   <Message key="{80377ad6-d55a-4432-bccf-1eb720bbb053}" value="Отсылка MODBUS" revision="0" />
   <Message key="{6e24a8d6-63e6-4b65-a0c5-eec56ffd76bc}" value="Скрипты MODBUS" revision="0" />
+  <Message key="License Management" value="Управление лицензиями" revision="0" />
+  <Message key="Installed license" value="Установлена лицензия" revision="0" />
+  <Message key="install license static" value="Если вам нужно продлить лицензию, нажмите кнопку «Скачать лицензию…». (Требуется логин и пароль).\n\nЕсли вы уже получили файл лицензии, нажмите кнопку «Установить лицензию…»." revision="0" />
+  <Message key="Start Trial!" value="Начать пробный период!" revision="0" />
+  <Message key="Install License" value="Установить лицензию…" revision="0" />
+  <Message key="Download License" value="Скачать лицензию…" revision="0" />
+  <Message key="Find" value="Поиск" revision="0" />
+  <Message key="Find what" value="Найти что" revision="0" />
+  <Message key="Match whole word only" value="Совпадение по целому слову" revision="0" />
+  <Message key="Match case" value="Учитывать регистр" revision="0" />
+  <Message key="Whole window" value="Окно целиком" revision="0" />
+  <Message key="Selection" value="Выделение" revision="0" />
+  <Message key="Options" value="Опции" revision="0" />
+  <Message key="Find within" value="Найти в пределах" revision="0" />
   <Enumeration key="HelpContents">
     <Item value="&amp;Содержание" revision="1" />
     <Item value="Отобразить содержимое файла справки" revision="1" />
@@ -164,11 +182,11 @@
     <Item value="Устройство" revision="0" />
   </Enumeration>
   <Enumeration key="LicenseState">
-    <Item value="Бесплатная, пробный период ещё не начался." revision="0" />
-    <Item value="Бесплатная, пробный период заканчивается через [[[b{days}]]] дней." revision="0" />
-    <Item value="Бесплатно, пробный период закончился." revision="0" />
-    <Item value="[[[b{edition}]]]\r\nЗарегистрирован на [[[i{user}]]]" revision="0" />
-    <Item />
+    <Item value="Бесплатная, пробный период ещё не начался." revision="1" />
+    <Item value="Бесплатная, пробный период заканчивается через [[[b{days}]]] дней." revision="1" />
+    <Item value="Бесплатно, пробный период закончился." revision="1" />
+    <Item value="[[[b{edition}]]]\r\nЗарегистрирован на [[[i{user}]]]" revision="1" />
+    <Item value="План обновлений закончился" revision="1" />
   </Enumeration>
   <Enumeration key="ComNonCom">
     <Item value="Только некоммерческое использование" revision="0" />

@@ -58,6 +58,10 @@
   <Message key="UpgradePrompt" value="Le produit {product name} version {major}.{minor}.{revision}.{build} est disponible. Voulez-vous effectuer la mise à jour maintenant ?" revision="0" />
   <Message key="Loading" value="Chargement…" revision="0" />
   <Message key="B" value="octets" revision="0" />
+  <Message key="KB" value="KO" revision="0" />
+  <Message key="MB" value="MO" revision="0" />
+  <Message key="GB" value="GO" revision="0" />
+  <Message key="TB" value="TO" revision="0" />
   <Message key="clr.default_colors" value="Couleurs par défaut de l'IU" revision="0" />
   <Message key="clr.default_colors.background" value="Arrière-plan " revision="0" />
   <Message key="clr.default_colors.control_background" value="Arrière-plan des contrôles" revision="0" />

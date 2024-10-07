@@ -231,7 +231,7 @@
 	<Message key="Trial link text: expired" description="Trial link text: expired" value="Continue with limited features" />
 
 	<Message key="Trial dialog title: up expired" description="Trial dialog: title in case upgrade plan has expired" value="Upgrade Plan Expired"/>
-	<Message key="Trial text: up expired" description="Trial dialog: text in case upgrade plan has expired" value="Your upgrade plan has expired! Your licence cannot be used with the current product version.\nPlease either revert back to earlier product version or purchase an upgrade." />
+	<Message key="Trial text: up expired" description="Trial dialog: text in case upgrade plan has expired" value="Your upgrade plan has expired! Your license cannot be used with the current product version.\nPlease either revert back to earlier product version or purchase an upgrade." />
 	<Message key="Trial link text: up expired" description="Trial link text: upgrade plan expired" value="Continue as Free Edition" />
 
 
