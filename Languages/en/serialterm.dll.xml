@@ -9,10 +9,10 @@
 
   <Message key="Serial Terminal" description="Settings group: Serial Terminal"/>
 
-  <!--<Enumeration key="MenuTerminal" description="Command group: Serial Terminal">
+  <Enumeration key="MenuTerminal" description="Command group: Serial Terminal">
     <Item text="Serial Terminal"/>
     <Item text="Serial Terminal commands"/>
-  </Enumeration>-->
+  </Enumeration>
 
   <Message key="Array expected" description="Array expected" value="Byte array expected"/>
   <Message key="Invalid constant" description="Invalid constant" value="Invalid constant value"/>
@@ -112,4 +112,20 @@
 		<Item text="Sent Hex Dump"/>
 		<Item text="Received Hex Dump"/>
 	</Enumeration>
+
+	<Message key="clr.lamp_colors" description="Color: Signals" value="Signals" />
+	<Message key="clr.lamp_colors.unknown" description="Unknown State" value="Unknown state"/>
+	<Message key="clr.lamp_colors.on" description="Signal state: ON" value="Signal state: ON"/>
+	<Message key="clr.lamp_colors.off" description="Signal state: OFF" value="Signal state: OFF"/>
+
+	<Message key="LampWindowText" description="Lamp window text" value="[[[h#[Click to change state]#[[[I:{rts}: ]]] RTS]]] [[[I:{cts}: ]]] CTS [[[I:{dsr}: ]]] DSR [[[I:{dcd}: ]]] DCD [[[h#[Click to change state]#[[[I:{dtr}: ]]] DTR]]] [[[I:{ri}: ]]] RI.  Sent: [[[b{sent}]]], Received: [[[b{received}]]]">
+		<Param name="rts"/>
+		<Param name="cts"/>
+		<Param name="dsr"/>
+		<Param name="dcd"/>
+		<Param name="dtr"/>
+		<Param name="ri"/>
+		<Param name="sent"/>
+		<Param name="received"/>
+	</Message>
 </Definition>

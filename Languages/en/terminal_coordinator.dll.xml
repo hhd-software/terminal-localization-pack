@@ -145,7 +145,7 @@
 
 	<Message key="TerminalAppPure" description="Application name (pure)" value="Automated Serial Terminal" />
 	
-	<Message key="TerminalApp" description="Application Name" value="Automated Serial Terminal{is free?} (Free Version, Non-Commercial Use Only){?is free}{is trial?} (Trial Version){?is trial}{is reg noncom?} (Non-Commercial Use Only){?is reg noncom}" revision="1">
+	<Message key="TerminalApp" description="Application Name" value="Automated Serial Terminal{is free?} (Free Version){?is free}{is trial?} (Trial Version){?is trial}{is reg noncom?} (Non-Commercial Use Only){?is reg noncom}" revision="2">
 		<Param name="is free" format="?" />
 		<Param name="is trial" format="?" />
 		<Param name="is reg noncom" format="?" />
@@ -154,7 +154,7 @@
 	<Param name="product"/>
   </Message>
 
-  <Message key="AboutBoxTemplate" description="About box text template" value="[[[b[[[s:120:{name}]]]]]]\nVersion {major}.{minor}.{revision}.{build}\n\nCopyright ©2024 HHD Software Ltd.\nAll rights reserved.\n[[[hhttps://www.hhdsoftware.com]]]">
+  <Message key="AboutBoxTemplate" description="About box text template" value="[[[b[[[s:120:{name}]]]]]]\nVersion {major}.{minor}.{revision}.{build}\n\nCopyright ©2024 HHD Software Ltd.\nAll rights reserved.\n[[[hhttps://hhdsoftware.com]]]" revision="1">
 	<Param name="name" />
 	<Param name="major" />
 	<Param name="minor" format="w2arf0" />
@@ -230,11 +230,17 @@
 	<Message key="Trial text: expired" description="Trial dialog: text in expired edition" value="You are currently using feature-limited [[[bFREE VERSION]]] of the product.\nYou may either continue using limited version or upgrade to the extended version. Purchasing extended functionality will remove this screen." />
 	<Message key="Trial link text: expired" description="Trial link text: expired" value="Continue with limited features" />
 
+	<Message key="Trial dialog title: up expired" description="Trial dialog: title in case upgrade plan has expired" value="Upgrade Plan Expired"/>
+	<Message key="Trial text: up expired" description="Trial dialog: text in case upgrade plan has expired" value="Your upgrade plan has expired! Your licence cannot be used with the current product version.\nPlease either revert back to earlier product version or purchase an upgrade." />
+	<Message key="Trial link text: up expired" description="Trial link text: upgrade plan expired" value="Continue as Free Edition" />
+
+
 	<!-- Licensing -->
 	<Message key="NagFreeTitle" description="Title: Feature Not Available" value="Feature not Available"/>
 	<Message key="Close this notification" description="Link text: Close this notification" value="Close this notification"/>
 	<Message key="Try extended version" description="Button text: Try extended version"/>
 	<Message key="Purchase extended version" description="Button text: Purchase extended version" value="Get extended version"/>
+	<Message key="Purchase upgrade plan" description="Button text: Purchase upgrade plan" value="Purchase Upgrade Plan"/>
 
 	<Message key="FreeVersionNagText1" description="Feature is not included in the Free version (trial not started)" value="{feature} feature is not included in the Free version.\n\nYou may continue with limited features of Free version or you may try the extended functionality for FREE during 14 days.">
 		<Param name="feature"/>
@@ -253,4 +259,23 @@
 	<Message description="Feature: ThreeOrMoreScripts" key="{2b4b7c3b-e22a-4edd-abf9-2da66c028f3f}" value="3+ concurrently running scripts" />
 	<Message description="Feature: ModbusSend" key="{80377ad6-d55a-4432-bccf-1eb720bbb053}" value="MODBUS Send" />
 	<Message description="Feature: ModbusScripts" key="{6e24a8d6-63e6-4b65-a0c5-eec56ffd76bc}" value="MODBUS Scripting" />
+
+	<!-- License Management dialog -->
+	<Message key="License Management" description="Window title: License Management"/>
+	<Message key="Installed license" description="Field: Installed license"/>
+	<Message key="install license static" description="LM Dialog text: Renew license" value="If you need to renew a license, click the &quot;Download License…&quot; button. (Requires login and password).\n\nIf you have already received a license file, click the &quot;Install License…&quot; button."/>
+	<Message key="Start Trial!" description="Button: Start Trial!"/>
+	<Message key="Install License" description="Button: Install License…" value="Install License…"/>
+	<Message key="Download License" description="Button: Download License…" value="Download License…"/>
+	
+	<!-- Find -->
+	<Message key="Find" description="Window title: Find"/>
+	<Message key="Find what" description="Field: Find what"/>
+
+	<Message key="Match whole word only" description="Option: Match whole word only" />
+	<Message key="Match case" description="Option: Match case" />
+	<Message key="Whole window" description="Option: Whole window" />
+	<Message key="Selection" description="Option: Selection" />
+	<Message key="Options" description="Field: Options" />
+	<Message key="Find within" description="Field: Find within" />
 </Definition>

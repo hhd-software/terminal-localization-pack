@@ -233,6 +233,12 @@
 
 	<Message key="Loading" description="Tool window loading placeholder" value="Loading…" />
 
+	<Message key="B" description="Bytes" value="bytes"/>
+	<Message key="KB" description="Kilobytes" />
+	<Message key="MB" description="Megabytes" />
+	<Message key="GB" description="Gigabytes" />
+	<Message key="TB" description="Terabytes"/>
+
 	<!-- Color scheme -->
 
 	<Message key="clr.default_colors" description="Color: Default UI Colors" value="Default UI Colors" />
@@ -354,4 +360,18 @@
 	<Message key="ThemeFiles" description="Format string: Theme files" value="Theme Files (*.hhdtheme)|*.hhdtheme||">
 		<Validate rule="OpenFileDialogFilter" />
 	</Message>
+
+	<Enumeration key="themingMode" description="Option: Color Mode">
+		<Item text="Color Theme Mode (requires restart)"/>
+		<Item text="Use System"/>
+		<Item text="Always use Light Theme"/>
+		<Item text="Always use Dark Theme"/>
+	</Enumeration>
+	
+	<Enumeration key="cfuMode" description="Option: Check for Updates Mode">
+		<Item text="Check for Updates"/>
+		<Item text="Never"/>
+		<Item text="Every launch"/>
+		<Item text="Once a week"/>
+	</Enumeration>
 </Definition>
