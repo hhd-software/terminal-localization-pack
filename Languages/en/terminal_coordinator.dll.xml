@@ -187,7 +187,7 @@
 	<Message key="toolbar.Devices" description="Toolbar: Devices" value="Devices" />
 
 	<!-- LM Dialog -->
-	<Enumeration key="LicenseState" description="Current license state">
+	<Enumeration key="LicenseState" description="Current license state" revision="1">
 		<Item text="Free, trial period has not been started." />
 		<Item text="Free, trial period ends in [[[b{days}]]] days.">
 			<Param name="days"/>
@@ -197,7 +197,7 @@
 			<Param name="edition"/>
 			<Param name="user"/>
 		</Item>
-		<Item text="TODO: Upgrade plan expired" />
+		<Item text="Upgrade plan expired" />
 	</Enumeration>
 
 	<Message key="ComNonComSuffix" description="Commercial or non-commercial license suffix" value="\r\n{comtype}">
