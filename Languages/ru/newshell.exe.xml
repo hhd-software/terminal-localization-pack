@@ -158,7 +158,30 @@
   <Message key="restoreWindowPosition" value="Восстановление положения окна при запуске" revision="0" />
   <Message key="documentsToRemember" value="Количество запомненных документов" revision="0" />
   <Message key="ThemeFiles" value="Файлы с темой (*.hhdtheme)|*.hhdtheme||" revision="0" />
+  <Message key="LangChanged" value="После изменения языка необходимо перезапустить {product}. Хотите перезапустить сейчас?" revision="0" />
+  <Message key="Language Page" value="Язык" revision="0" />
+  <Message key="Product language" value="Язык продукта" revision="0" />
+  <Message key="Changing product language requires restart of Hex Editor Neo." value="Изменение языка продукта требует перезапуска приложения." revision="0" />
+  <Message key="I can't find my language in this list." value="Я не могу найти свой язык в этом списке." revision="0" />
+  <Message key="Language pack storage location" value="Место хранения языкового пакета" revision="0" />
+  <Message key="Languages online" value="Языки в Интернете" revision="0" />
+  <Message key="Refresh" value="&amp;Обновить" revision="0" />
+  <Message key="ButtonRefreshing" value="Обновление…" revision="0" />
+  <Message key="Download" value="&amp;Скачать" revision="0" />
+  <Message key="Start" value="&amp;Начать" revision="0" />
+  <Message key="Language pack" value="Языковой пакет: {native name}" revision="0" />
   <Message key="UpgradePrompt" value="Доступна версия {major}.{minor}.{revision}.{build} продукта {product name}. Хотите обновиться прямо сейчас?" revision="0" />
+  <Message key="UpdatedLPTemplate" value="    • [[[b{name}]]]\t{major}.{minor}.{revision}.{build}" revision="0" />
+  <Message key="UpdatedLanguages" value="Доступны следующие обновления языковых пакетов:\n\n{language packs}\n\nХотите скачать и обновить их?" revision="0" />
+  <Message key="LanguagesDownloaded" value="Загрузка языкового пакета завершена. Хотите ли вы перезапустить приложение, чтобы применить изменения?" revision="0" />
+  <Message key="ChangeLanguageNotification" value="Этот языковой пакет был создан открытым сообществом. HHD Sofware Ltd. не несет никакой ответственности за качество этого перевода. Вы хотите применить этот языковой пакет?" revision="0" />
+  <Message key="ExternalFileEmpty" value="Введите полный путь к файлу настроек или нажмите кнопку Обзор" revision="0" />
+  <Message key="Time" value="Время" revision="0" />
+  <Message key="Name" value="Имя" revision="0" />
+  <Message key="Value" value="Значение" revision="0" />
+  <Message key="Offset" value="Смещение" revision="0" />
+  <Message key="Size" value="Размер" revision="0" />
+  <Message key="Type" value="Тип" revision="0" />
   <Enumeration key="FileOpen">
     <Item value="&amp;Открыть" revision="0" />
     <Item value="Открыть новый документ" revision="0" />
@@ -232,12 +255,12 @@
     <Item value="Настройка параметров продукта" revision="0" />
   </Enumeration>
   <Enumeration key="HelpKeyboardMap">
-    <Item />
-    <Item />
+    <Item value="Карта клавиш" revision="0" />
+    <Item value="Отображение списка назначенных сочетаний клавиш." revision="0" />
   </Enumeration>
   <Enumeration key="MenuHelp">
-    <Item />
-    <Item />
+    <Item value="&amp;Справка" revision="0" />
+    <Item value="Группа меню Справка" revision="0" />
   </Enumeration>
   <Enumeration key="MenuNew">
     <Item value="&amp;Новая" revision="0" />
@@ -293,11 +316,11 @@
     <Item value="Раз в неделю" revision="0" />
   </Enumeration>
   <Enumeration key="LangMore">
-    <Item />
-    <Item />
+    <Item value="Другие языки…" revision="0" />
+    <Item value="Проверить наличие других языков онлайн." revision="0" />
   </Enumeration>
   <Enumeration key="LangOnline">
-    <Item />
-    <Item />
+    <Item value="Онлайн-репозиторий языков" revision="0" />
+    <Item value="Участвуйте в создании дополнительных языковых пакетов для продукта." revision="0" />
   </Enumeration>
 </Language>

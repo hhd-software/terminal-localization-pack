@@ -34,6 +34,7 @@
   <Message key="clr.lamp_colors.on" value="Stato del segnale: ON" revision="0" />
   <Message key="clr.lamp_colors.off" value="Stato del segnale: OFF" revision="0" />
   <Message key="LampWindowText" value="[[[h#[Fare clic per cambiare stato]#[[[I:{rts}: ]]] RTS]]] [[[I:{cts}: ]]] CTS [[[I:{dsr}: ]]] DSR [[[I:{dcd}: ]]] DCD [[[h#[Fare clic per cambiare stato]#[[[I:{dtr}: ]]] DTR]]] [[[I:{ri}: ]]] RI.  Inviato: [[[b{sent}]]], Ricevuto: [[[b{received}]]]" revision="0" />
+  <Message key="Packet" value="Pacchetto" revision="0" />
   <Enumeration key="MenuTerminal">
     <Item value="Terminale seriale" revision="0" />
     <Item value="Comandi del terminale seriale" revision="0" />

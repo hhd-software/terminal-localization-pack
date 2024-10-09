@@ -136,6 +136,7 @@
   <Message key="Exception Code" value="Código de exceção" revision="0" />
   <Message key="Error Notification" value="Notificação de erro" revision="0" />
   <Message key="Mode" value="Modo" revision="0" />
+  <Message key="TcpSessionMissing" value="Esta funcionalidade não está disponível no Automated Serial Terminal. No entanto, está disponível no HHD Software Device Monitoring Studio.\n\nPretende obter mais informações sobre esse produto?" revision="0" />
   <Message key="Address:" value="Endereço:" revision="0" />
   <Message key="Parameters" value="Parâmetros" revision="0" />
   <Message key="Result" value="Resultado" revision="0" />

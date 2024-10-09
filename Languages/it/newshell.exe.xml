@@ -158,7 +158,30 @@
   <Message key="restoreWindowPosition" value="Ripristino della posizione della finestra all'avvio" revision="0" />
   <Message key="documentsToRemember" value="Numero di documenti recenti da ricordare" revision="0" />
   <Message key="ThemeFiles" value="File con il tema (*.hhdtheme)|*.hhdtheme||" revision="0" />
+  <Message key="LangChanged" value="È necessario riavviare {product} dopo aver cambiato la lingua. Volete riavviare ora?" revision="0" />
+  <Message key="Language Page" value="Lingua" revision="0" />
+  <Message key="Product language" value="Lingua del prodotto" revision="0" />
+  <Message key="Changing product language requires restart of Hex Editor Neo." value="La modifica della lingua del prodotto richiede il riavvio dell'applicazione." revision="0" />
+  <Message key="I can't find my language in this list." value="Non riesco a trovare la mia lingua in questo elenco." revision="0" />
+  <Message key="Language pack storage location" value="Posizione di memorizzazione del Language Pack" revision="0" />
+  <Message key="Languages online" value="Lingue online" revision="0" />
+  <Message key="Refresh" value="&amp;Aggiornare" revision="0" />
+  <Message key="ButtonRefreshing" value="Aggiornamento…" revision="0" />
+  <Message key="Download" value="&amp;Descarregar" revision="0" />
+  <Message key="Start" value="&amp;Iniziare" revision="0" />
+  <Message key="Language pack" value="Pacchetto lingua: {native name}" revision="0" />
   <Message key="UpgradePrompt" value="Il prodotto {product name} versione {major}.{minor}.{revision}.{build} è disponibile. Volete aggiornare ora?" revision="0" />
+  <Message key="UpdatedLPTemplate" value="    • [[[b{name}]]]\t{major}.{minor}.{revision}.{build}" revision="0" />
+  <Message key="UpdatedLanguages" value="Sono disponibili i seguenti aggiornamenti del language pack:\n\n{language packs}\n\nVolete scaricarli e aggiornarli?" revision="0" />
+  <Message key="LanguagesDownloaded" value="Il download del pacchetto linguistico è stato completato. Si desidera riavviare l'applicazione per applicare le modifiche?" revision="0" />
+  <Message key="ChangeLanguageNotification" value="Questo pacchetto linguistico è stato creato dalla comunità open source. HHD Sofware Ltd. non si assume alcuna responsabilità sulla qualità di questa traduzione. Volete applicare questo pacchetto linguistico?" revision="0" />
+  <Message key="ExternalFileEmpty" value="Immettere il percorso completo del file delle impostazioni o fare clic sul pulsante Sfoglia." revision="0" />
+  <Message key="Time" value="Tempo" revision="0" />
+  <Message key="Name" value="Nome" revision="0" />
+  <Message key="Value" value="Valore" revision="0" />
+  <Message key="Offset" value="Offset" revision="0" />
+  <Message key="Size" value="Dimensione" revision="0" />
+  <Message key="Type" value="Tipo" revision="0" />
   <Enumeration key="FileOpen">
     <Item value="&amp;Aperto" revision="0" />
     <Item value="Aprire un nuovo documento" revision="0" />
@@ -232,12 +255,12 @@
     <Item value="Configurare le impostazioni del prodotto" revision="0" />
   </Enumeration>
   <Enumeration key="HelpKeyboardMap">
-    <Item />
-    <Item />
+    <Item value="Mappa della tastiera" revision="0" />
+    <Item value="Visualizza un elenco di scorciatoie da tastiera assegnate." revision="0" />
   </Enumeration>
   <Enumeration key="MenuHelp">
-    <Item />
-    <Item />
+    <Item value="&amp;Guida" revision="0" />
+    <Item value="Gruppo di menu Aiuto" revision="0" />
   </Enumeration>
   <Enumeration key="MenuNew">
     <Item value="&amp;Nuovo" revision="0" />
@@ -293,11 +316,11 @@
     <Item value="Una volta alla settimana" revision="0" />
   </Enumeration>
   <Enumeration key="LangMore">
-    <Item />
-    <Item />
+    <Item value="Altre lingue…" revision="0" />
+    <Item value="Verificate se ci sono altre lingue in linea." revision="0" />
   </Enumeration>
   <Enumeration key="LangOnline">
-    <Item />
-    <Item />
+    <Item value="Repository linguistico on-line" revision="0" />
+    <Item value="Partecipare alla creazione di ulteriori pacchetti di lingue per il prodotto." revision="0" />
   </Enumeration>
 </Language>

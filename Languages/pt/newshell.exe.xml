@@ -158,7 +158,30 @@
   <Message key="restoreWindowPosition" value="Restaurar a posição da janela no arranque" revision="0" />
   <Message key="documentsToRemember" value="Número de documentos recentes a recordar" revision="0" />
   <Message key="ThemeFiles" value="Ficheiros de temas (*.hhdtheme)|*.hhdtheme||" revision="0" />
+  <Message key="LangChanged" value="É necessário reiniciar o {product} depois de alterar a língua. Pretende reiniciar agora?" revision="0" />
+  <Message key="Language Page" value="Língua" revision="0" />
+  <Message key="Product language" value="Língua do produto" revision="0" />
+  <Message key="Changing product language requires restart of Hex Editor Neo." value="A alteração do idioma do produto requer o reinício da aplicação." revision="0" />
+  <Message key="I can't find my language in this list." value="Não consigo encontrar a minha língua nesta lista." revision="0" />
+  <Message key="Language pack storage location" value="Local de armazenamento do pacote de idiomas" revision="0" />
+  <Message key="Languages online" value="Línguas em linha" revision="0" />
+  <Message key="Refresh" value="&amp;Atualizar" revision="0" />
+  <Message key="ButtonRefreshing" value="Atualização…" revision="0" />
+  <Message key="Download" value="&amp;Transferir" revision="0" />
+  <Message key="Start" value="&amp;Iniciar" revision="0" />
+  <Message key="Language pack" value="Pacote de idiomas: {native name}" revision="0" />
   <Message key="UpgradePrompt" value="O produto {product name} versão {major}.{minor}.{revision}.{build} está disponível. Deseja atualizar agora?" revision="0" />
+  <Message key="UpdatedLPTemplate" value="    • [[[b{name}]]]\t{major}.{minor}.{revision}.{build}" revision="0" />
+  <Message key="UpdatedLanguages" value="Estão disponíveis as seguintes actualizações do pacote de idiomas:\n\n{language packs}\n\nPretende descarregá-los e actualizá-los?" revision="0" />
+  <Message key="LanguagesDownloaded" value="A transferência do pacote de idiomas está concluída. Pretende reiniciar a aplicação para aplicar as alterações?" revision="0" />
+  <Message key="ChangeLanguageNotification" value="Este pacote de idiomas foi criado pela comunidade de código aberto. A HHD Sofware Ltd. não assume qualquer responsabilidade pela qualidade desta tradução. Deseja aplicar este pacote de idiomas?" revision="0" />
+  <Message key="ExternalFileEmpty" value="Introduza o caminho completo para o ficheiro de definições ou clique no botão Navegar" revision="0" />
+  <Message key="Time" value="Tempo" revision="0" />
+  <Message key="Name" value="Nome" revision="0" />
+  <Message key="Value" value="Valor" revision="0" />
+  <Message key="Offset" value="Endereço" revision="0" />
+  <Message key="Size" value="Tamanho" revision="0" />
+  <Message key="Type" value="Tipo" revision="0" />
   <Enumeration key="FileOpen">
     <Item value="&amp;Aberto" revision="0" />
     <Item value="Abrir um novo documento" revision="0" />
@@ -232,12 +255,12 @@
     <Item value="Configurar as definições do produto" revision="0" />
   </Enumeration>
   <Enumeration key="HelpKeyboardMap">
-    <Item />
-    <Item />
+    <Item value="Mapa do teclado" revision="0" />
+    <Item value="Apresenta uma lista de atalhos de teclado atribuídos." revision="0" />
   </Enumeration>
   <Enumeration key="MenuHelp">
-    <Item />
-    <Item />
+    <Item value="A&amp;juda" revision="0" />
+    <Item value="Grupo de menus Ajuda" revision="0" />
   </Enumeration>
   <Enumeration key="MenuNew">
     <Item value="&amp;Novo" revision="0" />
@@ -293,11 +316,11 @@
     <Item value="Uma vez por semana" revision="0" />
   </Enumeration>
   <Enumeration key="LangMore">
-    <Item />
-    <Item />
+    <Item value="Mais línguas…" revision="0" />
+    <Item value="Verificar se existem mais línguas em linha." revision="0" />
   </Enumeration>
   <Enumeration key="LangOnline">
-    <Item />
-    <Item />
+    <Item value="Repositório de línguas em linha" revision="0" />
+    <Item value="Participar na criação de mais pacotes de línguas para o produto." revision="0" />
   </Enumeration>
 </Language>
