@@ -6,7 +6,7 @@
 	<ValidationRule name="EndsWithSpace" regexp=".* $" message="A string must end with space."/>
 
 	<Application id="{e6e0fe5a-989f-42bc-a491-94ebef0dfbed}">
-		<LanguagePack key="HHD Software\Automated Serial Terminal\2\language" value="language_pack_folder"/>
+		<LanguagePack key="HHD Software\Automated Serial Terminal\language" value="languagePackFolder"/>
 	</Application>
 
 	<CommonParents>
