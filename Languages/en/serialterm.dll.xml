@@ -5,7 +5,6 @@
   <Message key="sendtofile_line" description="Option: Send text lines from file one by one" value="Send text lines from file one by one"/>
   <Message key="converttabs" description="Option: Convert tab characters to N spaces (N=0 - disabled)" value="Convert tab characters to N spaces (N=0 - disabled)"/>
   <Message key="chunk_size" description="Option: Data block size" value="Data block size"/>
-  <Message key="newsession_notify" description="Option: Terminal session creation" value="Terminal session creation"/>
 
   <Message key="Serial Terminal" description="Settings group: Serial Terminal"/>
 
@@ -128,4 +127,6 @@
 		<Param name="sent"/>
 		<Param name="received"/>
 	</Message>
+
+	<Message key="Packet" description="Packet hex title: Packet" />
 </Definition>

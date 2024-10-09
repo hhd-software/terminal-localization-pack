@@ -88,7 +88,17 @@
 		<Item text="Configure product settings"/>
 	</Enumeration>
 
+	<!-- Help Menu -->
+	<Enumeration key="HelpKeyboardMap" description="Command: Help.KeyboardMap">
+		<Item text="Keyboard Map" />
+		<Item text="Display a list of assigned keyboard shortcuts."/>
+	</Enumeration>
+
 	<!-- Menu groups -->
+	<Enumeration key="MenuHelp" description="Command group: Help">
+		<Item text="&amp;Help"/>
+		<Item text="Help menu group"/>
+	</Enumeration>
 	<Enumeration key="MenuNew" description="Command group: New">
 		<Item text="&amp;New"/>
 		<Item text="New menu"/>
@@ -220,15 +230,6 @@
 		<Param name="name"/>
 		<Param name="text"/>
 		<Param name="code" format="ub016"/>
-	</Message>
-
-	<!-- -->
-	<Message key="UpgradePrompt" description="Upgrade prompt" value="{product name} version {major}.{minor}.{revision}.{build} is available. Do you want to upgrade now?">
-		<Param name="product name"/>
-		<Param name="major"/>
-		<Param name="minor" format="w2arf0"/>
-		<Param name="revision" format="w2arf0"/>
-		<Param name="build" format="w4arf0"/>
 	</Message>
 
 	<Message key="Loading" description="Tool window loading placeholder" value="Loading…" />
@@ -373,5 +374,59 @@
 		<Item text="Never"/>
 		<Item text="Every launch"/>
 		<Item text="Once a week"/>
+	</Enumeration>
+
+	<Message key="LangChanged" description="Language changed, need to restart" value="You need to restart {product} after changing the language. Do you want to restart now?">
+		<Param name="product"/>
+	</Message>
+
+	<Message key="Language Page" description="Settings page title: Language" value="Language"/>
+
+	<Message key="Product language" description="Control group: Product language"/>
+	<Message key="Changing product language requires restart of Hex Editor Neo." value="Changing product language requires application restart." description="Field: Changing product language requires restart of the product."/>
+	<Message key="I can't find my language in this list." description="Field: I can't find my language in this list."/>
+	<Message key="Language pack storage location" description="Field group: Language pack storage location"/>
+	<Message key="Languages online" description="Control group: Languages online"/>
+	<Message key="Refresh" description="Button: Refresh" value="&amp;Refresh"/>
+	<Message key="ButtonRefreshing" description="Button: Refreshing…" value="Refreshing…"/>
+	<Message key="Download" description="Button: Download" value="&amp;Download"/>
+	<Message key="Start" description="Button: Start" value="&amp;Start" />
+
+	<Message key="Language pack" description="Language pack" value="Language pack: {native name}">
+		<Param name="native name"/>
+	</Message>
+
+	<Message key="UpgradePrompt" description="Upgrade prompt" value="{product name} version {major}.{minor}.{revision}.{build} is available. Do you want to upgrade now?">
+		<Param name="product name"/>
+		<Param name="major"/>
+		<Param name="minor" format="w2arf0"/>
+		<Param name="revision" format="w2arf0"/>
+		<Param name="build" format="w4arf0"/>
+	</Message>
+
+	<Message key="UpdatedLPTemplate" description="Updated language pack template" value="    • [[[b{name}]]]\t{major}.{minor}.{revision}.{build}">
+		<Param name="name"/>
+		<Param name="major"/>
+		<Param name="minor" format="arw2f0"/>
+		<Param name="revision" format="arw2f0"/>
+		<Param name="build" format="arw4f0"/>
+	</Message>
+	
+	<Message key="UpdatedLanguages" description="Language pack upgrade prompt" value="The following language pack updates are available:\n\n{language packs}\n\nDo you want to download and update them?">
+		<Param name="language packs"/>
+	</Message>
+
+	<Message key="LanguagesDownloaded" description="Language pack(s) downloaded" value="Language pack downloading complete. Do you want to restart application in order to apply changes?"/>
+
+	<Message key="ChangeLanguageNotification" description="Change language notification" value="This language pack was created by open source community. HHD Sofware Ltd. does not hold any responsibility on the quality of this translation. Do you want to apply this language pack?"/>
+
+	<Enumeration key="LangMore" description="Command: Languages.More">
+		<Item text="More Languages…"/>
+		<Item text="Check for more languages on-line."/>
+	</Enumeration>
+
+	<Enumeration key="LangOnline" description="Command: Languages.Online">
+		<Item text="On-line Language Repository"/>
+		<Item text="Take part in creating more language packs for the product."/>
 	</Enumeration>
 </Definition>

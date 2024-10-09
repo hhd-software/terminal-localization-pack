@@ -17,11 +17,6 @@
 		<Item text="Manage installed licenses"/>
 	</Enumeration>
 
-	<Enumeration key="MenuHelp" description="Command group: Help">
-	<Item text="&amp;Help"/>
-	<Item text="Help menu group"/>
-  </Enumeration>
-
   <!-- File Menu -->
   <Enumeration key="FileSave" description="Command: File.Save">
 	<Item text="&amp;Save"/>
@@ -37,6 +32,7 @@
 	<Item text="&amp;Undo"/>
 	<Item text="Undo the last action"/>
   </Enumeration>
+	
   <Enumeration key="EditRedo" description="Command: Edit.Redo">
 	<Item text="&amp;Redo"/>
 	<Item text="Redo the previously undone action"/>

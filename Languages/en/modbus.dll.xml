@@ -376,6 +376,8 @@
 		<Item text="Header 3"/>
 	</Enumeration>
 
+	<Message key="TcpSessionMissing" description="Create TCP Session functionality is missing" value="This functionality is not available in Automated Serial Terminal. However, it is available in HHD Software Device Monitoring Studio.\n\nDo you want to find more information about that product?"/>
+	
 	<!-- MODBUS Send -->
 	<Message key="Address:" description="Field: Address"/>
 	<Message key="Parameters" description="Scroll title: Parameters"/>
