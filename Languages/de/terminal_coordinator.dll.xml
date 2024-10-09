@@ -21,7 +21,7 @@
   <Message key="Trial text: free" value="Sie verwenden derzeit eine funktionsbeschränkte [[[bFREE VERSION]]] des Produkts.\nSie können entweder mit der eingeschränkten Version weitermachen oder den erweiterten Funktionsumfang zunächst 14 Tage lang ausprobieren und dann wieder zur kostenlosen Version wechseln." revision="0" />
   <Message key="Trial link text: free" value="Weiter mit eingeschränkten Funktionen" revision="0" />
   <Message key="Trial dialog title: trial" value="Erhalten Sie erweiterte Funktionen" revision="0" />
-  <Message key="Trial text: trial" value="Einige erweiterte Funktionen von Automated Serial Terminal sind Testversionen, die in [[[b{days}]]] Tagen ablaufen werden.\nSie können mit der eingeschränkten Funktionalität fortfahren oder auf die erweiterte Version upgraden. Mit dem Erwerb der erweiterten Funktionalität wird dieser Bildschirm entfernt." revision="0" />
+  <Message key="Trial text: trial" value="Einige erweiterte Funktionen dieses Produkts sind Testversionen und laufen nach [[[b{days}]]] Tagen ab.\nSie können mit der eingeschränkten Funktionalität fortfahren oder auf die erweiterte Version upgraden. Mit dem Erwerb der erweiterten Funktionalität wird dieser Bildschirm entfernt." revision="0" />
   <Message key="Trial link text: trial" value="Bewertung fortsetzen" revision="0" />
   <Message key="Trial dialog title: expired" value="Erhalten Sie erweiterte Funktionen" revision="0" />
   <Message key="Trial text: expired" value="Sie verwenden derzeit eine funktionsbeschränkte [[[bFREE VERSION]]] des Produkts.\nSie können entweder die eingeschränkte Version weiter verwenden oder auf die erweiterte Version upgraden. Mit dem Erwerb der erweiterten Funktionalität wird dieser Bildschirm entfernt." revision="0" />

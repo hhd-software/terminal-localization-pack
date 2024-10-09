@@ -21,7 +21,7 @@
   <Message key="Trial text: free" value="Está atualmente a utilizar a [[[bFREE VERSION]]] do produto com funcionalidades limitadas.\nPode continuar a utilizar a versão limitada ou experimentar a funcionalidade alargada durante 14 dias e depois voltar a utilizar a versão gratuita." revision="0" />
   <Message key="Trial link text: free" value="Continuar com funcionalidades limitadas" revision="0" />
   <Message key="Trial dialog title: trial" value="Obter funcionalidade alargada" revision="0" />
-  <Message key="Trial text: trial" value="Algumas funcionalidades alargadas do Automated Serial Terminal são experimentais e expiram dentro de [[[b{days}]]] dias.\nPode continuar com a funcionalidade limitada ou atualizar para a versão alargada. A aquisição da funcionalidade alargada eliminará este ecrã." revision="0" />
+  <Message key="Trial text: trial" value="Algumas funcionalidades alargadas deste Produto são experimentais e expiram dentro de [[[b{days}]]] dias.\nPode continuar com a funcionalidade limitada ou atualizar para a versão alargada. A aquisição da funcionalidade alargada eliminará este ecrã." revision="0" />
   <Message key="Trial link text: trial" value="Continuar a avaliação" revision="0" />
   <Message key="Trial dialog title: expired" value="Obter funcionalidade alargada" revision="0" />
   <Message key="Trial text: expired" value="Está atualmente a utilizar a [[[bFREE VERSION]]] do produto com funcionalidades limitadas.\nPode continuar a utilizar a versão limitada ou atualizar para a versão alargada. A aquisição da funcionalidade alargada eliminará este ecrã." revision="0" />
