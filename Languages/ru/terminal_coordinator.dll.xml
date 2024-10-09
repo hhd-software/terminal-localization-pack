@@ -69,10 +69,6 @@
     <Item value="&amp;Управление лицензиями…" revision="0" />
     <Item value="Управление установленными лицензиями" revision="0" />
   </Enumeration>
-  <Enumeration key="MenuHelp">
-    <Item value="&amp;Справка" revision="0" />
-    <Item value="Группа меню Справка" revision="0" />
-  </Enumeration>
   <Enumeration key="FileSave">
     <Item value="&amp;Сохранить" revision="0" />
     <Item value="Сохранить текущий документ" revision="0" />

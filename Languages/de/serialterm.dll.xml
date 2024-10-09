@@ -4,7 +4,6 @@
   <Message key="sendtofile_line" value="Textzeilen aus einer Datei nacheinander senden" revision="0" />
   <Message key="converttabs" value="Tabulatorzeichen in N Leerzeichen umwandeln (N=0 - deaktiviert)" revision="0" />
   <Message key="chunk_size" value="Größe des Datenblocks" revision="0" />
-  <Message key="newsession_notify" value="Erstellung von Terminalsitzungen" revision="0" />
   <Message key="Serial Terminal" value="Serielles Terminal" revision="0" />
   <Message key="Array expected" value="Byte-Array erwartet" revision="0" />
   <Message key="Invalid constant" value="Ungültiger konstanter Wert" revision="0" />

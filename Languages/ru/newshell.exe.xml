@@ -55,7 +55,6 @@
   <Message key="Select components:" value="Выберите компоненты" revision="0" />
   <Message key="Select all" value="Выбрать все" revision="0" />
   <Message key="File creation error" value="Произошла ошибка при {create?}создании{|create}открытии{?create} файла &quot;{name}&quot;: {text} ({code})" revision="1" />
-  <Message key="UpgradePrompt" value="Доступна версия {major}.{minor}.{revision}.{build} продукта {product name}. Хотите обновиться прямо сейчас?" revision="0" />
   <Message key="Loading" value="Загрузка…" revision="0" />
   <Message key="B" value="байт" revision="0" />
   <Message key="KB" value="КБ" revision="0" />
@@ -159,6 +158,7 @@
   <Message key="restoreWindowPosition" value="Восстановление положения окна при запуске" revision="0" />
   <Message key="documentsToRemember" value="Количество запомненных документов" revision="0" />
   <Message key="ThemeFiles" value="Файлы с темой (*.hhdtheme)|*.hhdtheme||" revision="0" />
+  <Message key="UpgradePrompt" value="Доступна версия {major}.{minor}.{revision}.{build} продукта {product name}. Хотите обновиться прямо сейчас?" revision="0" />
   <Enumeration key="FileOpen">
     <Item value="&amp;Открыть" revision="0" />
     <Item value="Открыть новый документ" revision="0" />
@@ -231,6 +231,14 @@
     <Item value="&amp;Настройки…" revision="0" />
     <Item value="Настройка параметров продукта" revision="0" />
   </Enumeration>
+  <Enumeration key="HelpKeyboardMap">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuHelp">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="MenuNew">
     <Item value="&amp;Новая" revision="0" />
     <Item value="Новое меню" revision="0" />
@@ -283,5 +291,13 @@
     <Item value="Никогда" revision="0" />
     <Item value="Каждый запуск" revision="0" />
     <Item value="Раз в неделю" revision="0" />
+  </Enumeration>
+  <Enumeration key="LangMore">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="LangOnline">
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

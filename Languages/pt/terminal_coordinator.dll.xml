@@ -69,10 +69,6 @@
     <Item value="&amp;Gestão de licenças…" revision="0" />
     <Item value="Gerir as licenças instaladas" revision="0" />
   </Enumeration>
-  <Enumeration key="MenuHelp">
-    <Item value="&amp;Ajuda" revision="0" />
-    <Item value="Grupo de menus Ajuda" revision="0" />
-  </Enumeration>
   <Enumeration key="FileSave">
     <Item value="&amp;Guardar" revision="0" />
     <Item value="Guardar o documento atual" revision="0" />

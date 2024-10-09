@@ -55,7 +55,6 @@
   <Message key="Select components:" value="Selecionar componentes" revision="0" />
   <Message key="Select all" value="Selecionar tudo" revision="0" />
   <Message key="File creation error" value="Ocorreu um erro ao {create?}criar{|create}abrir{?create} o ficheiro &quot;{name}&quot;: {text} ({code})" revision="1" />
-  <Message key="UpgradePrompt" value="O produto {product name} versão {major}.{minor}.{revision}.{build} está disponível. Deseja atualizar agora?" revision="0" />
   <Message key="Loading" value="Carregamento…" revision="0" />
   <Message key="B" value="bytes" revision="0" />
   <Message key="KB" value="KB" revision="0" />
@@ -159,6 +158,7 @@
   <Message key="restoreWindowPosition" value="Restaurar a posição da janela no arranque" revision="0" />
   <Message key="documentsToRemember" value="Número de documentos recentes a recordar" revision="0" />
   <Message key="ThemeFiles" value="Ficheiros de temas (*.hhdtheme)|*.hhdtheme||" revision="0" />
+  <Message key="UpgradePrompt" value="O produto {product name} versão {major}.{minor}.{revision}.{build} está disponível. Deseja atualizar agora?" revision="0" />
   <Enumeration key="FileOpen">
     <Item value="&amp;Aberto" revision="0" />
     <Item value="Abrir um novo documento" revision="0" />
@@ -231,6 +231,14 @@
     <Item value="&amp;Definições…" revision="0" />
     <Item value="Configurar as definições do produto" revision="0" />
   </Enumeration>
+  <Enumeration key="HelpKeyboardMap">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuHelp">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="MenuNew">
     <Item value="&amp;Novo" revision="0" />
     <Item value="Novo menu" revision="0" />
@@ -283,5 +291,13 @@
     <Item value="Nunca" revision="0" />
     <Item value="Cada lançamento" revision="0" />
     <Item value="Uma vez por semana" revision="0" />
+  </Enumeration>
+  <Enumeration key="LangMore">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="LangOnline">
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

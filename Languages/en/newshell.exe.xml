@@ -429,4 +429,13 @@
 		<Item text="On-line Language Repository"/>
 		<Item text="Take part in creating more language packs for the product."/>
 	</Enumeration>
+
+	<Message key="ExternalFileEmpty" description="Enter non-empty external settings file path" value="Enter the full path to the settings file or click Browse button"/>
+
+	<Message key="Time" description="Common strings: Time"/>
+	<Message key="Name" description="Common strings: Name"/>
+	<Message key="Value" description="Common strings: Value"/>
+	<Message key="Offset" description="Common strings: Offset"/>
+	<Message key="Size" description="Common strings: Size"/>
+	<Message key="Type" description="Common strings: Type"/>
 </Definition>

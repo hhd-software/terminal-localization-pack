@@ -4,7 +4,6 @@
   <Message key="sendtofile_line" value="Отправлять текстовые строки из файла по одной" revision="0" />
   <Message key="converttabs" value="Преобразовывать символы табуляции в N пробелов (N=0 - отключено)" revision="0" />
   <Message key="chunk_size" value="Размер блока данных" revision="0" />
-  <Message key="newsession_notify" value="Создание терминальной сессии" revision="0" />
   <Message key="Serial Terminal" value="Последовательный терминал" revision="0" />
   <Message key="Array expected" value="Ожидается массив байтов" revision="0" />
   <Message key="Invalid constant" value="Недопустимое значение константы" revision="0" />

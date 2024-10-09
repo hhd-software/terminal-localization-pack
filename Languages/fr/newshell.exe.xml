@@ -55,7 +55,6 @@
   <Message key="Select components:" value="Sélectionner les composants" revision="0" />
   <Message key="Select all" value="Tout sélectionner" revision="0" />
   <Message key="File creation error" value="Une erreur s'est produite lors {create?}de la création{|create}de l'ouverture{?create} du fichier &quot;{name}&quot;: {text} ({code})" revision="1" />
-  <Message key="UpgradePrompt" value="Le produit {product name} version {major}.{minor}.{revision}.{build} est disponible. Voulez-vous effectuer la mise à jour maintenant ?" revision="0" />
   <Message key="Loading" value="Chargement…" revision="0" />
   <Message key="B" value="octets" revision="0" />
   <Message key="KB" value="KO" revision="0" />
@@ -159,6 +158,7 @@
   <Message key="restoreWindowPosition" value="Restaurer la position de la fenêtre au démarrage" revision="0" />
   <Message key="documentsToRemember" value="Nombre de documents récents à retenir" revision="0" />
   <Message key="ThemeFiles" value="Fichiers à thème (*.hhdtheme)|*.hhdtheme||" revision="0" />
+  <Message key="UpgradePrompt" value="Le produit {product name} version {major}.{minor}.{revision}.{build} est disponible. Voulez-vous effectuer la mise à jour maintenant ?" revision="0" />
   <Enumeration key="FileOpen">
     <Item value="&amp;Ouvrir" revision="0" />
     <Item value="Ouvrir un nouveau document" revision="0" />
@@ -231,6 +231,14 @@
     <Item value="&amp;Paramètres…" revision="0" />
     <Item value="Configurer les paramètres du produit" revision="0" />
   </Enumeration>
+  <Enumeration key="HelpKeyboardMap">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuHelp">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="MenuNew">
     <Item value="&amp;Nouveau" revision="0" />
     <Item value="Nouveau menu" revision="0" />
@@ -283,5 +291,13 @@
     <Item value="Jamais" revision="0" />
     <Item value="Chaque lancement" revision="0" />
     <Item value="Une fois par semaine" revision="0" />
+  </Enumeration>
+  <Enumeration key="LangMore">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="LangOnline">
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

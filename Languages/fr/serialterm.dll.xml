@@ -4,7 +4,6 @@
   <Message key="sendtofile_line" value="Envoyer des lignes de texte à partir d'un fichier, une par une" revision="0" />
   <Message key="converttabs" value="Convertir les caractères de tabulation en N espaces (N=0 - désactivé)" revision="0" />
   <Message key="chunk_size" value="Taille du bloc de données" revision="0" />
-  <Message key="newsession_notify" value="Création d'une session de terminal" revision="0" />
   <Message key="Serial Terminal" value="Terminal série" revision="0" />
   <Message key="Array expected" value="Tableau d'octets prévu" revision="0" />
   <Message key="Invalid constant" value="Valeur de la constante non valide" revision="0" />
