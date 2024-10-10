@@ -56,10 +56,32 @@
   <Message key="Select all" value="Выбрать все" revision="0" />
   <Message key="File creation error" value="Произошла ошибка при {create?}создании{|create}открытии{?create} файла &quot;{name}&quot;: {text} ({code})" revision="1" />
   <Message key="Loading" value="Загрузка…" revision="0" />
+  <Message key="Bytes" value="байт" revision="0" />
   <Message key="KB" value="КБ" revision="0" />
   <Message key="MB" value="МБ" revision="0" />
   <Message key="GB" value="ГБ" revision="0" />
   <Message key="TB" value="ТБ" revision="0" />
+  <Message key="Theme" value="Тема" revision="0" />
+  <Message key="Import" value="Импорт" revision="0" />
+  <Message key="Export" value="Экспорт" revision="0" />
+  <Message key="Current" value="Текущий" revision="0" />
+  <Message key="Selected" value="Выбранный" revision="0" />
+  <Message key="Automatic color is dependent on current operating system color theme" value="Автоматический цвет зависит от текущей цветовой темы операционной системы" revision="0" />
+  <Message key="Display elements" value="Отображаемые элементы" revision="0" />
+  <Message key="Automatic" value="Автоматически" revision="0" />
+  <Message key="Toolbar" value="Панель инструментов" revision="0" />
+  <Message key="New Group" value="Новая группа" revision="0" />
+  <Message key="&lt; Add" value="&lt; Добавить" revision="0" />
+  <Message key="Remove &gt;" value="Убрать &gt;" revision="0" />
+  <Message key="Move Up" value="Вверх" revision="0" />
+  <Message key="Move Down" value="Вниз" revision="0" />
+  <Message key="Clear" value="Очистить" revision="0" />
+  <Message key="Reset" value="Сбросить" revision="0" />
+  <Message key="Clip toolbars" value="Обрезать панели инструментов" revision="0" />
+  <Message key="Wrap toolbars" value="Переносить панели инструментов" revision="0" />
+  <Message key="Keyboard Map Dialog" value="Назначения клавиш" revision="0" />
+  <Message key="Print" value="Печатать" revision="0" />
+  <Message key="Copy" value="Копировать" revision="0" />
   <Message key="clr.default_colors" value="Цвета интерфейса по умолчанию" revision="0" />
   <Message key="clr.default_colors.background" value="Фон" revision="0" />
   <Message key="clr.default_colors.control_background" value="Фон контролов" revision="0" />

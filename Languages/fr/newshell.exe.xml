@@ -56,10 +56,32 @@
   <Message key="Select all" value="Tout sélectionner" revision="0" />
   <Message key="File creation error" value="Une erreur s'est produite lors {create?}de la création{|create}de l'ouverture{?create} du fichier &quot;{name}&quot;: {text} ({code})" revision="1" />
   <Message key="Loading" value="Chargement…" revision="0" />
+  <Message key="Bytes" value="octets" revision="0" />
   <Message key="KB" value="KO" revision="0" />
   <Message key="MB" value="MO" revision="0" />
   <Message key="GB" value="GO" revision="0" />
   <Message key="TB" value="TO" revision="0" />
+  <Message key="Theme" value="Thème" revision="0" />
+  <Message key="Import" value="Importer" revision="0" />
+  <Message key="Export" value="Exporter" revision="0" />
+  <Message key="Current" value="Actuel" revision="0" />
+  <Message key="Selected" value="Sélectionné" revision="0" />
+  <Message key="Automatic color is dependent on current operating system color theme" value="La couleur automatique dépend du thème de couleur du système d'exploitation actuel." revision="0" />
+  <Message key="Display elements" value="Éléments affichés" revision="0" />
+  <Message key="Automatic" value="Automatique" revision="0" />
+  <Message key="Toolbar" value="Barre d'outils" revision="0" />
+  <Message key="New Group" value="Nouveau groupe" revision="0" />
+  <Message key="&lt; Add" value="&lt; Ajout" revision="0" />
+  <Message key="Remove &gt;" value="Retirer &gt;" revision="0" />
+  <Message key="Move Up" value="Haut" revision="0" />
+  <Message key="Move Down" value="En bas" revision="0" />
+  <Message key="Clear" value="Effacer" revision="0" />
+  <Message key="Reset" value="Réinitialiser" revision="0" />
+  <Message key="Clip toolbars" value="Découper ces barres d'outils" revision="0" />
+  <Message key="Wrap toolbars" value="Envelopper ces barres d'outils" revision="0" />
+  <Message key="Keyboard Map Dialog" value="Carte du clavier" revision="0" />
+  <Message key="Print" value="Imprimer" revision="0" />
+  <Message key="Copy" value="Copier" revision="0" />
   <Message key="clr.default_colors" value="Couleurs par défaut de l'IU" revision="0" />
   <Message key="clr.default_colors.background" value="Arrière-plan " revision="0" />
   <Message key="clr.default_colors.control_background" value="Arrière-plan des contrôles" revision="0" />

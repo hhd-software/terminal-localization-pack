@@ -56,10 +56,32 @@
   <Message key="Select all" value="Alle auswählen" revision="0" />
   <Message key="File creation error" value="Beim {create?}Erstellen{|create}Öffnen{?create} der Datei ist ein Fehler aufgetreten &quot;{name}&quot;: {text} ({code})" revision="1" />
   <Message key="Loading" value="Laden…" revision="0" />
+  <Message key="Bytes" value="bytes" revision="0" />
   <Message key="KB" value="KB" revision="0" />
   <Message key="MB" value="MB" revision="0" />
   <Message key="GB" value="GB" revision="0" />
   <Message key="TB" value="TB" revision="0" />
+  <Message key="Theme" value="Thema" revision="0" />
+  <Message key="Import" value="Importieren" revision="0" />
+  <Message key="Export" value="Exportieren" revision="0" />
+  <Message key="Current" value="Aktuell" revision="0" />
+  <Message key="Selected" value="Ausgewählt" revision="0" />
+  <Message key="Automatic color is dependent on current operating system color theme" value="Die automatische Farbe hängt vom aktuellen Farbthema des Betriebssystems ab." revision="0" />
+  <Message key="Display elements" value="Angezeigte Artikel" revision="0" />
+  <Message key="Automatic" value="Automatisch" revision="0" />
+  <Message key="Toolbar" value="Symbolleiste" revision="0" />
+  <Message key="New Group" value="Neue Gruppe" revision="0" />
+  <Message key="&lt; Add" value="&lt; Hinzufügen" revision="0" />
+  <Message key="Remove &gt;" value="Entfernen &gt;" revision="0" />
+  <Message key="Move Up" value="Aufwärts" revision="0" />
+  <Message key="Move Down" value="Abwärts" revision="0" />
+  <Message key="Clear" value="Klar" revision="0" />
+  <Message key="Reset" value="Zurücksetzen" revision="0" />
+  <Message key="Clip toolbars" value="Clip-Symbolleisten" revision="0" />
+  <Message key="Wrap toolbars" value="Symbolleisten umbrechen" revision="0" />
+  <Message key="Keyboard Map Dialog" value="Tastaturkarte" revision="0" />
+  <Message key="Print" value="Drucken" revision="0" />
+  <Message key="Copy" value="Kopieren" revision="0" />
   <Message key="clr.default_colors" value="Standard-UI-Farben" revision="0" />
   <Message key="clr.default_colors.background" value="Hintergrund" revision="0" />
   <Message key="clr.default_colors.control_background" value="Kontrolle Hintergrund" revision="0" />

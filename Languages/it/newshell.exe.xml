@@ -56,10 +56,32 @@
   <Message key="Select all" value="Seleziona tutti" revision="0" />
   <Message key="File creation error" value="Si è verificato un errore {create?}nella creazione{|create}nell'apertura{?create} del file &quot;{name}&quot;: {text} ({code})" revision="1" />
   <Message key="Loading" value="Caricamento…" revision="0" />
+  <Message key="Bytes" value="byte" revision="0" />
   <Message key="KB" value="KB" revision="0" />
   <Message key="MB" value="MB" revision="0" />
   <Message key="GB" value="GB" revision="0" />
   <Message key="TB" value="TB" revision="0" />
+  <Message key="Theme" value="Tema" revision="0" />
+  <Message key="Import" value="Importazione" revision="0" />
+  <Message key="Export" value="Esportazione" revision="0" />
+  <Message key="Current" value="Attuale" revision="0" />
+  <Message key="Selected" value="Selezionato" revision="0" />
+  <Message key="Automatic color is dependent on current operating system color theme" value="Il colore automatico dipende dal tema cromatico del sistema operativo corrente." revision="0" />
+  <Message key="Display elements" value="Articoli visualizzati" revision="0" />
+  <Message key="Automatic" value="Automatico" revision="0" />
+  <Message key="Toolbar" value="Barra degli strumenti" revision="0" />
+  <Message key="New Group" value="Nuovo Gruppo" revision="0" />
+  <Message key="&lt; Add" value="&lt; Aggiungi" revision="0" />
+  <Message key="Remove &gt;" value="Rimuovere &gt;" revision="0" />
+  <Message key="Move Up" value="In alto" revision="0" />
+  <Message key="Move Down" value="In basso" revision="0" />
+  <Message key="Clear" value="Cancella" revision="0" />
+  <Message key="Reset" value="Ripristinare" revision="0" />
+  <Message key="Clip toolbars" value="Ritagliare queste barre degli strumenti" revision="0" />
+  <Message key="Wrap toolbars" value="Avvolgere queste barre degli strumenti" revision="0" />
+  <Message key="Keyboard Map Dialog" value="Mappa della tastiera" revision="0" />
+  <Message key="Print" value="Stampare" revision="0" />
+  <Message key="Copy" value="Copia" revision="0" />
   <Message key="clr.default_colors" value="Colori predefiniti della UI" revision="0" />
   <Message key="clr.default_colors.background" value="Sfondo" revision="0" />
   <Message key="clr.default_colors.control_background" value="Sfondo dei controlli" revision="0" />

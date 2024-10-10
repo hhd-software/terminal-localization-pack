@@ -56,10 +56,32 @@
   <Message key="Select all" value="Selecionar tudo" revision="0" />
   <Message key="File creation error" value="Ocorreu um erro ao {create?}criar{|create}abrir{?create} o ficheiro &quot;{name}&quot;: {text} ({code})" revision="1" />
   <Message key="Loading" value="Carregamento…" revision="0" />
+  <Message key="Bytes" value="bytes" revision="0" />
   <Message key="KB" value="KB" revision="0" />
   <Message key="MB" value="MB" revision="0" />
   <Message key="GB" value="GB" revision="0" />
   <Message key="TB" value="TB" revision="0" />
+  <Message key="Theme" value="Tema" revision="0" />
+  <Message key="Import" value="Importar" revision="0" />
+  <Message key="Export" value="Exportar" revision="0" />
+  <Message key="Current" value="Atual" revision="0" />
+  <Message key="Selected" value="Seleccionado" revision="0" />
+  <Message key="Automatic color is dependent on current operating system color theme" value="A cor automática depende do tema de cor do sistema operativo atual" revision="0" />
+  <Message key="Display elements" value="Itens exibidos" revision="0" />
+  <Message key="Automatic" value="Automático" revision="0" />
+  <Message key="Toolbar" value="Barra de ferramentas" revision="0" />
+  <Message key="New Group" value="Novo grupo" revision="0" />
+  <Message key="&lt; Add" value="&lt; Adicionar" revision="0" />
+  <Message key="Remove &gt;" value="Remover &gt;" revision="0" />
+  <Message key="Move Up" value="Acima" revision="0" />
+  <Message key="Move Down" value="Baixo" revision="0" />
+  <Message key="Clear" value="Limpar" revision="0" />
+  <Message key="Reset" value="Repor" revision="0" />
+  <Message key="Clip toolbars" value="Recortar estas barras de ferramentas" revision="0" />
+  <Message key="Wrap toolbars" value="Envolver estas barras de ferramentas" revision="0" />
+  <Message key="Keyboard Map Dialog" value="Mapa do teclado" revision="0" />
+  <Message key="Print" value="Imprimir" revision="0" />
+  <Message key="Copy" value="Copiar" revision="0" />
   <Message key="clr.default_colors" value="Cores UI predefinidas" revision="0" />
   <Message key="clr.default_colors.background" value="Fundo" revision="0" />
   <Message key="clr.default_colors.control_background" value="Fundo do controlo " revision="0" />
