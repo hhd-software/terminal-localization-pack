@@ -6,5 +6,14 @@
   <Message key="Type" value="Type" revision="0" />
   <Message key="Time" value="Temps" revision="0" />
   <Message key="Name" value="Nom" revision="0" />
+  <Message key="Help" value="Aide" revision="0" />
+  <Message key="Delay" value="Retard" revision="0" />
+  <Message key="Packet" value="Paquet" revision="0" />
+  <Message key="Overwrite" value="Remplacer" revision="0" />
+  <Message key="Scheme" value="Schéma" revision="0" />
+  <Message key="Error" value="Erreur" revision="0" />
+  <Message key="Data" value="Données" revision="0" />
+  <Message key="Length" value="Longueur" revision="0" />
+  <Message key="Code" value="Code" revision="0" />
   <Message key="AllFilesFilter" value="Tous les fichiers|*.*|" revision="0" />
 </Language>
