@@ -234,14 +234,40 @@
 
 	<Message key="Loading" description="Tool window loading placeholder" value="Loading…" />
 
-	<Message key="B" description="Bytes" value="bytes"/>
-	<Message key="KB" description="Kilobytes" />
-	<Message key="MB" description="Megabytes" />
-	<Message key="GB" description="Gigabytes" />
-	<Message key="TB" description="Terabytes"/>
+	<Message key="Bytes" description="Size designator: Bytes" value="bytes"/>
+	<Message key="KB" description="Size designator: Kilobytes" />
+	<Message key="MB" description="Size designator: Megabytes" />
+	<Message key="GB" description="Size designator: Gigabytes" />
+	<Message key="TB" description="Size designator: Terabytes"/>
+
+	<!-- Color page -->
+	<Message key="Theme" description="Field: Theme"/>
+	<Message key="Import" description="Button: Import"/>
+	<Message key="Export" description="Button: Export"/>
+	<Message key="Current" description="Theme color field: Current" />
+	<Message key="Selected" description="Theme color field: Selected" />
+	<Message key="Automatic color is dependent on current operating system color theme" description="Field: Automatic color is dependent on current operating system color theme"/>
+	<Message key="Display elements" description="Field: Display elements"/>
+	<Message key="Automatic" description="Field: Automatic" />
+	
+	<!-- Toolbar page -->
+	<Message key="Toolbar" description="Field: Toolbar"/>
+	<Message key="New Group" description="Field: New Group"/>
+	<Message key="&lt; Add" description="Field: &lt; Add"/>
+	<Message key="Remove &gt;" description="Field: Remove &gt;"/>
+	<Message key="Move Up" description="Field: Move Up"/>
+	<Message key="Move Down" description="Field: Move Down"/>
+	<Message key="Clear" description="Field: Clear"/>
+	<Message key="Reset" description="Field: Reset"/>
+	<Message key="Clip toolbars" description="Field: Clip toolbars"/>
+	<Message key="Wrap toolbars" description="Field: Wrap toolbars"/>
+
+	<!-- Keyboard Map -->
+	<Message key="Keyboard Map Dialog" description="Window title: Keyboard Map" value="Keyboard Map"/>
+	<Message key="Print" description="Button: Print" />
+	<Message key="Copy" description="Button: Copy" />
 
 	<!-- Color scheme -->
-
 	<Message key="clr.default_colors" description="Color: Default UI Colors" value="Default UI Colors" />
 	<Message key="clr.default_colors.background" description="Color: Default UI Background Color" value="Background" />
 	<Message key="clr.default_colors.control_background" description="Color: Default UI Control Color" value="Control background" />
@@ -432,14 +458,6 @@
 
 	<Message key="ExternalFileEmpty" description="Enter non-empty external settings file path" value="Enter the full path to the settings file or click Browse button"/>
 
-	<Message key="Time" description="Common strings: Time"/>
-	<Message key="Name" description="Common strings: Name"/>
-	<Message key="Value" description="Common strings: Value"/>
-	<Message key="Offset" description="Common strings: Offset"/>
-	<Message key="Size" description="Common strings: Size"/>
-	<Message key="Type" description="Common strings: Type"/>
-	<Message key="AllFilesFilter" description="All files Open/Save dialog filter" value="All files|*.*|"/>
-	
 	<Message key="YourLanguageAvailable" description="User language pack is available" value='Language pack for "{language}" is available on-line. Do you want to download and use this language pack?'>
 		<Param name="language"/>
 	</Message>

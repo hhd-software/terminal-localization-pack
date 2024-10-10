@@ -56,7 +56,6 @@
   <Message key="Select all" value="Selecionar tudo" revision="0" />
   <Message key="File creation error" value="Ocorreu um erro ao {create?}criar{|create}abrir{?create} o ficheiro &quot;{name}&quot;: {text} ({code})" revision="1" />
   <Message key="Loading" value="Carregamento…" revision="0" />
-  <Message key="B" value="bytes" revision="0" />
   <Message key="KB" value="KB" revision="0" />
   <Message key="MB" value="MB" revision="0" />
   <Message key="GB" value="GB" revision="0" />
@@ -176,13 +175,6 @@
   <Message key="LanguagesDownloaded" value="A transferência do pacote de idiomas está concluída. Pretende reiniciar a aplicação para aplicar as alterações?" revision="0" />
   <Message key="ChangeLanguageNotification" value="Este pacote de idiomas foi criado pela comunidade de código aberto. A HHD Sofware Ltd. não assume qualquer responsabilidade pela qualidade desta tradução. Deseja aplicar este pacote de idiomas?" revision="0" />
   <Message key="ExternalFileEmpty" value="Introduza o caminho completo para o ficheiro de definições ou clique no botão Navegar" revision="0" />
-  <Message key="Time" value="Tempo" revision="0" />
-  <Message key="Name" value="Nome" revision="0" />
-  <Message key="Value" value="Valor" revision="0" />
-  <Message key="Offset" value="Endereço" revision="0" />
-  <Message key="Size" value="Tamanho" revision="0" />
-  <Message key="Type" value="Tipo" revision="0" />
-  <Message key="AllFilesFilter" value="Todos os ficheiros|*.*|" revision="0" />
   <Message key="YourLanguageAvailable" value="O pacote de idiomas para “{language}” está disponível online. Pretende descarregar e utilizar este pacote de línguas?" revision="0" />
   <Message key="Do not display this message anymore" value="Não mostrar mais esta mensagem" revision="0" />
   <Message key="yourLanguage" value="Língua de utilizador disponível em linha" revision="0" />

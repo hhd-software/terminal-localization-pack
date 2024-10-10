@@ -56,7 +56,6 @@
   <Message key="Select all" value="Alle auswählen" revision="0" />
   <Message key="File creation error" value="Beim {create?}Erstellen{|create}Öffnen{?create} der Datei ist ein Fehler aufgetreten &quot;{name}&quot;: {text} ({code})" revision="1" />
   <Message key="Loading" value="Laden…" revision="0" />
-  <Message key="B" value="Bytes" revision="0" />
   <Message key="KB" value="KB" revision="0" />
   <Message key="MB" value="MB" revision="0" />
   <Message key="GB" value="GB" revision="0" />
@@ -176,13 +175,6 @@
   <Message key="LanguagesDownloaded" value="Das Herunterladen des Sprachpakets ist abgeschlossen. Möchten Sie die Anwendung neu starten, um die Änderungen zu übernehmen?" revision="0" />
   <Message key="ChangeLanguageNotification" value="Dieses Sprachpaket wurde von der offenen Quellgemeinschaft erstellt. HHD Sofware Ltd. übernimmt keine Verantwortung für die Qualität dieser Übersetzung. Möchten Sie dieses Sprachpaket anwenden?" revision="0" />
   <Message key="ExternalFileEmpty" value="Geben Sie den vollständigen Pfad zur Einstellungsdatei ein oder klicken Sie auf die Schaltfläche Durchsuchen" revision="0" />
-  <Message key="Time" value="Zeit" revision="0" />
-  <Message key="Name" value="Name" revision="0" />
-  <Message key="Value" value="Wert" revision="0" />
-  <Message key="Offset" value="Versatz" revision="0" />
-  <Message key="Size" value="Größe" revision="0" />
-  <Message key="Type" value="Typ" revision="0" />
-  <Message key="AllFilesFilter" value="Alle Dateien|*.*|" revision="0" />
   <Message key="YourLanguageAvailable" value="Das Sprachpaket für „{language}“ ist online verfügbar. Möchten Sie dieses Sprachpaket herunterladen und verwenden?" revision="0" />
   <Message key="Do not display this message anymore" value="Diese Meldung nicht mehr anzeigen" revision="0" />
   <Message key="yourLanguage" value="Benutzersprache online verfügbar" revision="0" />

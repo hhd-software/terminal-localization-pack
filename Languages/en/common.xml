@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+	<Parents>
+		<RemoveParent name="Studio.exe" />
+	</Parents>
+	
+	<Message key="Size" description="Common string: Size" />
+	<Message key="Offset" description="Common string: Offset" />
+	<Message key="Value" description="Common string: Value" />
+	<Message key="Type" description="Common string: Type" />
+	<Message key="Time" description="Common string: Time" />
+	<Message key="Name" description="Common string: Name" />
+	<Message key="Help" description="Common string: Help" />
+	<Message key="Delay" description="Common string: Delay"/>
+	<Message key="Packet" description="Common string: Packet"/>
+	<Message key="Overwrite" description="Field: Overwrite"/>
+	<Message key="Scheme" description="Field: Scheme"/>
+	<Message key="Error" description="Field: Error"/>
+	<Message key="Data" description="Field: Data"/>
+	<Message key="Length" description="Field: Length"/>
+	<Message key="Code" description="Field: Code"/>
+	<Message key="Save" description="Common string: Save"/>
+
+	<Message key="Generate Script" description="Button: Generate Script"/>
+	<Message key="Save to File" description="Button: Save to File"/>
+	<Message key="Reset All" description="Button: Reset All"/>
+
+	<Message key="AllFilesFilter" description="All files filter" value="All Files|*.*|"/>
+	<Message key="EmptyPath" description="Empty path cue banner text" value="Empty"/>
+
+	<!-- MODBUS Send -->
+	<Message key="Session:" description="Field: Session"/>
+	<Message key="Mode:" description="Field: Mode"/>
+	<Message key="Address:" description="Field: Address"/>
+	<Message key="Total Length:" description="Field: Total Length"/>
+
+	<!-- Serial parameters dialog -->
+	<Message key="Baud rate" description="Label text: Baud rate" value="Baud rate"/>
+	<Message key="Data bits" description="Label text: Data bits" value="Data bits"/>
+	<Message key="Parity" description="Label text: Parity" value="Parity"/>
+	<Message key="Stop bits" description="Label text: Stop bits" value="Stop bits"/>
+	<Message key="Flow control" description="Label text: Flow control" value="Flow control"/>
+	<Message key="Out DSR Flow" description="Label text: output DSR" value="Out DSR Flow"/>
+	<Message key="RTS control" description="Label text: RTS control" value="RTS control"/>
+	<Message key="DSR sensivity" description="Label text: DSR sensitivity" value="DSR sensitivity"/>
+	<Message key="DTR control" description="Label text: DTR control" value="DTR control"/>
+	<Message key="Out CTS Flow" description="Label text: Output CTS" value="Out CTS Flow"/>
+	<Message key="Out XON/XOFF" description="Label text: Output xon/xoff" value="Out XON/XOFF"/>
+	<Message key="In XON/XOFF" description="Label text: Input xon/xoff" value="In XON/XOFF"/>
+
+</Definition>

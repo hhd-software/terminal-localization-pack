@@ -56,7 +56,6 @@
   <Message key="Select all" value="Выбрать все" revision="0" />
   <Message key="File creation error" value="Произошла ошибка при {create?}создании{|create}открытии{?create} файла &quot;{name}&quot;: {text} ({code})" revision="1" />
   <Message key="Loading" value="Загрузка…" revision="0" />
-  <Message key="B" value="байт" revision="0" />
   <Message key="KB" value="КБ" revision="0" />
   <Message key="MB" value="МБ" revision="0" />
   <Message key="GB" value="ГБ" revision="0" />
@@ -176,13 +175,6 @@
   <Message key="LanguagesDownloaded" value="Загрузка языкового пакета завершена. Хотите ли вы перезапустить приложение, чтобы применить изменения?" revision="0" />
   <Message key="ChangeLanguageNotification" value="Этот языковой пакет был создан открытым сообществом. HHD Sofware Ltd. не несет никакой ответственности за качество этого перевода. Вы хотите применить этот языковой пакет?" revision="0" />
   <Message key="ExternalFileEmpty" value="Введите полный путь к файлу настроек или нажмите кнопку Обзор" revision="0" />
-  <Message key="Time" value="Время" revision="0" />
-  <Message key="Name" value="Имя" revision="0" />
-  <Message key="Value" value="Значение" revision="0" />
-  <Message key="Offset" value="Смещение" revision="0" />
-  <Message key="Size" value="Размер" revision="0" />
-  <Message key="Type" value="Тип" revision="0" />
-  <Message key="AllFilesFilter" value="Все файлы|*.*|" revision="0" />
   <Message key="YourLanguageAvailable" value="Языковой пакет для «{language}» доступен онлайн. Хотите загрузить и использовать этот языковой пакет?" revision="0" />
   <Message key="Do not display this message anymore" value="Больше не выводите это сообщение" revision="0" />
   <Message key="yourLanguage" value="Язык пользователя доступен онлайн" revision="0" />
