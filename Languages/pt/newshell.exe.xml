@@ -186,6 +186,7 @@
   <Message key="YourLanguageAvailable" value="O pacote de idiomas para “{language}” está disponível online. Pretende descarregar e utilizar este pacote de línguas?" revision="0" />
   <Message key="Do not display this message anymore" value="Não mostrar mais esta mensagem" revision="0" />
   <Message key="yourLanguage" value="Língua de utilizador disponível em linha" revision="0" />
+  <Message key="languageUpdateFound" value="Atualização do pacote de idiomas instalado encontrada online" revision="0" />
   <Enumeration key="FileOpen">
     <Item value="&amp;Aberto" revision="0" />
     <Item value="Abrir um novo documento" revision="0" />

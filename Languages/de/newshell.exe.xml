@@ -186,6 +186,7 @@
   <Message key="YourLanguageAvailable" value="Das Sprachpaket für „{language}“ ist online verfügbar. Möchten Sie dieses Sprachpaket herunterladen und verwenden?" revision="0" />
   <Message key="Do not display this message anymore" value="Diese Meldung nicht mehr anzeigen" revision="0" />
   <Message key="yourLanguage" value="Benutzersprache online verfügbar" revision="0" />
+  <Message key="languageUpdateFound" value="Update für installiertes Sprachpaket online gefunden" revision="0" />
   <Enumeration key="FileOpen">
     <Item value="&amp;Öffnen" revision="0" />
     <Item value="Neues Dokument öffnen" revision="0" />
