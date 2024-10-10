@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+	<Parents>
+		<Parent name="common"/>
+	</Parents>
 	<Message key="General" description="Settings group: General"/>
 	<Message key="Notifications" description="Notifications settings group"/>
 	<Message key="AllSupported" description="Open dialog filter string: All Supported" value="All Supported"/>
