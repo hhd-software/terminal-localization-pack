@@ -15,5 +15,26 @@
   <Message key="Data" value="Données" revision="0" />
   <Message key="Length" value="Longueur" revision="0" />
   <Message key="Code" value="Code" revision="0" />
+  <Message key="Save" value="Enregistrer" revision="0" />
+  <Message key="Generate Script" value="Générer un script" revision="0" />
+  <Message key="Save to File" value="Enregistrer un fichier" revision="0" />
+  <Message key="Reset All" value="Réinitialiser tout" revision="0" />
   <Message key="AllFilesFilter" value="Tous les fichiers|*.*|" revision="0" />
+  <Message key="EmptyPath" value="Chemin" revision="0" />
+  <Message key="Session:" value="Session:" revision="0" />
+  <Message key="Mode:" value="Mode:" revision="0" />
+  <Message key="Address:" value="Adresses:" revision="0" />
+  <Message key="Total Length:" value="Longueur totale:" revision="0" />
+  <Message key="Baud rate" value="Vitesse du baud" revision="0" />
+  <Message key="Data bits" value="Bits de données" revision="0" />
+  <Message key="Parity" value="Parité" revision="0" />
+  <Message key="Stop bits" value="Bits d'arrêt" revision="0" />
+  <Message key="Flow control" value="Contrôle des flux" revision="0" />
+  <Message key="Out DSR Flow" value="Sortie flux DSR" revision="0" />
+  <Message key="RTS control" value="Contrôle RTS" revision="0" />
+  <Message key="DSR sensivity" value="Sensibilité DSR" revision="0" />
+  <Message key="DTR control" value="Contrôle DTR" revision="0" />
+  <Message key="Out CTS Flow" value="Sortie Flux CTS" revision="0" />
+  <Message key="Out XON/XOFF" value="Sortie XON/XOFF" revision="0" />
+  <Message key="In XON/XOFF" value="En XON/XOFF" revision="0" />
 </Language>

@@ -15,5 +15,26 @@
   <Message key="Data" value="Данные" revision="0" />
   <Message key="Length" value="Длина" revision="0" />
   <Message key="Code" value="Код" revision="0" />
+  <Message key="Save" value="Сохранить" revision="0" />
+  <Message key="Generate Script" value="Генерировать скрипт" revision="0" />
+  <Message key="Save to File" value="Сохранить в файл" revision="0" />
+  <Message key="Reset All" value="Сбросить всё" revision="0" />
   <Message key="AllFilesFilter" value="Все файлы|*.*|" revision="0" />
+  <Message key="EmptyPath" value="Пусто" revision="0" />
+  <Message key="Session:" value="Сессия:" revision="0" />
+  <Message key="Mode:" value="Режим:" revision="0" />
+  <Message key="Address:" value="Адрес:" revision="0" />
+  <Message key="Total Length:" value="Общая длина:" revision="0" />
+  <Message key="Baud rate" value="Скорость передачи" revision="0" />
+  <Message key="Data bits" value="Биты данных" revision="0" />
+  <Message key="Parity" value="Чётность" revision="0" />
+  <Message key="Stop bits" value="Стоп-биты" revision="0" />
+  <Message key="Flow control" value="Управление потоком" revision="0" />
+  <Message key="Out DSR Flow" value="Исходящий DSR Flow" revision="0" />
+  <Message key="RTS control" value="Контроль RTS" revision="0" />
+  <Message key="DSR sensivity" value="Чувствительность DSR" revision="0" />
+  <Message key="DTR control" value="Контроль DTR" revision="0" />
+  <Message key="Out CTS Flow" value="Исходящий CTS Flow" revision="0" />
+  <Message key="Out XON/XOFF" value="Исходящий XON/XOFF" revision="0" />
+  <Message key="In XON/XOFF" value="Входящий XON/XOFF" revision="0" />
 </Language>
