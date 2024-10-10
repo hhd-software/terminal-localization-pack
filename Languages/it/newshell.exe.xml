@@ -182,6 +182,10 @@
   <Message key="Offset" value="Offset" revision="0" />
   <Message key="Size" value="Dimensione" revision="0" />
   <Message key="Type" value="Tipo" revision="0" />
+  <Message key="AllFilesFilter" value="Tutti i file|*.*|" revision="0" />
+  <Message key="YourLanguageAvailable" value="Il pacchetto linguistico per “{language}” è disponibile online. Volete scaricare e utilizzare questo pacchetto linguistico?" revision="0" />
+  <Message key="Do not display this message anymore" value="Non visualizzare più questo messaggio" revision="0" />
+  <Message key="yourLanguage" value="Lingua dell'utente disponibile online" revision="0" />
   <Enumeration key="FileOpen">
     <Item value="&amp;Aperto" revision="0" />
     <Item value="Aprire un nuovo documento" revision="0" />
@@ -275,7 +279,7 @@
     <Item value="Gruppo di menu Vista" revision="0" />
   </Enumeration>
   <Enumeration key="MenuTools">
-    <Item value="&amp;" revision="0" />
+    <Item value="&amp;Strumenti" revision="0" />
     <Item value="Gruppo di menu Strumenti" revision="0" />
   </Enumeration>
   <Enumeration key="MenuWindow">
