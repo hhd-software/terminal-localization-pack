@@ -438,4 +438,13 @@
 	<Message key="Offset" description="Common strings: Offset"/>
 	<Message key="Size" description="Common strings: Size"/>
 	<Message key="Type" description="Common strings: Type"/>
+	<Message key="AllFilesFilter" description="All files Open/Save dialog filter" value="All files|*.*|"/>
+	
+	<Message key="YourLanguageAvailable" description="User language pack is available" value='Language pack for "{language}" is available on-line. Do you want to download and use this language pack?'>
+		<Param name="language"/>
+	</Message>
+
+	<Message key="Do not display this message anymore" description="Checkbox: Do not display this message anymore" />
+	<Message key="yourLanguage" description="Notification: User language available" value="User language available on-line"/>
+
 </Definition>
