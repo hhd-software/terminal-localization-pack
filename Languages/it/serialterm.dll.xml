@@ -79,4 +79,27 @@
     <Item value="Dump esadecimale inviato" revision="0" />
     <Item value="Dump esadecimale ricevuto" revision="0" />
   </Enumeration>
+  <Enumeration key="ParityValues">
+    <Item value="Nessuno" revision="0" />
+    <Item value="Dispari" revision="0" />
+    <Item value="Pari" revision="0" />
+    <Item value="Marchio" revision="0" />
+    <Item value="Spazio" revision="0" />
+  </Enumeration>
+  <Enumeration key="FlowControlValues">
+    <Item value="Xon/Xoff" revision="0" />
+    <Item value="Hardware" revision="0" />
+    <Item value="Nessuno" revision="0" />
+    <Item value="Personalizzato" revision="0" />
+  </Enumeration>
+  <Enumeration key="TrueFalse">
+    <Item value="Falso" revision="0" />
+    <Item value="Vero" revision="0" />
+  </Enumeration>
+  <Enumeration key="HandshakeValues">
+    <Item value="Disabilitato" revision="0" />
+    <Item value="Abilitato" revision="0" />
+    <Item value="Handshake" revision="0" />
+    <Item value="Interruttore" revision="0" />
+  </Enumeration>
 </Language>

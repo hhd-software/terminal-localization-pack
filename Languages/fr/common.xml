@@ -16,6 +16,10 @@
   <Message key="Length" value="Longueur" revision="0" />
   <Message key="Code" value="Code" revision="0" />
   <Message key="Save" value="Enregistrer" revision="0" />
+  <Message key="Send" value="Envoyer" revision="0" />
+  <Message key="Stop" value="Stop" revision="0" />
+  <Message key="Default" value="Par défaut" revision="0" />
+  <Message key="Alpha" value="Alpha" revision="0" />
   <Message key="Generate Script" value="Générer un script" revision="0" />
   <Message key="Save to File" value="Enregistrer un fichier" revision="0" />
   <Message key="Reset All" value="Réinitialiser tout" revision="0" />
@@ -37,4 +41,6 @@
   <Message key="Out CTS Flow" value="Sortie Flux CTS" revision="0" />
   <Message key="Out XON/XOFF" value="Sortie XON/XOFF" revision="0" />
   <Message key="In XON/XOFF" value="En XON/XOFF" revision="0" />
+  <Message key="Find Operation" value="Recherche de texte" revision="0" />
+  <Message key="Device" value="Appareil" revision="0" />
 </Language>

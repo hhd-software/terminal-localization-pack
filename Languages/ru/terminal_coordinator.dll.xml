@@ -74,8 +74,8 @@
     <Item value="Сохранить текущий документ" revision="0" />
   </Enumeration>
   <Enumeration key="FileSaveAs">
-    <Item value="Сохранить &amp;как" revision="0" />
-    <Item value="Сохраните текущий документ под новым именем" revision="0" />
+    <Item value="Сохранить &amp;как…" revision="1" />
+    <Item value="Сохраните текущий документ под новым именем" revision="1" />
   </Enumeration>
   <Enumeration key="EditUndo">
     <Item value="&amp;Отменить" revision="0" />

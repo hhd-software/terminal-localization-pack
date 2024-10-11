@@ -79,4 +79,27 @@
     <Item value="Gesendeter Hex-Dump" revision="0" />
     <Item value="Empfangener Hex-Dump" revision="0" />
   </Enumeration>
+  <Enumeration key="ParityValues">
+    <Item value="Keine" revision="0" />
+    <Item value="Ungerade" revision="0" />
+    <Item value="Gerade" revision="0" />
+    <Item value="Mark" revision="0" />
+    <Item value="Space" revision="0" />
+  </Enumeration>
+  <Enumeration key="FlowControlValues">
+    <Item value="Xon/Xoff" revision="0" />
+    <Item value="Hardware" revision="0" />
+    <Item value="Keine" revision="0" />
+    <Item value="Benutzerdefiniert" revision="0" />
+  </Enumeration>
+  <Enumeration key="TrueFalse">
+    <Item value="Falsch" revision="0" />
+    <Item value="Wahr" revision="0" />
+  </Enumeration>
+  <Enumeration key="HandshakeValues">
+    <Item value="Deaktiviert" revision="0" />
+    <Item value="Aktiviert" revision="0" />
+    <Item value="Handshake" revision="0" />
+    <Item value="Umschalten" revision="0" />
+  </Enumeration>
 </Language>

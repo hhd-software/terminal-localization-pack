@@ -74,8 +74,8 @@
     <Item value="Guardar el documento actual" revision="0" />
   </Enumeration>
   <Enumeration key="FileSaveAs">
-    <Item value="Guardar &amp;como" revision="0" />
-    <Item value="Guardar el documento actual con un nuevo nombre" revision="0" />
+    <Item value="Guardar &amp;como…" revision="1" />
+    <Item value="Guardar el documento actual con un nuevo nombre" revision="1" />
   </Enumeration>
   <Enumeration key="EditUndo">
     <Item value="&amp;Deshacer" revision="0" />

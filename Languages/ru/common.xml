@@ -16,6 +16,10 @@
   <Message key="Length" value="Длина" revision="0" />
   <Message key="Code" value="Код" revision="0" />
   <Message key="Save" value="Сохранить" revision="0" />
+  <Message key="Send" value="Отправить" revision="0" />
+  <Message key="Stop" value="Стоп" revision="0" />
+  <Message key="Default" value="По-умолчанию" revision="0" />
+  <Message key="Alpha" value="Альфа" revision="0" />
   <Message key="Generate Script" value="Генерировать скрипт" revision="0" />
   <Message key="Save to File" value="Сохранить в файл" revision="0" />
   <Message key="Reset All" value="Сбросить всё" revision="0" />
@@ -37,4 +41,6 @@
   <Message key="Out CTS Flow" value="Исходящий CTS Flow" revision="0" />
   <Message key="Out XON/XOFF" value="Исходящий XON/XOFF" revision="0" />
   <Message key="In XON/XOFF" value="Входящий XON/XOFF" revision="0" />
+  <Message key="Find Operation" value="Поиск текста" revision="0" />
+  <Message key="Device" value="Устройство" revision="0" />
 </Language>

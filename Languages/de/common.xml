@@ -16,6 +16,10 @@
   <Message key="Length" value="Länge" revision="0" />
   <Message key="Code" value="Code" revision="0" />
   <Message key="Save" value="Speichern" revision="0" />
+  <Message key="Send" value="Senden" revision="0" />
+  <Message key="Stop" value="Stopp" revision="0" />
+  <Message key="Default" value="Standard" revision="0" />
+  <Message key="Alpha" value="Alpha" revision="0" />
   <Message key="Generate Script" value="Skript generieren" revision="0" />
   <Message key="Save to File" value="In Datei speichern" revision="0" />
   <Message key="Reset All" value="All zurücksetzen" revision="0" />
@@ -37,4 +41,6 @@
   <Message key="Out CTS Flow" value="Ausgehender CTS Flow" revision="0" />
   <Message key="Out XON/XOFF" value="Ausgehendes XON/XOFF" revision="0" />
   <Message key="In XON/XOFF" value="Eingehendes XON/XOFF" revision="0" />
+  <Message key="Find Operation" value="Suche nach Text" revision="0" />
+  <Message key="Device" value="Gerät" revision="0" />
 </Language>

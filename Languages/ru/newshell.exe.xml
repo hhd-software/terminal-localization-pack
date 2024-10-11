@@ -175,6 +175,9 @@
   <Message key="Search settings" value="Искать по настройкам" revision="0" />
   <Message key="Cancel" value="Отменить" revision="0" />
   <Message key="Close" value="Закрыть" revision="0" />
+  <Message key="OK" value="OK" revision="0" />
+  <Message key="Yes" value="Да" revision="0" />
+  <Message key="No" value="Нет" revision="0" />
   <Message key="toolbar.Standard" value="Стандартный" revision="0" />
   <Message key="restoreWindowPosition" value="Восстановление положения окна при запуске" revision="0" />
   <Message key="documentsToRemember" value="Количество запомненных документов" revision="0" />
@@ -201,6 +204,9 @@
   <Message key="Do not display this message anymore" value="Больше не выводите это сообщение" revision="0" />
   <Message key="yourLanguage" value="Язык пользователя доступен онлайн" revision="0" />
   <Message key="languageUpdateFound" value="Найдено обновление для установленного языкового пакета" revision="0" />
+  <Message key="Do not display this warning anymore" value="Больше не выводите это сообщение" revision="1" />
+  <Message key="NextPage" value="Продолжить…" revision="0" />
+  <Message key="LanguagePackPathError" value="Место хранения языкового пакета должно быть непустым абсолютным путем, ссылающимся на существующую папку." revision="0" />
   <Enumeration key="FileOpen">
     <Item value="&amp;Открыть" revision="0" />
     <Item value="Открыть новый документ" revision="0" />

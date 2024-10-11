@@ -175,6 +175,9 @@
   <Message key="Search settings" value="Ricerca nelle impostazioni" revision="0" />
   <Message key="Cancel" value="Annullare" revision="0" />
   <Message key="Close" value="Chiudere" revision="0" />
+  <Message key="OK" value="OK" revision="0" />
+  <Message key="Yes" value="Sì" revision="0" />
+  <Message key="No" value="No" revision="0" />
   <Message key="toolbar.Standard" value="Standard" revision="0" />
   <Message key="restoreWindowPosition" value="Ripristino della posizione della finestra all'avvio" revision="0" />
   <Message key="documentsToRemember" value="Numero di documenti recenti da ricordare" revision="0" />
@@ -201,6 +204,9 @@
   <Message key="Do not display this message anymore" value="Non visualizzare più questo messaggio" revision="0" />
   <Message key="yourLanguage" value="Lingua dell'utente disponibile online" revision="0" />
   <Message key="languageUpdateFound" value="Trovato online l'aggiornamento per il pacchetto linguistico installato" revision="0" />
+  <Message key="Do not display this warning anymore" value="Non visualizzare più questo messaggio" revision="1" />
+  <Message key="NextPage" value="Continua…" revision="0" />
+  <Message key="LanguagePackPathError" value="Il percorso di memorizzazione del pacchetto linguistico deve essere un percorso assoluto non vuoto che faccia riferimento a una cartella esistente." revision="0" />
   <Enumeration key="FileOpen">
     <Item value="&amp;Aperto" revision="0" />
     <Item value="Aprire un nuovo documento" revision="0" />

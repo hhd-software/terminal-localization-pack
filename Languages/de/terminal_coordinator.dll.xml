@@ -74,8 +74,8 @@
     <Item value="Das aktuelle Dokument speichern" revision="0" />
   </Enumeration>
   <Enumeration key="FileSaveAs">
-    <Item value="Speichern &amp;unter" revision="0" />
-    <Item value="Das aktuelle Dokument unter einem neuen Namen speichern" revision="0" />
+    <Item value="Speichern &amp;unter…" revision="1" />
+    <Item value="Das aktuelle Dokument unter einem neuen Namen speichern" revision="1" />
   </Enumeration>
   <Enumeration key="EditUndo">
     <Item value="&amp;Rückgängig" revision="0" />

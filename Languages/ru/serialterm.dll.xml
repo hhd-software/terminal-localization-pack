@@ -79,4 +79,27 @@
     <Item value="Отправленный шестнадцатеричный дамп" revision="0" />
     <Item value="Полученный шестнадцатеричный дамп" revision="0" />
   </Enumeration>
+  <Enumeration key="ParityValues">
+    <Item value="Нет" revision="0" />
+    <Item value="Нечётный" revision="0" />
+    <Item value="Чётный" revision="0" />
+    <Item value="Метка" revision="0" />
+    <Item value="Пробел" revision="0" />
+  </Enumeration>
+  <Enumeration key="FlowControlValues">
+    <Item value="Xon/Xoff" revision="0" />
+    <Item value="Аппаратный" revision="0" />
+    <Item value="Нет" revision="0" />
+    <Item value="Пользовательский" revision="0" />
+  </Enumeration>
+  <Enumeration key="TrueFalse">
+    <Item value="Ложно" revision="0" />
+    <Item value="Истинно" revision="0" />
+  </Enumeration>
+  <Enumeration key="HandshakeValues">
+    <Item value="Отключено" revision="0" />
+    <Item value="Включено" revision="0" />
+    <Item value="Handshake" revision="0" />
+    <Item value="Переключить" revision="0" />
+  </Enumeration>
 </Language>

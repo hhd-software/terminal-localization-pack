@@ -79,4 +79,27 @@
     <Item value="Volcado hexadecimal enviado" revision="0" />
     <Item value="Volcado hexadecimal recibido" revision="0" />
   </Enumeration>
+  <Enumeration key="ParityValues">
+    <Item value="Ninguno" revision="0" />
+    <Item value="Impar" revision="0" />
+    <Item value="Par" revision="0" />
+    <Item value="Marca" revision="0" />
+    <Item value="Espacio" revision="0" />
+  </Enumeration>
+  <Enumeration key="FlowControlValues">
+    <Item value="Xon/Xoff" revision="0" />
+    <Item value="Hardware" revision="0" />
+    <Item value="Ninguno" revision="0" />
+    <Item value="Personalizado" revision="0" />
+  </Enumeration>
+  <Enumeration key="TrueFalse">
+    <Item value="Falso" revision="0" />
+    <Item value="Verdadero" revision="0" />
+  </Enumeration>
+  <Enumeration key="HandshakeValues">
+    <Item value="Desactivado" revision="0" />
+    <Item value="Activado" revision="0" />
+    <Item value="Handshake" revision="0" />
+    <Item value="Alternar" revision="0" />
+  </Enumeration>
 </Language>
