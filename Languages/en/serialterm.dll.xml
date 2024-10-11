@@ -129,4 +129,32 @@
 	</Message>
 
 	<Message key="Packet" description="Packet hex title: Packet" />
+
+	<Enumeration key="ParityValues" description="Serial parity values">
+		<Item text="None" />
+		<Item text="Odd" />
+		<Item text="Even" />
+		<Item text="Mark" />
+		<Item text="Space" />
+	</Enumeration>
+
+	<Enumeration key="FlowControlValues" description="Serial flow control values">
+		<Item text="Xon/Xoff" />
+		<Item text="Hardware" />
+		<Item text="None" />
+		<Item text="Custom" />
+	</Enumeration>
+
+	<Enumeration key="TrueFalse" description="Serial values: false and true">
+		<Item text="False" />
+		<Item text="True" />
+	</Enumeration>
+
+	<Enumeration key="HandshakeValues" description="Serial handshake values">
+		<Item text="Disabled" />
+		<Item text="Enabled" />
+		<Item text="Handshake" />
+		<Item text="Toggle" />
+	</Enumeration>
+	
 </Definition>

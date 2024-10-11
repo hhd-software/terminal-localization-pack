@@ -20,6 +20,10 @@
 	<Message key="Length" description="Field: Length"/>
 	<Message key="Code" description="Field: Code"/>
 	<Message key="Save" description="Common string: Save"/>
+	<Message key="Send" description="Button: Send" />
+	<Message key="Stop" description="Button: Stop" />
+	<Message key="Default" description="Common string: Default" />
+	<Message key="Alpha" description="Common string: Alpha" />
 
 	<Message key="Generate Script" description="Button: Generate Script"/>
 	<Message key="Save to File" description="Button: Save to File"/>
@@ -47,5 +51,6 @@
 	<Message key="Out CTS Flow" description="Label text: Output CTS" value="Out CTS Flow"/>
 	<Message key="Out XON/XOFF" description="Label text: Output xon/xoff" value="Out XON/XOFF"/>
 	<Message key="In XON/XOFF" description="Label text: Input xon/xoff" value="In XON/XOFF"/>
+	<Message key="Find Operation" description="Find operation" value="Searching for text" />
 
 </Definition>

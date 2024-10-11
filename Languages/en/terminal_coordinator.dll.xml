@@ -22,8 +22,8 @@
 	<Item text="&amp;Save"/>
 	<Item text="Save the current document"/>
   </Enumeration>
-  <Enumeration key="FileSaveAs" description="Command: File.SaveAs">
-	<Item text="Save &amp;As"/>
+  <Enumeration key="FileSaveAs" description="Command: File.SaveAs" revision="1">
+	<Item text="Save &amp;As…"/>
 	<Item text="Save the current document under new name"/>
   </Enumeration>
 
