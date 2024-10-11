@@ -471,6 +471,8 @@
 	<Message key="Do not display this message anymore" description="Checkbox: Do not display this message anymore" />
 	<Message key="yourLanguage" description="Notification: User language available" value="User language available on-line"/>
 	<Message key="languageUpdateFound" description="Notification: Update for installed language pack found online" value="Update for installed language pack found online"/>
+	<Message key="Do not display this warning anymore" description="Checkbox: Do not display this message anymore" value="Do not display this message anymore" revision="1"/>
+	<Message key="NextPage" description="Continue (link text on a balloon)" value="Continue…" />
 
 	<Message key="LanguagePackPathError" description="Invalid language pack path" value="Language pack storage location must be a non-empty absolute path that references an existing folder."/>
 </Definition>
