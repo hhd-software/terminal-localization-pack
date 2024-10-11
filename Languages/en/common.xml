@@ -52,5 +52,6 @@
 	<Message key="Out XON/XOFF" description="Label text: Output xon/xoff" value="Out XON/XOFF"/>
 	<Message key="In XON/XOFF" description="Label text: Input xon/xoff" value="In XON/XOFF"/>
 	<Message key="Find Operation" description="Find operation" value="Searching for text" />
+	<Message key="Device" description="Field: Device" />
 
 </Definition>
