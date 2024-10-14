@@ -274,4 +274,12 @@
 	<Message key="Selection" description="Option: Selection" />
 	<Message key="Options" description="Field: Options" />
 	<Message key="Find within" description="Field: Find within" />
+	<Message key="Unknown" description="Common string: Unknown"/>
+
+	<Enumeration key="LicenseType" description="License type">
+		<Item text="Free"/>
+		<Item text="Standard"/>
+		<Item text="Professional"/>
+		<Item text="Ultimate"/>
+	</Enumeration>
 </Definition>

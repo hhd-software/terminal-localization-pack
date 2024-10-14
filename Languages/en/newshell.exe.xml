@@ -475,4 +475,6 @@
 	<Message key="NextPage" description="Continue (link text on a balloon)" value="Continue…" />
 
 	<Message key="LanguagePackPathError" description="Invalid language pack path" value="Language pack storage location must be a non-empty absolute path that references an existing folder."/>
+	<Message key="Wait_Text" description="Notification: Wait" value="Requested operation is being performed…"/>
+	<Message key="ProgressPleaseWait" value="Please Wait…" description="Progress dialog: Please Wait…"/>
 </Definition>
