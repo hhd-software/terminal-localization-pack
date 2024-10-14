@@ -35,6 +35,7 @@
   <Message key="clr.lamp_colors.off" value="État du signal : OFF" revision="0" />
   <Message key="LampWindowText" value="[[[h#[Cliquez pour changer d'état]#[[[I:{rts}: ]]] RTS]]] [[[I:{cts}: ]]] CTS [[[I:{dsr}: ]]] DSR [[[I:{dcd}: ]]] DCD [[[h#[Cliquez pour changer d'état]#[[[I:{dtr}: ]]] DTR]]] [[[I:{ri}: ]]] RI.  Envoyé: [[[b{sent}]]], Reçu: [[[b{received}]]]" revision="0" />
   <Message key="Packet" value="Paquet" revision="0" />
+  <Message key="SessionTooltip" value="Port : {port} Vitesse de transmission : {baud} Bits de données : {bits} Parité : {parity} Bits d'arrêt : {stop} Contrôle des flux : {flow}" revision="0" />
   <Enumeration key="MenuTerminal">
     <Item value="Terminal série" revision="0" />
     <Item value="Commandes du terminal série" revision="0" />

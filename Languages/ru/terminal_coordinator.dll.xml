@@ -57,6 +57,7 @@
   <Message key="Selection" value="Выделение" revision="0" />
   <Message key="Options" value="Опции" revision="0" />
   <Message key="Find within" value="Найти в пределах" revision="0" />
+  <Message key="Unknown" value="Неизвестно" revision="0" />
   <Enumeration key="HelpContents">
     <Item value="&amp;Содержание" revision="1" />
     <Item value="Отобразить содержимое файла справки" revision="1" />
@@ -187,5 +188,11 @@
   <Enumeration key="ComNonCom">
     <Item value="Только некоммерческое использование" revision="0" />
     <Item value="Коммерческое использование разрешено" revision="0" />
+  </Enumeration>
+  <Enumeration key="LicenseType">
+    <Item value="Бесплатная" revision="0" />
+    <Item value="Стандартная" revision="0" />
+    <Item value="Профессиональная" revision="0" />
+    <Item value="Конечная" revision="0" />
   </Enumeration>
 </Language>

@@ -57,6 +57,7 @@
   <Message key="Selection" value="Sélection" revision="0" />
   <Message key="Options" value="Options" revision="0" />
   <Message key="Find within" value="Trouver à l'intérieur" revision="0" />
+  <Message key="Unknown" value="Inconnu" revision="0" />
   <Enumeration key="HelpContents">
     <Item value="&amp;Contenu" revision="1" />
     <Item value="Afficher le contenu du fichier d'aide" revision="1" />
@@ -187,5 +188,11 @@
   <Enumeration key="ComNonCom">
     <Item value="Usage non commercial uniquement" revision="0" />
     <Item value="Utilisation commerciale autorisée" revision="0" />
+  </Enumeration>
+  <Enumeration key="LicenseType">
+    <Item value="Gratuit" revision="0" />
+    <Item value="Standard" revision="0" />
+    <Item value="Professionnelle" revision="0" />
+    <Item value="Ultimate" revision="0" />
   </Enumeration>
 </Language>

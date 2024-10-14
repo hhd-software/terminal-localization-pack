@@ -207,6 +207,8 @@
   <Message key="Do not display this warning anymore" value="No mostrar más este mensaje" revision="1" />
   <Message key="NextPage" value="Continuar…" revision="0" />
   <Message key="LanguagePackPathError" value="La ubicación de almacenamiento del paquete de idioma debe ser una ruta absoluta no vacía que haga referencia a una carpeta existente." revision="0" />
+  <Message key="Wait_Text" value="Se está realizando la operación solicitada…" revision="0" />
+  <Message key="ProgressPleaseWait" value="Espere, por favor…" revision="0" />
   <Enumeration key="FileOpen">
     <Item value="&amp;Abrir" revision="0" />
     <Item value="Abrir nuevo documento" revision="0" />

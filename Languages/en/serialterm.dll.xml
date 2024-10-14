@@ -157,7 +157,7 @@
 		<Item text="Toggle" />
 	</Enumeration>
 
-	<Message key="SessionTooltip" description="Serial terminal session tooltip template" value="Port: {port} Baud Rate: {baud} DataBits: {bits} Pairty: {parity} Stop Bits: {stop} Flow Control: {flow}">
+	<Message key="SessionTooltip" description="Serial terminal session tooltip template" value="Port: {port} Baud Rate: {baud} DataBits: {bits} Parity: {parity} Stop Bits: {stop} Flow Control: {flow}">
 		<Param name="port"/>
 		<Param name="baud"/>
 		<Param name="bits"/>
