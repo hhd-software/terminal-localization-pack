@@ -52,7 +52,7 @@
 		<Item text="&amp;Close Window"/>
 		<Item text="Close the active window"/>
 	</Enumeration>
-	<Enumeration key="WindowNextPane" description="Command: Window.Next Pane" revision="1">
+	<!--<Enumeration key="WindowNextPane" description="Command: Window.Next Pane" revision="1">
 		<Item text="&amp;Next Pane"/>
 		<Item text="Next tool window"/>
 	</Enumeration>
@@ -67,7 +67,7 @@
 	<Enumeration key="WindowNewVertical" description="Command: Window.New Vertical" revision="1">
 		<Item text="New &amp;Vertical Frame"/>
 		<Item text="New Vertical Frame"/>
-	</Enumeration>
+	</Enumeration>-->
 	<Enumeration key="WindowWindows" description="Command: Window.Windows" revision="1">
 		<Item text="&amp;Windows…"/>
 		<Item text="Display the list of all opened document windows"/>
