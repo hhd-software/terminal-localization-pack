@@ -380,8 +380,8 @@
 	
 	<!-- MODBUS Send -->
 	<Message key="Address" description="Field: Address"/>
-	<Message key="Parameters" description="Scroll title: Parameters"/>
-	<Message key="Result" description="Scroll title: Result"/>
+	<Message optional="true" key="Parameters" description="Scroll title: Parameters"/>
+	<Message optional="true" key="Result" description="Scroll title: Result"/>
 	<Message key="Result Length" description="Field: Result Length"/>
 
 	<Message key="Read Address" description="Field: Read Address"/>
@@ -397,23 +397,23 @@
 	<Message key="Register Count" description="Field: Register Count"/>
 	<Message key="FIFO Value" description="Field: FIFO Value"/>
 
-	<Message key="Write Multiple Coils" description="Scroll title: Write Multiple Coils"/>
-	<Message key="Write Multiple Registers" description="Scroll title: Write Multiple Registers"/>
-	<Message key="Read File Record" description="Scroll title: Read File Record"/>
-	<Message key="Write File Record" description="Scroll title: Write File Record"/>
-	<Message key="Mask Write Register" description="Scroll title: Mask Write Register"/>
-	<Message key="Read/Write Multiple Registers" description="Scroll title: Read/Write Multiple Registers"/>
-	<Message key="User Data" description="Scroll title: User Data"/>
-	<Message key="Read Discrete Inputs (response)" description="Scroll title: Read Discrete Inputs (response)"/>
-	<Message key="Read Coil Status (response)" description="Scroll title: Read Coil Status (response)"/>
-	<Message key="Read Holding Registers (response)" description="Scroll title: Read Holding Registers (response)"/>
-	<Message key="Read Input Registers (response)" description="Scroll title: Read Input Registers (response)"/>
-	<Message key="Get Comm Event Log (response)" description="Scroll title: Get Comm Event Log (response)"/>
-	<Message key="Report Slave ID (response)" description="Scroll title: Report Slave ID (response)"/>
-	<Message key="Read File Record (response)" description="Scroll title: Read File Record (response)"/>
-	<Message key="Read/ Write Multiple Registers (response)" description="Scroll title: Read/ Write Multiple Registers (response)"/>
-	<Message key="Read FIFO Queue (response)" description="Scroll title: Read FIFO Queue (response)"/>
-	<Message key="Write File Record (response)" description="Scroll title: Write File Record (response)"/>
-	<Message key="Mask Write Register (response)" description="Scroll title: Mask Write Register (response)"/>
+	<Message optional="true" key="Write Multiple Coils" description="Scroll title: Write Multiple Coils"/>
+	<Message optional="true" key="Write Multiple Registers" description="Scroll title: Write Multiple Registers"/>
+	<Message optional="true" key="Read File Record" description="Scroll title: Read File Record"/>
+	<Message optional="true" key="Write File Record" description="Scroll title: Write File Record"/>
+	<Message optional="true" key="Mask Write Register" description="Scroll title: Mask Write Register"/>
+	<Message optional="true" key="Read/Write Multiple Registers" description="Scroll title: Read/Write Multiple Registers"/>
+	<Message optional="true" key="User Data" description="Scroll title: User Data"/>
+	<Message optional="true" key="Read Discrete Inputs (response)" description="Scroll title: Read Discrete Inputs (response)"/>
+	<Message optional="true" key="Read Coil Status (response)" description="Scroll title: Read Coil Status (response)"/>
+	<Message optional="true" key="Read Holding Registers (response)" description="Scroll title: Read Holding Registers (response)"/>
+	<Message optional="true" key="Read Input Registers (response)" description="Scroll title: Read Input Registers (response)"/>
+	<Message optional="true" key="Get Comm Event Log (response)" description="Scroll title: Get Comm Event Log (response)"/>
+	<Message optional="true" key="Report Slave ID (response)" description="Scroll title: Report Slave ID (response)"/>
+	<Message optional="true" key="Read File Record (response)" description="Scroll title: Read File Record (response)"/>
+	<Message optional="true" key="Read/ Write Multiple Registers (response)" description="Scroll title: Read/ Write Multiple Registers (response)"/>
+	<Message optional="true" key="Read FIFO Queue (response)" description="Scroll title: Read FIFO Queue (response)"/>
+	<Message optional="true" key="Write File Record (response)" description="Scroll title: Write File Record (response)"/>
+	<Message optional="true" key="Mask Write Register (response)" description="Scroll title: Mask Write Register (response)"/>
 
 </Definition>

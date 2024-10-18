@@ -209,6 +209,10 @@
   <Message key="LanguagePackPathError" value="Der Speicherort des Sprachpakets muss ein nicht leerer absoluter Pfad sein, der auf einen vorhandenen Ordner verweist." revision="0" />
   <Message key="Wait_Text" value="Der angeforderte Vorgang wird ausgeführt…" revision="0" />
   <Message key="ProgressPleaseWait" value="Bitte warten…" revision="0" />
+  <Message key="Set" value="Festlegen" revision="0" />
+  <Message key="Add" value="Hinzufügen" revision="0" />
+  <Message key="Remove" value="Entfernen" revision="0" />
+  <Message key="Remove All" value="Alle entfernen" revision="0" />
   <Enumeration key="FileOpen">
     <Item value="&amp;Öffnen" revision="0" />
     <Item value="Neues Dokument öffnen" revision="0" />

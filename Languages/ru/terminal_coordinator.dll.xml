@@ -58,6 +58,7 @@
   <Message key="Options" value="Опции" revision="0" />
   <Message key="Find within" value="Найти в пределах" revision="0" />
   <Message key="Unknown" value="Неизвестно" revision="0" />
+  <Message key="UpgradePlanInfo" value="{never expires?}{|never expires}\nПлан обновлений {is expired?}[[[bзакончился]]]{|is expired}заканчивается [[[b{expiring}]]]{?is expired}{?never expires}" revision="0" />
   <Enumeration key="HelpContents">
     <Item value="&amp;Содержание" revision="1" />
     <Item value="Отобразить содержимое файла справки" revision="1" />

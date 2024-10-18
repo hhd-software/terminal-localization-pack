@@ -141,6 +141,18 @@
   <Message key="Parameters" value="Параметры" revision="0" />
   <Message key="Result" value="Результат" revision="0" />
   <Message key="Result Length" value="Длина результата" revision="0" />
+  <Message key="Read Address" value="Адрес чтения" revision="0" />
+  <Message key="Read Quantity" value="Количество считываний" revision="0" />
+  <Message key="Write Address" value="Адрес записи" revision="0" />
+  <Message key="Write Quantity" value="Количество записей" revision="0" />
+  <Message key="Number of Coils" value="Количество регистров флагов" revision="0" />
+  <Message key="Run Indicator Status" value="Состояние индикатора работы" revision="0" />
+  <Message key="Slave ID" value="ID ведомого" revision="0" />
+  <Message key="Slave ID Length" value="Длина ID ведомого " revision="0" />
+  <Message key="Additional Data" value="Дополнительные данные" revision="0" />
+  <Message key="Additional Data Length" value="Длина дополнительных данных" revision="0" />
+  <Message key="Register Count" value="Количество регистров" revision="0" />
+  <Message key="FIFO Value" value="Значение FIFO" revision="0" />
   <Enumeration key="MODBUSConverter">
     <Item value="Вид MODBUS (Legacy)" revision="0" />
     <Item value="Визуализатор &quot;Вид MODBUS&quot; декодирует пакеты, отформатированные в соответствии со спецификацией протокола MODBUS." revision="0" />

@@ -35,7 +35,7 @@
   <Message key="clr.lamp_colors.off" value="Signalzustand: AUS" revision="0" />
   <Message key="LampWindowText" value="[[[h#[Klicken, um den Status zu ändern]#[[[I:{rts}: ]]] RTS]]] [[[I:{cts}: ]]] CTS [[[I:{dsr}: ]]] DSR [[[I:{dcd}: ]]] DCD [[[h#[Klicken, um den Status zu ändern]#[[[I:{dtr}: ]]] DTR]]] [[[I:{ri}: ]]] RI.  Gesendet: [[[b{sent}]]], Empfangen: [[[b{received}]]]" revision="0" />
   <Message key="Packet" value="Paket" revision="0" />
-  <Message key="SessionTooltip" value="Anschluss:{port} Baudrate: {baud} Datenbits: {bits} Parität: {parity} Stoppbits: {stop} Flusssteuerung: {flow}" revision="0" />
+  <Message key="SessionTooltip" value="Gerät:{port} Baudrate: {baud}\n  Datenbits: {bits}\n  Parität: {parity}\n  Stoppbits: {stop}\n  Flusssteuerung: {flow}" revision="1" />
   <Enumeration key="MenuTerminal">
     <Item value="Serielles Terminal" revision="0" />
     <Item value="Serielle Terminalbefehle" revision="0" />

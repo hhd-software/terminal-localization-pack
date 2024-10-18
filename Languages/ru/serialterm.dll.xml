@@ -35,7 +35,7 @@
   <Message key="clr.lamp_colors.off" value="Состояние сигнала: ВЫКЛ" revision="0" />
   <Message key="LampWindowText" value="[[[h#[Нажмите, чтобы сменить состояние]#[[[I:{rts}: ]]] RTS]]] [[[I:{cts}: ]]] CTS [[[I:{dsr}: ]]] DSR [[[I:{dcd}: ]]] DCD [[[h#[Нажмите, чтобы сменить состояние]#[[[I:{dtr}: ]]] DTR]]] [[[I:{ri}: ]]] RI.  Отправлено: [[[b{sent}]]], Получено: [[[b{received}]]]" revision="0" />
   <Message key="Packet" value="Пакет" revision="0" />
-  <Message key="SessionTooltip" value="Порт:{port} Скорость: {baud} Биты данных: {bits} Чётность: {parity} Стоп-биты: {stop} Контроль потока: {flow}" revision="0" />
+  <Message key="SessionTooltip" value="Устройство:{port} Скорость: {baud}\n  Биты данных: {bits}\n  Чётность: {parity}\n  Стоп-биты: {stop}\n  Контроль потока: {flow}" revision="1" />
   <Enumeration key="MenuTerminal">
     <Item value="Последовательный Терминал" revision="0" />
     <Item value="Команды последовательного терминала" revision="0" />

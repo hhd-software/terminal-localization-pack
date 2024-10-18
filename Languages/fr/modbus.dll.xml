@@ -141,6 +141,18 @@
   <Message key="Parameters" value="Paramètres" revision="0" />
   <Message key="Result" value="Résultat" revision="0" />
   <Message key="Result Length" value="Résultat Longueur" revision="0" />
+  <Message key="Read Address" value="Adresse de lecture" revision="0" />
+  <Message key="Read Quantity" value="Quantité de lectures" revision="0" />
+  <Message key="Write Address" value="Adresse d'écriture" revision="0" />
+  <Message key="Write Quantity" value="Quantité d'écrits" revision="0" />
+  <Message key="Number of Coils" value="Nombre de coils" revision="0" />
+  <Message key="Run Indicator Status" value="État de l'indicateur de marche" revision="0" />
+  <Message key="Slave ID" value="ID de l'esclave" revision="0" />
+  <Message key="Slave ID Length" value="Longueur de l'ID esclave" revision="0" />
+  <Message key="Additional Data" value="Données supplémentaires" revision="0" />
+  <Message key="Additional Data Length" value="Longueur des données supplémentaires" revision="0" />
+  <Message key="Register Count" value="Nombre de registres" revision="0" />
+  <Message key="FIFO Value" value="Valeur du FIFO" revision="0" />
   <Enumeration key="MODBUSConverter">
     <Item value="Vue MODBUS (legacy)" revision="0" />
     <Item value="La Vue MODBUS décode les paquets, formatés selon la spécification du protocole MODBUS." revision="0" />
