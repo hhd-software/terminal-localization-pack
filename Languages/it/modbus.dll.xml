@@ -153,6 +153,7 @@
   <Message key="Additional Data Length" value="Lunghezza dei dati aggiuntivi" revision="0" />
   <Message key="Register Count" value="Numero di registri" revision="0" />
   <Message key="FIFO Value" value="Valore del FIFO" revision="0" />
+  <Message key="User Data" value="Dati utente" revision="0" />
   <Enumeration key="MODBUSConverter">
     <Item value="Vista MODBUS (legacy)" revision="0" />
     <Item value="La Vista MODBUS decodifica i pacchetti, formattati secondo le specifiche del protocollo MODBUS." revision="0" />

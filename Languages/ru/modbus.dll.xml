@@ -153,6 +153,7 @@
   <Message key="Additional Data Length" value="Длина дополнительных данных" revision="0" />
   <Message key="Register Count" value="Количество регистров" revision="0" />
   <Message key="FIFO Value" value="Значение FIFO" revision="0" />
+  <Message key="User Data" value="Пользовательские данные" revision="0" />
   <Enumeration key="MODBUSConverter">
     <Item value="Вид MODBUS (Legacy)" revision="0" />
     <Item value="Визуализатор &quot;Вид MODBUS&quot; декодирует пакеты, отформатированные в соответствии со спецификацией протокола MODBUS." revision="0" />

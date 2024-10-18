@@ -403,7 +403,7 @@
 	<Message optional="true" key="Write File Record" description="Scroll title: Write File Record"/>
 	<Message optional="true" key="Mask Write Register" description="Scroll title: Mask Write Register"/>
 	<Message optional="true" key="Read/Write Multiple Registers" description="Scroll title: Read/Write Multiple Registers"/>
-	<Message optional="true" key="User Data" description="Scroll title: User Data"/>
+	<Message key="User Data" description="Scroll title: User Data"/>
 	<Message optional="true" key="Read Discrete Inputs (response)" description="Scroll title: Read Discrete Inputs (response)"/>
 	<Message optional="true" key="Read Coil Status (response)" description="Scroll title: Read Coil Status (response)"/>
 	<Message optional="true" key="Read Holding Registers (response)" description="Scroll title: Read Holding Registers (response)"/>
