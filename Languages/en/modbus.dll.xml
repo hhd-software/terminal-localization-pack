@@ -379,9 +379,41 @@
 	<Message key="TcpSessionMissing" description="Create TCP Session functionality is missing" value="This functionality is not available in Automated Serial Terminal. However, it is available in HHD Software Device Monitoring Studio.\n\nDo you want to find more information about that product?"/>
 	
 	<!-- MODBUS Send -->
-	<Message key="Address:" description="Field: Address"/>
+	<Message key="Address" description="Field: Address"/>
 	<Message key="Parameters" description="Scroll title: Parameters"/>
 	<Message key="Result" description="Scroll title: Result"/>
-	<Message key="Result Length:" description="Field: Result Length"/>
+	<Message key="Result Length" description="Field: Result Length"/>
+
+	<Message key="Read Address" description="Field: Read Address"/>
+	<Message key="Read Quantity" description="Field: Read Quantity"/>
+	<Message key="Write Address" description="Field: Write Address"/>
+	<Message key="Write Quantity" description="Field: Write Quantity"/>
+	<Message key="Number of Coils" description="Field: Number of Coils"/>
+	<Message key="Run Indicator Status" description="Field: Run Indicator Status"/>
+	<Message key="Slave ID" description="Field: Slave ID"/>
+	<Message key="Slave ID Length" description="Field: Slave ID Length"/>
+	<Message key="Additional Data" description="Field: Additional Data"/>
+	<Message key="Additional Data Length" description="Field: Additional Data Length"/>
+	<Message key="Register Count" description="Field: Register Count"/>
+	<Message key="FIFO Value" description="Field: FIFO Value"/>
+
+	<Message key="Write Multiple Coils" description="Scroll title: Write Multiple Coils"/>
+	<Message key="Write Multiple Registers" description="Scroll title: Write Multiple Registers"/>
+	<Message key="Read File Record" description="Scroll title: Read File Record"/>
+	<Message key="Write File Record" description="Scroll title: Write File Record"/>
+	<Message key="Mask Write Register" description="Scroll title: Mask Write Register"/>
+	<Message key="Read/Write Multiple Registers" description="Scroll title: Read/Write Multiple Registers"/>
+	<Message key="User Data" description="Scroll title: User Data"/>
+	<Message key="Read Discrete Inputs (response)" description="Scroll title: Read Discrete Inputs (response)"/>
+	<Message key="Read Coil Status (response)" description="Scroll title: Read Coil Status (response)"/>
+	<Message key="Read Holding Registers (response)" description="Scroll title: Read Holding Registers (response)"/>
+	<Message key="Read Input Registers (response)" description="Scroll title: Read Input Registers (response)"/>
+	<Message key="Get Comm Event Log (response)" description="Scroll title: Get Comm Event Log (response)"/>
+	<Message key="Report Slave ID (response)" description="Scroll title: Report Slave ID (response)"/>
+	<Message key="Read File Record (response)" description="Scroll title: Read File Record (response)"/>
+	<Message key="Read/ Write Multiple Registers (response)" description="Scroll title: Read/ Write Multiple Registers (response)"/>
+	<Message key="Read FIFO Queue (response)" description="Scroll title: Read FIFO Queue (response)"/>
+	<Message key="Write File Record (response)" description="Scroll title: Write File Record (response)"/>
+	<Message key="Mask Write Register (response)" description="Scroll title: Mask Write Register (response)"/>
 
 </Definition>

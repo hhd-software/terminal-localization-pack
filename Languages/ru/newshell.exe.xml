@@ -245,22 +245,6 @@
     <Item value="&amp;Закрыть окно" revision="1" />
     <Item value="Закрыть активное окно" revision="1" />
   </Enumeration>
-  <Enumeration key="WindowNextPane">
-    <Item value="&amp;Следующая панель" revision="1" />
-    <Item value="Следующее инструментальное окно" revision="1" />
-  </Enumeration>
-  <Enumeration key="WindowPrevPane">
-    <Item value="Предыдущая панель" revision="1" />
-    <Item value="Предыдущее инструментальное окно" revision="1" />
-  </Enumeration>
-  <Enumeration key="WindowNewHorizontal">
-    <Item value="Новый &amp;горизонтальный фрейм" revision="1" />
-    <Item value="Новый горизонтальный фрейм" revision="1" />
-  </Enumeration>
-  <Enumeration key="WindowNewVertical">
-    <Item value="Новый &amp;вертикальный фрейм" revision="1" />
-    <Item value="Новый вертикальный фрейм" revision="1" />
-  </Enumeration>
   <Enumeration key="WindowWindows">
     <Item value="&amp;Окна…" revision="1" />
     <Item value="Отображение списка всех открытых окон документов" revision="1" />

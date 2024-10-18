@@ -137,10 +137,10 @@
   <Message key="Error Notification" value="Notification d'erreurs" revision="0" />
   <Message key="Mode" value="Mode" revision="0" />
   <Message key="TcpSessionMissing" value="Cette fonctionnalité n'est pas disponible dans Automated Serial Terminal. En revanche, elle est disponible dans le logiciel HHD Device Monitoring Studio.\n\nVous souhaitez obtenir plus d'informations sur ce produit ?" revision="0" />
-  <Message key="Address:" value="Adresse:" revision="0" />
+  <Message key="Address" value="Adresse" revision="0" />
   <Message key="Parameters" value="Paramètres" revision="0" />
   <Message key="Result" value="Résultat" revision="0" />
-  <Message key="Result Length:" value="Résultat Longueur:" revision="0" />
+  <Message key="Result Length" value="Résultat Longueur" revision="0" />
   <Enumeration key="MODBUSConverter">
     <Item value="Vue MODBUS (legacy)" revision="0" />
     <Item value="La Vue MODBUS décode les paquets, formatés selon la spécification du protocole MODBUS." revision="0" />

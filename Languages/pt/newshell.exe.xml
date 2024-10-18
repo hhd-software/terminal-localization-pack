@@ -245,22 +245,6 @@
     <Item value="&amp;Fechar a janela" revision="1" />
     <Item value="Fechar a janela ativa" revision="1" />
   </Enumeration>
-  <Enumeration key="WindowNextPane">
-    <Item value="Painel &amp;seguinte" revision="1" />
-    <Item value="A janela da ferramenta seguinte" revision="1" />
-  </Enumeration>
-  <Enumeration key="WindowPrevPane">
-    <Item value="Painel anterior" revision="1" />
-    <Item value="Janela anterior da ferramenta" revision="1" />
-  </Enumeration>
-  <Enumeration key="WindowNewHorizontal">
-    <Item value="Novo quadro &amp;horizontal" revision="1" />
-    <Item value="Novo quadro horizontal" revision="1" />
-  </Enumeration>
-  <Enumeration key="WindowNewVertical">
-    <Item value="Novo quadro &amp;vertical" revision="1" />
-    <Item value="Novo quadro vertical" revision="1" />
-  </Enumeration>
   <Enumeration key="WindowWindows">
     <Item value="&amp;Janelas…" revision="1" />
     <Item value="Mostrar a lista de todas as janelas de documentos abertas" revision="1" />

@@ -282,4 +282,10 @@
 		<Item text="Professional"/>
 		<Item text="Ultimate"/>
 	</Enumeration>
+
+	<Message key="UpgradePlanInfo" description="Upgrade plan information in License Management window" value="{never expires?}{|never expires}\nUpgrade plan {is expired?}[[[bexpired]]]{|is expired}expires on [[[b{expiring}]]]{?is expired}{?never expires}">
+		<Param name="never expires" format="?"/>
+		<Param name="is expired" format="?"/>
+		<Param name="expiring" format="t(%x)"/>
+	</Message>
 </Definition>

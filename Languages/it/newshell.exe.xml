@@ -245,22 +245,6 @@
     <Item value="&amp;Chiudere la finestra" revision="1" />
     <Item value="Chiudere la finestra attiva" revision="1" />
   </Enumeration>
-  <Enumeration key="WindowNextPane">
-    <Item value="Pannello &amp;successivo" revision="1" />
-    <Item value="Finestra dello strumento successivo" revision="1" />
-  </Enumeration>
-  <Enumeration key="WindowPrevPane">
-    <Item value="Pannello precedente" revision="1" />
-    <Item value="Finestra degli strumenti precedente" revision="1" />
-  </Enumeration>
-  <Enumeration key="WindowNewHorizontal">
-    <Item value="Nuova cornice &amp;orizzontale" revision="1" />
-    <Item value="Nuova cornice orizzontale" revision="1" />
-  </Enumeration>
-  <Enumeration key="WindowNewVertical">
-    <Item value="Nuova cornice &amp;verticale" revision="1" />
-    <Item value="Nuova cornice verticale" revision="1" />
-  </Enumeration>
   <Enumeration key="WindowWindows">
     <Item value="&amp;Finestre…" revision="1" />
     <Item value="Visualizza l'elenco di tutte le finestre di documenti aperte" revision="1" />
