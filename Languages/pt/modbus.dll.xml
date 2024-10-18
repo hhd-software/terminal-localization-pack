@@ -71,7 +71,7 @@
   <Message key="Register length can't be more than 65535." value="Comprimento máximo do registo de 65.535 excedido." revision="0" />
   <Message key="Register Length" value="Comprimento do registo" revision="0" />
   <Message key="Record Length" value="Comprimento do recorde" revision="0" />
-  <Message key="Record #" value="Record #" revision="0" />
+  <Message key="Record #" value="Registo #" revision="0" />
   <Message key="File #" value="Ficheiro #" revision="0" />
   <Message key="Request #" value="Pedido #" revision="0" />
   <Message key="Data Length" value="Comprimento dos dados" revision="0" />
