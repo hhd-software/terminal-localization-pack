@@ -43,4 +43,7 @@
   <Message key="In XON/XOFF" value="Em XON/XOFF" revision="0" />
   <Message key="Find Operation" value="Pesquisa de texto" revision="0" />
   <Message key="Device" value="Dispositivo" revision="0" />
+  <Message key="TrialWarning" value="[[[T#[#9A4D02]#Este componente está em modo [[[bde teste]]] com [[[b{days}]]] dias de avaliação restantes. Está disponível a partir da [[[bedição {edition}]]].]]]" revision="2" />
+  <Message key="ExpiredWarning" value="[[[T#[#C83C3C]#Este componente [[[bexpirou]]]. É necessário atualizar para a [[[b{edition} Edição]]] para o poder utilizar.]]]" revision="2" />
+  <Message key="FreeWarning" value="Este componente não está disponível na edição Gratuita. Pode iniciar uma avaliação gratuita para experimentar este componente, se ainda não tiver sido iniciada." revision="0" />
 </Language>

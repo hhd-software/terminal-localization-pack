@@ -59,6 +59,7 @@
   <Message key="Find within" value="Buscar dentro" revision="0" />
   <Message key="Unknown" value="Desconocido" revision="0" />
   <Message key="UpgradePlanInfo" value="{never expires?}{|never expires}\nPlan de actualización {is expired?}[[[bcaducado]]]{|is expired}expira el de [[[b{expiring}]]]{?is expired}{?never expires}" revision="0" />
+  <Message key="NonComMessage" value="La licencia actual sólo permite el uso [[[bdoméstico]]] o [[[beducativo]]].\nConsulte la [[[hPolítica de uso]]] para obtener más información.\n\nPara uso comercial, gubernamental o militar se requiere [[[hactualización]]]." revision="0" />
   <Enumeration key="HelpContents">
     <Item value="&amp;Contenido" revision="1" />
     <Item value="Mostrar el contenido del archivo de ayuda" revision="1" />

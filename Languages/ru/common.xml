@@ -43,4 +43,7 @@
   <Message key="In XON/XOFF" value="Входящий XON/XOFF" revision="0" />
   <Message key="Find Operation" value="Поиск текста" revision="0" />
   <Message key="Device" value="Устройство" revision="0" />
+  <Message key="TrialWarning" value="[[[T#[#9A4D02]#Этот компонент находится в [[[bпробном]]] режиме, осталось [[[b{days}]]] ознакомительных дней. Он доступен начиная с [[[bредакции {edition}]]].]]]" revision="2" />
+  <Message key="ExpiredWarning" value="[[[T#[#C83C3C]#Срок действия этого компонента [[[bистёк]]]. Для его использования необходимо обновить версию до [[[bредакции {edition}]]].]]]" revision="2" />
+  <Message key="FreeWarning" value="Этот компонент недоступен в бесплатной версии. Вы можете начать пробный период, чтобы протестировать его, если это впервые." revision="0" />
 </Language>
