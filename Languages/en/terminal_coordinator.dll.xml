@@ -288,4 +288,6 @@
 		<Param name="is expired" format="?"/>
 		<Param name="expiring" format="t(%x)"/>
 	</Message>
+
+	<Message key="NonComMessage" description="Non-commercial license warning message" value="The current license only allows [[[bhome]]] or [[[beducational]]] use.\nSee [[[hUsage Policy]]] for more information.\n\nFor commercial, government or military use [[[hupgrade]]] is required."/>
 </Definition>
