@@ -54,4 +54,14 @@
 	<Message key="Find Operation" description="Find operation" value="Searching for text" />
 	<Message key="Device" description="Field: Device" />
 
+	<Message key="TrialWarning" description="Component is in Trial" value="[[[T#[#9A4D02]#This component is in [[[bTrial]]] mode with [[[b{days}]]] evaluation days left. It is available starting from [[[b{edition} Edition]]].]]]" revision="2">
+		<Param name="days"/>
+		<Param name="edition"/>
+	</Message>
+	<Message key="ExpiredWarning" description="Component has expired" value="[[[T#[#C83C3C]#This component has [[[bexpired]]]. You need to upgrade to [[[b{edition} Edition]]] in order to use it.]]]" revision="2">
+		<Param name="edition"/>
+	</Message>
+
+	<Message key="FreeWarning" description="Component is not in free" value="This component is not available in Free Edition. You may start a free trial to try this component if it has not been started yet."/>
+
 </Definition>
