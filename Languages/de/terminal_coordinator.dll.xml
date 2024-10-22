@@ -37,12 +37,12 @@
   <Message key="FreeVersionNagText1" value="Die Funktion {feature} ist in der kostenlosen Version nicht enthalten.\n\nSie können mit den eingeschränkten Funktionen der kostenlosen Version fortfahren oder die erweiterten Funktionen 14 Tage lang kostenlos testen." revision="0" />
   <Message key="FreeVersionNagText2" value="Die Funktion {feature} ist in der kostenlosen Version nicht enthalten.\n\nSie können mit den eingeschränkten Funktionen der kostenlosen Version fortfahren oder ein Upgrade auf die erweiterte Version durchführen." revision="0" />
   <Message key="PurchasedVersionNagText" value="Die Funktion {feature} ist in der aktuellen Ausgabe nicht enthalten.\n\nSie können mit den Funktionen der aktuellen Version fortfahren oder auf die erweiterte Version umsteigen." revision="0" />
-  <Message key="{50abd27b-7ff7-40db-9bcc-bd98dc555ba4}" value="2+ Kopien von Automated Serial Terminal" revision="0" />
-  <Message key="{a038db36-7555-4ad7-a16b-0b3c49e66ace}" value="3+ gleichzeitige Terminalsitzungen" revision="0" />
-  <Message key="{a4ff6592-a914-4d6a-bae1-3d0d41a14c64}" value="5+ Minuten Terminal-Sitzungen" revision="0" />
-  <Message key="{2b4b7c3b-e22a-4edd-abf9-2da66c028f3f}" value="3+ gleichzeitig laufende Skripte" revision="0" />
-  <Message key="{80377ad6-d55a-4432-bccf-1eb720bbb053}" value="MODBUS senden" revision="0" />
-  <Message key="{6e24a8d6-63e6-4b65-a0c5-eec56ffd76bc}" value="MODBUS-Schreibweise" revision="0" />
+  <Message key="{b5b280db-9659-47c2-8d9d-81aa6d007228}" value="2+ Kopien von Automated Serial Terminal" revision="0" />
+  <Message key="{dfef789f-5627-48e5-b598-835007f4884a}" value="3+ gleichzeitige Terminalsitzungen" revision="0" />
+  <Message key="{bbb6d7c2-6578-4f27-88d4-cf5e275ccf9c}" value="5+ Minuten Terminal-Sitzungen" revision="0" />
+  <Message key="{afeea3af-cdb1-4b42-b418-640fae17987f}" value="3+ gleichzeitig laufende Skripte" revision="0" />
+  <Message key="{6308f75e-c167-4c24-bc50-f58955ca7d70}" value="MODBUS senden" revision="0" />
+  <Message key="{1d646273-f8f6-4c32-9b00-61b92f234e2e}" value="MODBUS-Schreibweise" revision="0" />
   <Message key="License Management" value="Lizenz-Management" revision="0" />
   <Message key="Installed license" value="Installierte Lizenz" revision="0" />
   <Message key="install license static" value="Wenn Sie eine Lizenz erneuern müssen, klicken Sie auf die Schaltfläche „Lade Lizenz herunter…“. (Erfordert Anmeldung und Passwort).\n\nWenn Sie bereits eine Lizenzdatei erhalten haben, klicken Sie auf die Schaltfläche „Installiere Lizenz…“." revision="0" />

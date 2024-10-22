@@ -37,12 +37,12 @@
   <Message key="FreeVersionNagText1" value="La funzione {feature} non è inclusa nella versione gratuita.\n\nÈ possibile continuare a utilizzare le funzioni limitate della versione gratuita o provare le funzionalità estese GRATUITAMENTE per 14 giorni." revision="0" />
   <Message key="FreeVersionNagText2" value="La funzione {feature} non è inclusa nella versione gratuita.\n\nÈ possibile continuare a utilizzare le funzioni limitate della versione gratuita o passare alla versione estesa." revision="0" />
   <Message key="PurchasedVersionNagText" value="La funzione {feature} non è inclusa nell'edizione corrente.\n\nÈ possibile continuare a utilizzare le funzioni dell'edizione corrente o passare alla versione estesa." revision="0" />
-  <Message key="{50abd27b-7ff7-40db-9bcc-bd98dc555ba4}" value="2+ copie di Automated Serial Terminal" revision="0" />
-  <Message key="{a038db36-7555-4ad7-a16b-0b3c49e66ace}" value="3+ sessioni simultanee del terminale" revision="0" />
-  <Message key="{a4ff6592-a914-4d6a-bae1-3d0d41a14c64}" value="Sessioni terminali di 5+ minuti" revision="0" />
-  <Message key="{2b4b7c3b-e22a-4edd-abf9-2da66c028f3f}" value="3+ script in esecuzione simultanea" revision="0" />
-  <Message key="{80377ad6-d55a-4432-bccf-1eb720bbb053}" value="Invio MODBUS" revision="0" />
-  <Message key="{6e24a8d6-63e6-4b65-a0c5-eec56ffd76bc}" value="Scripting MODBUS" revision="0" />
+  <Message key="{b5b280db-9659-47c2-8d9d-81aa6d007228}" value="2+ copie di Automated Serial Terminal" revision="0" />
+  <Message key="{dfef789f-5627-48e5-b598-835007f4884a}" value="3+ sessioni simultanee del terminale" revision="0" />
+  <Message key="{bbb6d7c2-6578-4f27-88d4-cf5e275ccf9c}" value="Sessioni terminali di 5+ minuti" revision="0" />
+  <Message key="{afeea3af-cdb1-4b42-b418-640fae17987f}" value="3+ script in esecuzione simultanea" revision="0" />
+  <Message key="{6308f75e-c167-4c24-bc50-f58955ca7d70}" value="Invio MODBUS" revision="0" />
+  <Message key="{1d646273-f8f6-4c32-9b00-61b92f234e2e}" value="Scripting MODBUS" revision="0" />
   <Message key="License Management" value="Gestione delle licenze " revision="0" />
   <Message key="Installed license" value="Licenza installata" revision="0" />
   <Message key="install license static" value="Se è necessario rinnovare una licenza, fare clic sul pulsante “Scarica Licenza…”. (Richiede login e password).\n\n Se avete già ricevuto un file di licenza, fate clic sul pulsante “Installa Licenza…”." revision="0" />

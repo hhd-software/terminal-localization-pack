@@ -249,12 +249,12 @@
 	</Message>
 
 	<!-- License features -->
-	<Message description="Feature: AnyNumberOfCopies" key="{50abd27b-7ff7-40db-9bcc-bd98dc555ba4}" value="2+ copies of Automated Serial Terminal" />
-	<Message description="Feature: ThreeOrMoreSessions" key="{a038db36-7555-4ad7-a16b-0b3c49e66ace}" value="3+ concurrent terminal sessions" />
-	<Message description="Feature: SessionsLongerThan5Mins" key="{a4ff6592-a914-4d6a-bae1-3d0d41a14c64}" value="5+ minutes terminal sessions" />
-	<Message description="Feature: ThreeOrMoreScripts" key="{2b4b7c3b-e22a-4edd-abf9-2da66c028f3f}" value="3+ concurrently running scripts" />
-	<Message description="Feature: ModbusSend" key="{80377ad6-d55a-4432-bccf-1eb720bbb053}" value="MODBUS Send" />
-	<Message description="Feature: ModbusScripts" key="{6e24a8d6-63e6-4b65-a0c5-eec56ffd76bc}" value="MODBUS Scripting" />
+	<Message description="Feature: AnyNumberOfCopies" key="{b5b280db-9659-47c2-8d9d-81aa6d007228}" value="2+ copies of Automated Serial Terminal" />
+	<Message description="Feature: ThreeOrMoreSessions" key="{dfef789f-5627-48e5-b598-835007f4884a}" value="3+ concurrent terminal sessions" />
+	<Message description="Feature: SessionsLongerThan5Mins" key="{bbb6d7c2-6578-4f27-88d4-cf5e275ccf9c}" value="5+ minutes terminal sessions" />
+	<Message description="Feature: ThreeOrMoreScripts" key="{afeea3af-cdb1-4b42-b418-640fae17987f}" value="3+ concurrently running scripts" />
+	<Message description="Feature: ModbusSend" key="{6308f75e-c167-4c24-bc50-f58955ca7d70}" value="MODBUS Send" />
+	<Message description="Feature: ModbusScripts" key="{1d646273-f8f6-4c32-9b00-61b92f234e2e}" value="MODBUS Scripting" />
 
 	<!-- License Management dialog -->
 	<Message key="License Management" description="Window title: License Management"/>
